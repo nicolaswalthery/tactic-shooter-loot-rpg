@@ -28,7 +28,7 @@ Ta **Frappe Ciblée** inflige des dégâts bonus quand tu as l'avantage, que tu 
 
 *Tu rampes sous les tirs pour atteindre un blessé. Tu sutures une artère au milieu d'une explosion. Tu gardes les gens en vie.*
 
-Tes **Premiers Soins** activent les Healing Surges de tes alliés — tu es le déclencheur de guérison de l'équipe. Tu accumules du **Triage** en soignant pour débloquer des capacités médicales avancées.
+Tes **Premiers Soins** activent les Surges de tes alliés — tu es le déclencheur de guérison de l'équipe. Tu accumules du **Triage** en soignant pour débloquer des capacités médicales avancées.
 
 **Tu joues un Medic si tu veux :** être indispensable, sauver des vies, soutenir l'équipe.
 
@@ -91,7 +91,7 @@ Choisis un des trois arrays suivants et distribue les 4 valeurs sur tes 4 stats 
 
 **Conseil :** Mets la valeur la plus haute dans ta stat principale de classe. Le Grounder veut STR ou DEX à 10+. L'Infiltrator veut DEX à 10-11. Le Medic et le Tech veulent WIT à 10+. Le Marshal veut EMP à 10+.
 
-Personne ne peut ignorer STR — elle détermine tes PV, tes Blessures, tes Surges et ta Surge Value. Un personnage avec STR 7 est fragile. C'est un choix valide, mais tu le sens.
+Personne ne peut ignorer STR — elle détermine tes PV, tes Blessures, tes Surges et ta Valeur de Surge. Un personnage avec STR 7 est fragile. C'est un choix valide, mais tu le sens.
 
 ---
 
@@ -118,7 +118,7 @@ Tous les calculs utilisent la même logique : **Vigueur + bonus STR** ou **base 
 | **PV niveau 1** | 2 × (Vigueur + bonus STR) | 2 × 12 = **24** | 2 × 5 = **10** |
 | **PV par niveau** | Vig ÷ 2 + bonus STR + 1 (min 3) | **8/niv** | **3/niv** |
 | **Blessures** | Compteur 0 à 6. 6 = mort. | 0 / 6 | 0 / 6 |
-| **Surge Value** | Vigueur + bonus STR (fixe) | 10 + 2 = **12** | 6 + (-1) = **5** |
+| **Valeur de Surge** | Vigueur + bonus STR (fixe) | 10 + 2 = **12** | 6 + (-1) = **5** |
 | **Proficiency** | +1 (niveaux 1-5) | +1 | +1 |
 
 ### Surges par jour
@@ -135,7 +135,7 @@ Tous les calculs utilisent la même logique : **Vigueur + bonus STR** ou **base 
 
 Ton personnage a un **pool de PV** et un **compteur de Blessures** :
 
-**Points de Vie (PV)** — Ta chance, ta fatigue, tes éraflures. Quand tu perds des PV, tu ne saignes pas — tu es juste plus vulnérable. Les PV augmentent avec le niveau et se récupèrent avec des Healing Surges.
+**Points de Vie (PV)** — Ta chance, ta fatigue, tes éraflures. Quand tu perds des PV, tu ne saignes pas — tu es juste plus vulnérable. Les PV augmentent avec le niveau et se récupèrent avec des Surges.
 
 **Blessures** — Compteur de mort de 0 à 6. Tu en gagnes quand tes PV tombent à 0 ou sur un crit. 6 = mort. PV à 0 = Mourant + 1 Blessure. **PV à 0 = Mourant.**
 
@@ -221,7 +221,7 @@ Chaque classe donne une compétence **obligatoire** (déjà incluse) plus un cho
 | **Marshal** | Tactique★ | 3 parmi : Athlétisme, Intimidation, Intuition, Perception, Intuition, Persuasion, Tromperie | 3 |
 | **Tech** | Ingénierie★ | 3 parmi : Informatique★, Démolitions★, Investigation, Perception, Pilotage, Sciences★, Survie | 3 |
 
-Certaines classes donnent aussi des **bonus d'expertise** (le Medic double sa proficiency en Médecine, l'Infiltrator a +2 en Discrétion, le Tech double sa proficiency en Ingénierie). C'est noté dans la description de la feature de niveau 1 de chaque classe.
+Certaines classes donnent aussi des **bonus d'expertise** (le Medic double sa proficiency en Médecine, l'Infiltrator a +2 en Discrétion, le Tech double sa proficiency en Ingénierie). C'est noté dans la description de la capacité de niveau 1 de chaque classe.
 
 ---
 
@@ -260,14 +260,14 @@ Porter une armure sans proficiency = Désavantage sur toutes les actions physiqu
 | Revolver | 0 | 1d6 | 8 | $150 | — |
 | Pistolet semi-auto | 1 | 1d6 | 10 | $200 | — |
 | Pistolet lourd | 1 | 1d8 | 8 | $350 | — |
-| Machine pistol | 1 | 1d4 / auto 1d6 | 6 | $300 | Auto-fire |
+| Machine pistol | 1 | 1d4 / auto 1d6 | 6 | $300 | Tir Auto |
 
 **SMG :**
 
 | Arme | TL | Dégâts | Portée | Prix | Propriétés |
 |---|---|---|---|---|---|
-| SMG compact | 1 | 1d4 / auto 1d6 | 8 | $250 | Auto-fire, Léger |
-| SMG basique | 1 | 1d6 / auto 1d8 | 10 | $300 | Auto-fire |
+| SMG compact | 1 | 1d4 / auto 1d6 | 8 | $250 | Tir Auto, Léger |
+| SMG basique | 1 | 1d6 / auto 1d8 | 10 | $300 | Tir Auto |
 
 **Fusils :**
 
@@ -276,22 +276,22 @@ Porter une armure sans proficiency = Désavantage sur toutes les actions physiqu
 | Fusil à verrou | 0 | 1d8 | 30 | $200 | — |
 | Fusil à levier | 1 | 1d8 | 30 | $250 | — |
 | Fusil semi-auto | 1 | 1d8 | 30 | $300 | — |
-| Fusil d'assaut | 1 | 1d8 / auto 1d10 | 30 | $400 | Auto-fire |
+| Fusil d'assaut | 1 | 1d8 / auto 1d10 | 30 | $400 | Tir Auto |
 
 **Shotguns :**
 
 | Arme | TL | Dégâts | Portée | Prix | Propriétés |
 |---|---|---|---|---|---|
-| Fusil à canon scié | 0 | 1d10 | 3 | $150 | Blast 2, Knockdown |
-| Shotgun à pompe | 0 | 1d10 | 5 | $300 | Blast 3, Knockdown |
+| Fusil à canon scié | 0 | 1d10 | 3 | $150 | Zone 2, Renversement |
+| Shotgun à pompe | 0 | 1d10 | 5 | $300 | Zone 3, Renversement |
 
 **Mêlée :**
 
 | Arme | TL | Dégâts | Portée | Prix | Propriétés |
 |---|---|---|---|---|---|
 | Couteau | 0 | 1d4 | 1 | $50 | Finesse, Léger |
-| Batte / Gourdin | 0 | 1d6 | 1 | $20 | Knockdown |
-| Matraque | 0 | 1d4 | 1 | $30 | Stun 1 |
+| Batte / Gourdin | 0 | 1d6 | 1 | $20 | Renversement |
+| Matraque | 0 | 1d4 | 1 | $30 | Étourdissement 1 |
 | Lame de combat | 1 | 1d6 | 1 | $200 | Finesse |
 
 ### Armures accessibles au niveau 1
@@ -329,15 +329,15 @@ En plus des dés de l'arme, ta stat d'arme ajoute un bonus :
 
 ---
 
-# ÉTAPE 7 — Features de niveau 1
+# ÉTAPE 7 — Capacités de niveau 1
 
 Chaque classe a des capacités uniques au niveau 1. Voici un résumé — les détails complets sont dans les documents de classe.
 
 ### Grounder — Niveau 1
 
 **Doctrine de Tir.** Choisis Assaut ou Précision (changeable sur un Shift Rest de 6h).
-- *Assaut :* Tir automatique amélioré. Shaken +1 en plus sur auto-fire. Dégâts collatéraux à une cible adjacente (1×/tour).
-- *Précision :* +2 dégâts sur tir unique (pas auto-fire). Critique amélioré (triple les dégâts sur Nat 1).
+- *Assaut :* Tir automatique amélioré. Secoué +1 en plus sur tir auto. Dégâts collatéraux à une cible adjacente (1×/tour).
+- *Précision :* +2 dégâts sur tir unique (pas tir auto). Critique amélioré (triple les dégâts sur Nat 1).
 
 **Fraternité d'Armes (1).** Choisis 1 capacité parmi la liste (Cadre Solide, Membre de l'Équipe, Sentinelle, etc.).
 
@@ -351,7 +351,7 @@ Chaque classe a des capacités uniques au niveau 1. Voici un résumé — les d�
 
 ### Medic — Niveau 1
 
-**Premiers Soins.** 1 action, allié adjacent : l'allié dépense 1 de ses Surges et récupère sa Surge Value + ton bonus WIT en PV. Kit médical requis. Ne marche pas sur toi-même.
+**Premiers Soins.** 1 action, allié adjacent : l'allié dépense 1 de ses Surges et récupère sa Valeur de Surge + ton bonus WIT en PV. Kit médical requis. Ne marche pas sur toi-même.
 
 **Pratiques Médicales (1).** Choisis 1 pratique (Diagnostic Rapide, Évitement Médical, ou Mots de Réconfort).
 
@@ -421,9 +421,9 @@ Tu as **3 actions par tour.** Exemples d'actions :
 | **Se déplacer** | 1 action | Jusqu'à 6 cases |
 | **Viser** | 1 action | Prochaine attaque avec Avantage |
 | **Se mettre à couvert** | 1 action | +2 Armure tant que tu restes à couvert |
-| **Second Wind** | 1 action | Dépense 1 Surge → récupère Surge Value en PV. 1×/combat. |
+| **Second Souffle** | 1 action | Dépense 1 Surge → récupère Valeur de Surge en PV. 1×/combat. |
 | **Recharger / Changer d'arme** | 1 action | — |
-| **Tir automatique** | 2 actions | Jusqu'à 3 cibles, save DEX pour chacune. Shaken garanti. |
+| **Tir automatique** | 2 actions | Jusqu'à 3 cibles, save DEX pour chacune. Secoué garanti. |
 | **Sprint** | 2 actions | Double mouvement (12 cases) |
 | **Utiliser un objet** | 1 action | Grenade, stim pack, gadget |
 
@@ -437,9 +437,9 @@ Au début de chaque round, tout le monde tire une **carte d'initiative** (numér
 2. Lance les **dés de dégâts** de l'arme + bonus de dégâts (si ta stat ≥ 10).
 3. L'ennemi soustrait son **Armure** du total.
 4. Le reste frappe ses **PV**. Minimum 1 dégât par attaque réussie.
-5. La cible gagne **+1 niveau de Shaken** (automatique, pas de save).
+5. La cible gagne **+1 niveau de Secoué** (automatique, pas de save).
 
-*Exemple : Tu tires avec un fusil semi-auto (1d8 + 1d4). Tu fais 7 au d20, ton Score est 11 → touché. Tu lances 1d8 (5) + 1d4 (2) = 7 dégâts. L'ennemi a Armure 4. 7 - 4 = 3 PV perdus. L'ennemi est Shaken +1.*
+*Exemple : Tu tires avec un fusil semi-auto (1d8 + 1d4). Tu fais 7 au d20, ton Score est 11 → touché. Tu lances 1d8 (5) + 1d4 (2) = 7 dégâts. L'ennemi a Armure 4. 7 - 4 = 3 PV perdus. L'ennemi est Secoué +1.*
 
 ### Armure et couverture
 
@@ -451,27 +451,27 @@ L'Armure réduit tous les dégâts reçus. Elle est toujours active.
 | Couverture partielle (pilier, muret) | +2 Armure |
 | Couverture totale (mur complet) | Intouchable (pas de ligne de vue) |
 
-### Tir automatique (Auto-fire)
+### Tir automatique (Tir Auto)
 
-Coûte **2 actions**. Tu désignes jusqu'à 3 cibles à portée. Tu ne fais pas de jet d'attaque — chaque cible fait un **save DEX**. Échec = dégâts "auto" (le dé supérieur de l'arme). Même si le save est réussi, chaque cible gagne +1 Shaken (suppression).
+Coûte **2 actions**. Tu désignes jusqu'à 3 cibles à portée. Tu ne fais pas de jet d'attaque — chaque cible fait un **save DEX**. Échec = dégâts "auto" (le dé supérieur de l'arme). Même si le save est réussi, chaque cible gagne +1 Secoué (suppression).
 
 ---
 
-## Shaken
+## Secoué
 
-Quand tu es **touché par une attaque** (même si l'Armure absorbe tout), tu gagnes **+1 niveau de Shaken** (max 3). C'est automatique — pas de save pour résister.
+Quand tu es **touché par une attaque** (même si l'Armure absorbe tout), tu gagnes **+1 niveau de Secoué** (max 3). C'est automatique — pas de save pour résister.
 
-**Au début de ton tour**, si tu es Shaken, fais un **save de sang-froid (STR ou WIT, au choix, pas de difficulté).**
-- **Réussite :** Plus de Shaken. Agis normalement.
+**Au début de ton tour**, si tu es Secoué, fais un **save de sang-froid (STR ou WIT, au choix, pas de difficulté).**
+- **Réussite :** Plus de Secoué. Agis normalement.
 - **Échec :** Tu subis les effets ce tour.
 
 | Niveau | Effet (si save raté) |
 |---|---|
-| **Shaken 1** | Désavantage sur tous les jets ce tour |
-| **Shaken 2** | Double Désavantage sur tous les jets ce tour |
-| **Shaken 3** | Double Désavantage + perd 1 action (2 au lieu de 3) |
+| **Secoué 1** | Désavantage sur tous les jets ce tour |
+| **Secoué 2** | Double Désavantage sur tous les jets ce tour |
+| **Secoué 3** | Double Désavantage + perd 1 action (2 au lieu de 3) |
 
-**Shaken ne dure qu'un round.** Le compteur repart à 0 à la fin de ton tour, que tu aies réussi ou raté le save. Seuls les hits reçus depuis ton dernier tour comptent.
+**Secoué ne dure qu'un round.** Le compteur repart à 0 à la fin de ton tour, que tu aies réussi ou raté le save. Seuls les hits reçus depuis ton dernier tour comptent.
 
 ---
 
@@ -523,22 +523,22 @@ Chaque objet notable a un état :
 
 ## Guérison et repos
 
-### Healing Surges
+### Surges
 
-Les Surges sont ta capacité à te remettre d'aplomb. Chaque surge dépensée récupère ta **Surge Value** en PV. Pas de dé — c'est un montant fixe.
+Les Surges sont ta capacité à te remettre d'aplomb. Chaque surge dépensée récupère ta **Valeur de Surge** en PV. Pas de dé — c'est un montant fixe.
 
 | Déclencheur | Quand | Coût | Effet |
 |---|---|---|---|
-| **Second Wind** | Combat (1 action) | 1 Surge | Surge Value en PV. 1×/combat. |
-| **Stretch Rest** | 15 min de repos | 1 Surge | Surge Value en PV. 1×/Stretch. |
-| **Stim pack** | N'importe quand | 1 Surge + consomme le stim | Surge Value en PV. |
-| **Premiers Soins (Medic)** | Combat ou Stretch | 1 Surge du patient | Surge Value + bonus WIT du Medic. |
+| **Second Souffle** | Combat (1 action) | 1 Surge | Valeur de Surge en PV. 1×/combat. |
+| **Stretch Rest** | 15 min de repos | 1 Surge | Valeur de Surge en PV. 1×/Stretch. |
+| **Stim pack** | N'importe quand | 1 Surge + consomme le stim | Valeur de Surge en PV. |
+| **Premiers Soins (Medic)** | Combat ou Stretch | 1 Surge du patient | Valeur de Surge + bonus WIT du Medic. |
 
 ### Repos
 
 | Type | Durée | Effet |
 |---|---|---|
-| **Stretch Rest** | ~15 min | Dépense 1 Surge → Surge Value en PV. Soigne 1 condition. Max 2 Stretches entre chaque Shift. |
+| **Stretch Rest** | ~15 min | Dépense 1 Surge → Valeur de Surge en PV. Soigne 1 condition. Max 2 Stretches entre chaque Shift. |
 | **Shift Rest** | ~6h | PV au max. Toutes Surges reviennent. Toutes conditions soignées. Blessures : +1 naturellement. |
 
 **Les surges ne soignent pas les PV.** Les Blessures récupèrent lentement : +1 par jour, +2 avec soins médicaux.
@@ -556,7 +556,7 @@ Quand tes PV tombent à 0, les dégâts restants **le personnage est Dying + 1 B
 **Blessure (d20 roll-under, seuil 10) :**
 - d20 ≤ 10 = Réussite (accumule 1 réussite)
 - d20 > 10 = Échec (accumule 1 échec)
-- Nat 1 = Tu te relèves avec 1 PV et Shaken 2
+- Nat 1 = Tu te relèves avec 1 PV et Secoué 2
 - Nat 20 = 2 échecs
 - 3 réussites = stabilisé (inconscient, vivant)
 - 3 échecs = mort
@@ -593,8 +593,8 @@ VIGUEUR : ___
 PV : ___ / ___          Blessures : ___ / ___ (fixe)
 Armure : ___            Speed : 6 cases
 
-Healing Surges : ___ / ___ par jour
-Surge Value : ___ PV (fixe)
+Surges : ___ / ___ par jour
+Valeur de Surge : ___ PV (fixe)
 
 SAVES :
   STR : ___  (☐ prof)    DEX : ___  (☐ prof)
@@ -632,7 +632,7 @@ CLASSE — Arsenal (1 pick) :
 CLASSE — Passif :
   _______________________________________________
 
-SHAKEN : ☐ 0  ☐ 1  ☐ 2  ☐ 3
+SECOUÉ : ☐ 0  ☐ 1  ☐ 2  ☐ 3
 CONDITIONS : ☐ Épuisé  ☐ Déstabilisé  ☐ Confus  ☐ Stressé
 
 NOTES :
@@ -655,7 +655,7 @@ Bonus : STR -1, DEX +3, WIT +1, EMP -1.
 **ÉTAPE 3 — Chiffres :**
 - PV niv 1 = 8 + (-1) = **7**
 - Blessures = 8 + (-1) = **7**
-- Surge Value = 8 + (-1) = **7**
+- Valeur de Surge = 8 + (-1) = **7**
 - Surges/jour = 5 + (-1) = **4**
 
 **ÉTAPE 4 — Saves :** Proficients DEX et WIT.
@@ -673,9 +673,9 @@ Bonus : STR -1, DEX +3, WIT +1, EMP -1.
 - Veste balistique légère — Armure 3.
 - Kit de crochetage + micro-espion + communicateur chiffré.
 
-**ÉTAPE 7 — Features :**
+**ÉTAPE 7 — Capacités :**
 - **Frappe Ciblée :** +1d6 dégâts quand conditions remplies.
 - **Technique de l'Ombre :** Pas de Loup (pas de Désavantage pour se cacher en combat).
 - **Expertise Furtive :** +2 permanent en Discrétion.
 
-**Résultat :** Un Infiltrator fragile (7 PV, 7 Blessures, Armure 3) mais dangereux. 60% de toucher, 1d6 + 1d4 + 1d6 (Frappe Ciblée) = moyenne 10.5 dégâts quand les conditions sont réunies. Discrétion à 70% = elle se cache facilement. STR et EMP sont ses faiblesses : mauvais saves physiques et sociaux, peu de surges (4/jour), mauvaise Surge Value (7). Elle a besoin d'un Medic et d'un Grounder pour survivre.
+**Résultat :** Un Infiltrator fragile (7 PV, 7 Blessures, Armure 3) mais dangereux. 60% de toucher, 1d6 + 1d4 + 1d6 (Frappe Ciblée) = moyenne 10.5 dégâts quand les conditions sont réunies. Discrétion à 70% = elle se cache facilement. STR et EMP sont ses faiblesses : mauvais saves physiques et sociaux, peu de surges (4/jour), mauvaise Valeur de Surge (7). Elle a besoin d'un Medic et d'un Grounder pour survivre.

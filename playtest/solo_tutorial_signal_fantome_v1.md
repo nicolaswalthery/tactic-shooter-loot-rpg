@@ -19,8 +19,8 @@
 | **PV** | 36 / 36 | ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ ▢▢▢▢▢ |
 | **Blessures** | 0 / 6 | ▢▢▢▢▢ ▢▢▢▢▢ ▢ |
 | **Armure** | 4 (Veste balistique) | |
-| **Healing Surges** | 8 / 8 par jour | ▢▢▢▢ ▢▢▢▢ |
-| **Surge Value** | 11 PV | |
+| **Surges** | 8 / 8 par jour | ▢▢▢▢ ▢▢▢▢ |
+| **Valeur de Surge** | 11 PV | |
 | **Proficiency** | +1 (niveau 3) | |
 | **Saves proficients** | STR, DEX | |
 
@@ -46,7 +46,7 @@
 | Objet | Détail | État |
 |---|---|---|
 | **Jackdaw** (pistolet semi-auto +1) | 1d6 +1d6. Portée 10. | ✓ Neuf |
-| **Bonebreaker** (fusil à pompe) | 1d10. Portée 5. Blast 3, Knockdown. | ✓ Neuf |
+| **Bonebreaker** (fusil à pompe) | 1d10. Portée 5. Zone 3, Renversement. | ✓ Neuf |
 | **Barrow Knife** | 1d4 +1d6. Reach 1. Finesse. | ✓ Neuf |
 | **Veste balistique** | Armure 4 | ✓ Neuf |
 | **Kit d'ingénierie basique** | Permet les jets d'Ingénierie | ✓ Neuf |
@@ -54,7 +54,7 @@
 | **Stim pack ×2** | Consomme 1 surge immédiatement, sans action | — |
 | **Câble magnétique (15m)** | Escalade, arrimage | — |
 
-**Feature de classe (Grounder / Éclaireur) :**
+**Capacité de classe (Grounder / Éclaireur) :**
 - **Élan** (max 1) — Gagne 1 point d'Élan quand tu touches un ennemi.
 - **Reconnaissance Avancée** — Quand tu tires ta carte d'initiative, tu peux repiocher et garder la nouvelle.
 - **Arsenal :** Spotter (1 Élan, désigne un ennemi → prochain allié a Avantage) *[inutile en solo]*. Feu de Couverture (1 Élan, réaction) *[inutile en solo]*.
@@ -202,7 +202,7 @@ Tu accroches le sas de travers. Le *Dustrunner* vibre, le métal grince, mais le
 > - **Round** (~10 sec) — Combat.
 > - **Stretch** (~15 min) — Exploration, fouille, repos court.
 > - **Shift** (~6h) — Trajet long, repos complet.
-> Un Stretch Rest (15 min) te permet de dépenser des Healing Surges et soigner 1 condition.
+> Un Stretch Rest (15 min) te permet de dépenser des Surges et soigner 1 condition.
 
 Le tube tiendra un moment, mais pas éternellement. Tu estimes avoir **4 Stretches** avant que la fuite ne rende le retour dangereux. Note-le : c'est ton compteur de temps.
 
@@ -364,8 +364,8 @@ Le conduit se rétrécit. Tu forces le passage... et tu restes coincé au niveau
 **Perds 2 PV** (éraflures, effort). Note-le sur ta fiche.
 
 > **RÈGLE — VITALITY POINTS (PV)**
-> Les PV représentent ta chance, ta fatigue, tes éraflures. Quand tu perds des PV, tu ne saignes pas — tu es simplement plus vulnérable. Les PV se récupèrent avec des Healing Surges.
-> Les **Blessures** sont tes vraies blessures. Fixes, ne montent pas avec le niveau. Quand les PV tombent à 0, le personnage est Dying + 1 Blessure. **PV à 0 = Mourant.**
+> Les PV représentent ta chance, ta fatigue, tes éraflures. Quand tu perds des PV, tu ne saignes pas — tu es simplement plus vulnérable. Les PV se récupèrent avec des Surges.
+> Les **Blessures** sont tes vraies blessures. Fixes, ne montent pas avec le niveau. Quand les PV tombent à 0, le personnage est Mourant + 1 Blessure. **PV à 0 = Mourant.**
 
 Tu retournes à l'embranchement.
 
@@ -397,7 +397,7 @@ Puis le bras de soudure s'active.
 > - Attaquer = 1 action
 > - Se déplacer (6 cases) = 1 action
 > - Viser (Avantage au prochain tir) = 1 action
-> - Second Wind (1 surge → Surge Value en PV, 1×/combat) = 1 action
+> - Second Souffle (1 surge → Valeur de Surge en PV, 1×/combat) = 1 action
 > - Se mettre à couvert = 1 action
 >
 > **Pour attaquer :** Lance d20. Si ≤ Score d'attaque → touché.
@@ -430,7 +430,7 @@ Choisis tes 3 actions. Suggestion pour ce premier combat : Viser (1 action) + Ti
 > 1. Le drone se déplace vers toi s'il n'est pas au contact.
 > 2. Le drone attaque : lance d20. Si ≤ 8 → touché. Lance 1d6 dégâts. Tu soustrais ton **Armure (4)**. Le reste frappe tes PV. Min 1 dégât si touché.
 >
-> **SHAKEN :** Voir § 23A quand le drone te touche.
+> **SECOUÉ :** Voir § 23A quand le drone te touche.
 
 ---
 
@@ -438,7 +438,7 @@ Choisis tes 3 actions. Suggestion pour ce premier combat : Viser (1 action) + Ti
 
 Le tiroir s'ouvre. À l'intérieur : un **terminal de données portable** contenant les manifestes de la station, et un **Deadeye** — un pistolet de précision utilisé par les officiers de station.
 
-**Deadeye** : 1d8 +1d6 dégâts, Portée 12, Precise 1 (ignore 1 Armure). Nécessite 1 action pour viser avant chaque tir (le Deadeye est fait pour la précision, pas le tir rapide). Score : DEX 10 + prof 1 = **11**.
+**Deadeye** : 1d8 +1d6 dégâts, Portée 12, Précis 1 (ignore 1 Armure). Nécessite 1 action pour viser avant chaque tir (le Deadeye est fait pour la précision, pas le tir rapide). Score : DEX 10 + prof 1 = **11**.
 
 Le terminal de données confirme ce que le log disait : des pillards ont attaqué la station. L'équipage a évacué. Le **Protocole Sentinelle** a activé les drones de sécurité en mode létal. Ils sont probablement encore actifs.
 
@@ -480,22 +480,22 @@ Le coffre atterrit devant toi avec un choc sourd. Il est verrouillé — serrure
 
 Le drone s'effondre dans une gerbe d'étincelles. Son capteur optique s'éteint. Le bras de soudure fait un dernier arc électrique, puis plus rien.
 
-> **RÈGLE — SHAKEN (si le drone t'a touché)**
-> Si le drone t'a touché au moins une fois pendant le combat, tu es devenu **Shaken**. C'est automatique — pas de save pour résister.
-> - **Shaken 1** (1 hit reçu) = Désavantage sur tous les jets ce tour.
-> - **Shaken 2** (2+ hits) = Double Désavantage ce tour.
-> - **Shaken 3** (3+ hits) = Double Désavantage + 1 action en moins.
+> **RÈGLE — SECOUÉ (si le drone t'a touché)**
+> Si le drone t'a touché au moins une fois pendant le combat, tu es devenu **Secoué**. C'est automatique — pas de save pour résister.
+> - **Secoué 1** (1 hit reçu) = Désavantage sur tous les jets ce tour.
+> - **Secoué 2** (2+ hits) = Double Désavantage ce tour.
+> - **Secoué 3** (3+ hits) = Double Désavantage + 1 action en moins.
 >
 > **Au début de ton prochain tour :** fais un **save de sang-froid (STR 10 ou WIT 9, au choix).** Réussite = pas d'effet, tu agis normalement. Échec = tu subis le Désavantage ce tour.
 >
-> **Shaken ne dure qu'un round.** Le compteur repart à 0 à la fin de ton tour.
+> **Secoué ne dure qu'un round.** Le compteur repart à 0 à la fin de ton tour.
 
-Si tu as été touché, résous le Shaken maintenant, puis note tes PV restants.
+Si tu as été touché, résous le Secoué maintenant, puis note tes PV restants.
 
-> **RÈGLE — HEALING SURGE**
-> Si tu as perdu des PV, tu peux utiliser un **Stim pack** (tu en as 2). Chaque stim consomme 1 de tes Healing Surges et te rend **11 PV** (ta Surge Value), sans action. Ou tu peux faire un **Stretch Rest** (15 min de repos) pour dépenser 1 surge et récupérer 11 PV.
+> **RÈGLE — SURGE**
+> Si tu as perdu des PV, tu peux utiliser un **Stim pack** (tu en as 2). Chaque stim consomme 1 de tes Surges et te rend **11 PV** (ta Valeur de Surge), sans action. Ou tu peux faire un **Stretch Rest** (15 min de repos) pour dépenser 1 surge et récupérer 11 PV.
 >
-> Tu peux aussi utiliser **Second Wind** en combat : 1 action, 1×/combat, récupère ta Surge Value (11 PV).
+> Tu peux aussi utiliser **Second Souffle** en combat : 1 action, 1×/combat, récupère ta Valeur de Surge (11 PV).
 
 Tu fouilles les restes du drone. Un composant récupérable — un **micro-générateur** qui vaut quelques crédits.
 
@@ -503,11 +503,11 @@ Tu fouilles les restes du drone. Un composant récupérable — un **micro-gén�
 
 ---
 
-## § 23A — Référence Shaken (combat en cours)
+## § 23A — Référence Secoué (combat en cours)
 
-> **Quand le drone te touche**, tu deviens Shaken. Note le niveau.
+> **Quand le drone te touche**, tu deviens Secoué. Note le niveau.
 > À ton prochain tour, **avant d'agir**, fais un save STR (Score 10) ou WIT (Score 9). Réussite = pas d'effet. Échec = Désavantage sur tous tes jets ce tour.
-> Shaken ne dure qu'un round — il se réinitialise à la fin de ton tour.
+> Secoué ne dure qu'un round — il se réinitialise à la fin de ton tour.
 > **Retourne au combat.**
 
 ---
@@ -519,11 +519,11 @@ Tu fouilles les restes du drone. Un composant récupérable — un **micro-gén�
 > *Exemple : Tu as 3 PV et tu prends 5 dégâts (après Armure). 3 PV détruits, 2 restants → tes Blessures perdent 2.*
 >
 > **6 Blessures = mort.** Fais-toi stabiliser avant ! Voir les Blessures ci-dessous.
-> Si tes Blessures sont encore au-dessus de 0, tu es debout mais sans PV. Chaque prochain coup ira droit dans tes PV. Utilise un Stim pack ou Second Wind immédiatement.
+> Si tes Blessures sont encore au-dessus de 0, tu es debout mais sans PV. Chaque prochain coup ira droit dans tes PV. Utilise un Stim pack ou Second Souffle immédiatement.
 
 **Tu as 6 Blessures ou plus ?**
 
-- **Non (Blessures > 0) :** Tu es debout. Utilise un stim pack (11 PV récupérés, pas d'action) si tu en as, ou un Second Wind en combat (1 action, 11 PV). **Retourne au combat.**
+- **Non (Blessures > 0) :** Tu es debout. Utilise un stim pack (11 PV récupérés, pas d'action) si tu en as, ou un Second Souffle en combat (1 action, 11 PV). **Retourne au combat.**
 - **Oui (Blessures ≤ 0) → Va au § 24A.**
 
 ---
@@ -534,7 +534,7 @@ Tu fouilles les restes du drone. Un composant récupérable — un **micro-gén�
 > Tu es inconscient. À chaque tour :
 > - Lance **d20 ≤ 10** = Réussite. Accumule 1 réussite.
 > - **d20 > 10** = Échec. Accumule 1 échec.
-> - **Nat 1** = Tu te relèves avec **1 PV** et Shaken 2.
+> - **Nat 1** = Tu te relèves avec **1 PV** et Secoué 2.
 > - **Nat 20** = **2 échecs**.
 > - **3 réussites** = Stabilisé (inconscient mais vivant).
 > - **3 échecs** = Mort.
@@ -580,12 +580,12 @@ Résous le combat. Tu agis en premier. **3 actions par round.**
 > - Attaquer (Jackdaw Score 12, 1d6+1d6 dégâts) = 1 action
 > - Viser = 1 action (Avantage au prochain tir)
 > - Se déplacer = 1 action
-> - Second Wind = 1 action (11 PV, 1×/combat)
+> - Second Souffle = 1 action (11 PV, 1×/combat)
 > - Armure ennemie = 3. Tes dégâts - 3 = PV perdus (min 1).
 >
 > *Tour du drone :*
 > - Le drone attaque : d20 ≤ 9 → touché. 1d8 dégâts. Ton Armure (4 + 2 si couvert = 6). Le reste frappe tes PV. Min 1 si touché.
-> - Si touché → Shaken automatique.
+> - Si touché → Secoué automatique.
 
 **→ Quand le drone est à 0 PV → Va au § 30.**
 **→ Si tes PV tombent à 0 → Va au § 24.**
@@ -606,9 +606,9 @@ Score Attaque: 9 | Dégâts: 1d8 (tourelle légère, range 10)
 ```
 
 **Round 1 — Le drone tire en premier.**
-Lance d20. Si ≤ 9 → touché. 1d8 dégâts - ton Armure 4 = PV perdus (min 1 si touché). Si touché → Shaken.
+Lance d20. Si ≤ 9 → touché. 1d8 dégâts - ton Armure 4 = PV perdus (min 1 si touché). Si touché → Secoué.
 
-Puis c'est ton tour (3 actions). Si tu es Shaken, save STR (10) ou WIT (9) d'abord.
+Puis c'est ton tour (3 actions). Si tu es Secoué, save STR (10) ou WIT (9) d'abord.
 
 Résous le combat round par round.
 
@@ -741,7 +741,7 @@ Un message synthétique résonne dans le couloir :
 
 **COMBAT FINAL.**
 
-> **C'est le combat le plus dur du scénario.** Utilise tout ce que tu as appris : couverture, Viser, Shaken, Stim packs, Second Wind, Avantage. Si tu as le AA-99, utilise-le. Si tu as des grenades fumigènes, c'est le moment.
+> **C'est le combat le plus dur du scénario.** Utilise tout ce que tu as appris : couverture, Viser, Secoué, Stim packs, Second Souffle, Avantage. Si tu as le AA-99, utilise-le. Si tu as des grenades fumigènes, c'est le moment.
 
 **Drone Sentinel ×2**
 
@@ -875,12 +875,12 @@ Ce scénario t'a appris :
 | **Roll-under d20** | § 2 (premier jet) |
 | **Difficulté sur skill checks** | § 6 (Pilotage diff 2), § 11, § 17 |
 | **Push de jet** (condition ou dégradation) | § 4 |
-| **Avantage / Désavantage** | § 14 (Avantage), § 23A (Désavantage via Shaken) |
+| **Avantage / Désavantage** | § 14 (Avantage), § 23A (Désavantage via Secoué) |
 | **PV / Blessures / double barre de vie** | § 18 (perte de PV), § 24 (overflow PV) |
 | **3 actions par tour** | § 19 (premier combat) |
 | **Attaque : Score, dégâts, Armure** | § 19 |
-| **Shaken** (auto sur hit, save début de tour) | § 23 / § 23A |
-| **Healing Surges / Second Wind / Stim** | § 23 |
+| **Secoué** (auto sur hit, save début de tour) | § 23 / § 23A |
+| **Surges / Second Souffle / Stim** | § 23 |
 | **Saves (pas de difficulté)** | § 37 (save DEX) |
 | **Couverture (+2 Armure)** | § 26 |
 | **Surprise / Avantage au premier tir** | § 26 |
@@ -900,9 +900,9 @@ NOM : Kael Morrow          NIVEAU : 3          PROF : +1
 
 PV : _____ / 25     Blessures : _____ / 6     ARMURE : _____
 
-Surges restants : _____ / 8     Surge Value : 11
+Surges restants : _____ / 8     Valeur de Surge : 11
 
-Shaken : ☐ 0   ☐ 1   ☐ 2   ☐ 3
+Secoué : ☐ 0   ☐ 1   ☐ 2   ☐ 3
 Conditions : ☐ Épuisé  ☐ Déstabilisé  ☐ Confus  ☐ Stressé
 
 SCORES :

@@ -2,7 +2,7 @@
 
 > **Référence :** Design document v4, formules canoniques v2, classe_grounder_v3.md (template).
 > **Scope :** Infiltrator, Medic, Marshal, Tech. Le Grounder est déjà complet (voir classe_grounder_v3.md).
-> **Structure commune :** Niv 1 (signature + 1 pick arsenal + passif), Niv 2 (ressource + feature secondaire), Niv 3 (sous-classe + 2e pick), Niv 4 (stat +1 + signature améliorée), Niv 5 (feature majeure).
+> **Structure commune :** Niv 1 (signature + 1 pick arsenal + passif), Niv 2 (ressource + capacité secondaire), Niv 3 (sous-classe + 2e pick), Niv 4 (stat +1 + signature améliorée), Niv 5 (capacité majeure).
 
 ---
 ---
@@ -26,8 +26,8 @@
 | **Armures** | Légères uniquement |
 | **Armes** | Armes légères (pistolets, SMG), armes simples de mêlée, 2 armes de mêlée martiales au choix |
 | **Compétences** | Discrétion (obligatoire) + 3 parmi : Acrobatie, Athlétisme, Escamotage★, Informatique★, Perception, Intuition, Tromperie |
-| **Healing Surges/jour** | 5 + bonus STR = **4** (STR 7) |
-| **Surge Value** | Vigueur + bonus STR = **7 PV** (fixe) |
+| **Surges/jour** | 5 + bonus STR = **4** (STR 7) |
+| **Valeur de Surge** | Vigueur + bonus STR = **7 PV** (fixe) |
 
 ### Score de Tir — Courbe niveaux 1-5
 
@@ -54,7 +54,7 @@ Quand tu attaques un ennemi et que tu remplis **au moins une** des conditions su
 
 - Tu as un **Avantage** sur le jet d'attaque (quelle que soit la source).
 - La cible n'a **pas encore agi** ce combat (premier round, avant son tour).
-- Tu es **Caché** (Hidden) au moment de l'attaque.
+- Tu es **Caché** au moment de l'attaque.
 - Un allié est **adjacent** à la cible (prise en tenaille).
 
 | Niveau | Dégâts bonus |
@@ -114,7 +114,7 @@ Tu choisis des techniques dans cette liste aux niveaux indiqués. Tu ne peux pas
 
 **Esquive Roulée.** Réaction (quand tu es touché par une attaque) : dépense 1 Ombre. Réduis les dégâts de **1d8 + bonus DEX**. Tu te déplaces de 1 case dans n'importe quelle direction (ne provoque pas d'attaque d'opportunité).
 
-**Frappe Paralysante.** Quand tu touches avec une Frappe Ciblée : dépense 1 Ombre. La cible doit réussir un **save STR** ou être **Staggered** jusqu'à la fin de son prochain tour (perd 1 action).
+**Frappe Paralysante.** Quand tu touches avec une Frappe Ciblée : dépense 1 Ombre. La cible doit réussir un **save STR** ou être **Chancelant** jusqu'à la fin de son prochain tour (perd 1 action).
 
 **Lecture du Terrain.** 1 action : dépense 1 Ombre. Tu identifies la cible la plus dangereuse de la scène (le MJ doit te dire qui a le Score d'attaque le plus élevé). De plus, tu as Avantage sur ta prochaine attaque contre cette cible.
 
@@ -176,7 +176,7 @@ Tu choisis des techniques dans cette liste aux niveaux indiqués. Tu ne peux pas
 
 **Frappe améliorée :**
 
-- *Nettoyeur :* Ta Frappe Ciblée inflige **Shaken +1 niveau** en plus des dégâts bonus (le choc de l'embuscade).
+- *Nettoyeur :* Ta Frappe Ciblée inflige **Secoué +1 niveau** en plus des dégâts bonus (le choc de l'embuscade).
 - *Fantôme :* Ta Frappe Ciblée depuis l'état Caché ne te révèle **pas** si tu es à portée longue (au-delà de la portée normale de l'arme). Tu restes Caché après le tir.
 
 ---
@@ -211,8 +211,8 @@ De plus, ta Frappe Ciblée passe à **+2d6 dégâts bonus**.
 | **Armures** | Légères uniquement |
 | **Armes** | Armes simples, armes légères (pistolets) |
 | **Compétences** | Médecine★ (obligatoire) + 3 parmi : Informatique★, Intuition, Investigation, Perception, Persuasion, Sciences★, Survie |
-| **Healing Surges/jour** | 6 + bonus STR = **6** (STR 8) |
-| **Surge Value** | Vigueur + bonus STR = **8 PV** (fixe) |
+| **Surges/jour** | 6 + bonus STR = **6** (STR 8) |
+| **Valeur de Surge** | Vigueur + bonus STR = **8 PV** (fixe) |
 
 ### Équipement de départ
 
@@ -226,9 +226,9 @@ De plus, ta Frappe Ciblée passe à **+2d6 dégâts bonus**.
 
 ## Mécanique signature : Premiers Soins
 
-Tu es le **déclencheur de surges** du groupe. Là où les autres classes ne peuvent dépenser leurs surges que via Second Wind ou Stretch Rest, toi tu les actives directement.
+Tu es le **déclencheur de surges** du groupe. Là où les autres classes ne peuvent dépenser leurs surges que via Second Souffle ou Stretch Rest, toi tu les actives directement.
 
-**Premiers Soins (1 action) :** Tu touches un allié adjacent. Cet allié dépense **1 de ses Healing Surges** et récupère sa Surge Value en PV **+ ton bonus WIT** en PV supplémentaires.
+**Premiers Soins (1 action) :** Tu touches un allié adjacent. Cet allié dépense **1 de ses Surges** et récupère sa Valeur de Surge en PV **+ ton bonus WIT** en PV supplémentaires.
 
 | Niveau | Bonus du Medic |
 |---|---|
@@ -238,14 +238,14 @@ Tu es le **déclencheur de surges** du groupe. Là où les autres classes ne peu
 | 13-15 | + bonus WIT + prof × 3 |
 
 **Restrictions :**
-- L'allié doit avoir des surges restantes.
+- L'allié doit avoir des surges restants.
 - 1 allié par action (pas de soin de zone au niv 1).
-- Ne fonctionne pas sur toi-même (tu ne déclenches que les surges des *autres*). Pour te soigner, tu utilises Second Wind comme tout le monde.
+- Ne fonctionne pas sur toi-même (tu ne déclenches que les surges des *autres*). Pour te soigner, tu utilises Second Souffle comme tout le monde.
 - Nécessite un **kit médical** en main ou accessible.
 
-> **Exemple :** Medic niv 1, WIT 10 (bonus +2). Allié Grounder avec Surge Value 12. Le Medic dépense 1 action → le Grounder récupère 12 + 2 = **14 PV**. C'est plus que le Second Wind du Grounder (12 PV, 1×/combat). Et le Medic peut le refaire au prochain tour.
+> **Exemple :** Medic niv 1, WIT 10 (bonus +2). Allié Grounder avec Valeur de Surge 12. Le Medic dépense 1 action → le Grounder récupère 12 + 2 = **14 PV**. C'est plus que le Second Souffle du Grounder (12 PV, 1×/combat). Et le Medic peut le refaire au prochain tour.
 
-> **Design :** Le Medic rend les surges des autres plus efficaces. Sans Medic, chaque héros ne peut dépenser qu'1 surge par combat (Second Wind) + 1 surge par Stretch. Avec un Medic, les surges coulent. C'est ce qui rend le Medic **indispensable** sans lui donner de pouvoir de combat.
+> **Design :** Le Medic rend les surges des autres plus efficaces. Sans Medic, chaque héros ne peut dépenser qu'1 surge par combat (Second Souffle) + 1 surge par Stretch. Avec un Medic, les surges coulent. C'est ce qui rend le Medic **indispensable** sans lui donner de pouvoir de combat.
 
 ---
 
@@ -277,11 +277,11 @@ Tu es le **déclencheur de surges** du groupe. Là où les autres classes ne peu
 
 **Évitement Médical.** Si tu n'as fait **aucune attaque** ce tour, tu gagnes **+2 Armure** jusqu'au début de ton prochain tour. Tu cours, tu esquives, tu soignes — mais tu ne tires pas.
 
-**Mots de Réconfort.** 1 action : tu retires **1 niveau de Shaken** d'un allié adjacent. Pas besoin de Triage, pas besoin de kit. C'est ton calme sous le feu qui rassure.
+**Mots de Réconfort.** 1 action : tu retires **1 niveau de Secoué** d'un allié adjacent. Pas besoin de Triage, pas besoin de kit. C'est ton calme sous le feu qui rassure.
 
 ### Triage 1
 
-**Injection d'Adrénaline.** 1 action : dépense 1 Triage + 1 stim pack. Un allié adjacent récupère sa Surge Value en PV **sans dépenser de Surge**. C'est un soin gratuit, mais ça consomme un stim. 1×/combat par allié.
+**Injection d'Adrénaline.** 1 action : dépense 1 Triage + 1 stim pack. Un allié adjacent récupère sa Valeur de Surge en PV **sans dépenser de Surge**. C'est un soin gratuit, mais ça consomme un stim. 1×/combat par allié.
 
 **Purge Médicale.** 1 action : dépense 1 Triage. Retire **1 condition** (Épuisé, Déstabilisé, Confus, ou Stressé) d'un allié adjacent. Nécessite kit médical.
 
@@ -327,7 +327,7 @@ Tu es le **déclencheur de surges** du groupe. Là où les autres classes ne peu
 
 > *Tu es un médecin avant tout. La chirurgie de terrain, c'est ton expertise — tu peux refermer une plaie ouverte avec un scalpel improvisé, stabiliser un polytraumatisé avec trois garrots et une prière, et reconnaître un empoisonnement au premier regard.*
 
-**Chirurgie de Terrain.** Pendant un Stretch Rest, tu peux faire un jet de Médecine (diff 3) sur un allié. Succès : l'allié récupère **1d4 Blessures** en plus de sa surge de Stretch. 1×/allié/Shift.
+**Chirurgie de Terrain.** Pendant un Stretch Rest, tu peux faire un jet de Médecine (diff 3) sur un allié. Succès : l'allié récupère **1d4 Blessures** en plus de son surge de Stretch. 1×/allié/Shift.
 
 **Diagnostic Avancé.** Quand tu utilises Premiers Soins, tu identifies automatiquement toutes les conditions, poisons et maladies affectant le patient.
 
@@ -354,7 +354,7 @@ Tu es le **déclencheur de surges** du groupe. Là où les autres classes ne peu
 
 ### NIVEAU 5 — Protocole d'Urgence
 
-**Protocole d'Urgence.** 1×/combat. Quand un allié que tu peux voir tombe à **0 PV** : tu peux utiliser ta **réaction** pour te déplacer vers lui (jusqu'à ta vitesse complète, pas d'attaque d'opportunité) ET utiliser Premiers Soins immédiatement. Ce soin est **gratuit** — il ne consomme pas l'action de l'allié et ne compte pas comme Second Wind.
+**Protocole d'Urgence.** 1×/combat. Quand un allié que tu peux voir tombe à **0 PV** : tu peux utiliser ta **réaction** pour te déplacer vers lui (jusqu'à ta vitesse complète, pas d'attaque d'opportunité) ET utiliser Premiers Soins immédiatement. Ce soin est **gratuit** — il ne consomme pas l'action de l'allié et ne compte pas comme Second Souffle.
 
 De plus, le bonus WIT de tes Premiers Soins passe à **bonus WIT + prof**.
 
@@ -382,8 +382,8 @@ De plus, le bonus WIT de tes Premiers Soins passe à **bonus WIT + prof**.
 | **Armures** | Légères, moyennes |
 | **Armes** | Armes simples, armes légères (pistolets, SMG), armes longues (fusils) |
 | **Compétences** | Tactique★ (obligatoire) + 3 parmi : Athlétisme, Intimidation, Intuition, Perception, Intuition, Persuasion, Tromperie |
-| **Healing Surges/jour** | 6 + bonus STR = **7** (STR 9) |
-| **Surge Value** | Vigueur + bonus STR = **9 PV** (fixe) |
+| **Surges/jour** | 6 + bonus STR = **7** (STR 9) |
+| **Valeur de Surge** | Vigueur + bonus STR = **9 PV** (fixe) |
 
 ### Équipement de départ
 
@@ -408,7 +408,7 @@ Au niveau 1, tu connais **2 ordres** parmi les suivants et tu en apprends de nou
 
 **"Tiens bon !"** L'allié gagne **+2 Armure** jusqu'au début de ton prochain tour.
 
-**"Relève-toi !"** Si l'allié est Prone, Staggered, ou souffre d'1 niveau de Shaken : il peut immédiatement se relever (gratuit) OU retirer 1 niveau de Shaken. De plus, il gagne **Avantage** sur son prochain save.
+**"Relève-toi !"** Si l'allié est Prone, Chancelant, ou souffre d'1 niveau de Secoué : il peut immédiatement se relever (gratuit) OU retirer 1 niveau de Secoué. De plus, il gagne **Avantage** sur son prochain save.
 
 **"Couvre-le !"** Désigne un allié. Le prochain ennemi qui attaque cet allié avant la fin de ton prochain tour subit un **Désavantage** sur son attaque. (Tu coordonnes les lignes de feu, pas besoin de tirer toi-même.)
 
@@ -440,7 +440,7 @@ Au niveau 1, tu connais **2 ordres** parmi les suivants et tu en apprends de nou
 
 ### Autorité 0 (passif / gratuit)
 
-**Présence de Commandement.** Tes alliés à 6 cases de toi ont **Avantage** aux jets de sang-froid (Shaken). Tant que le leader est debout, l'escouade tient.
+**Présence de Commandement.** Tes alliés à 6 cases de toi ont **Avantage** aux jets de sang-froid (Secoué). Tant que le leader est debout, l'escouade tient.
 
 **Évaluation Tactique.** Au début de chaque combat (avant l'initiative), tu peux poser au MJ **une question tactique** à laquelle il doit répondre honnêtement : nombre d'ennemis, position du plus dangereux, meilleure couverture, piège visible.
 
@@ -448,7 +448,7 @@ Au niveau 1, tu connais **2 ordres** parmi les suivants et tu en apprends de nou
 
 ### Autorité 1
 
-**Galvanisation.** 1 action : dépense 1 Autorité. Un allié que tu peux voir dépense **1 de ses Healing Surges** et récupère sa Surge Value en PV. C'est le deuxième déclencheur de surges du jeu (avec le Medic). Le Marshal ne soigne pas — il galvanise.
+**Galvanisation.** 1 action : dépense 1 Autorité. Un allié que tu peux voir dépense **1 de ses Surges** et récupère sa Valeur de Surge en PV. C'est le deuxième déclencheur de surges du jeu (avec le Medic). Le Marshal ne soigne pas — il galvanise.
 
 **Ordre Coordonné.** 1 action : dépense 1 Autorité. Donne un Ordre Tactique à **2 alliés** au lieu d'un. Le même ordre s'applique aux deux.
 
@@ -502,9 +502,9 @@ De plus, tu apprends **1 ordre supplémentaire** de la liste de base.
 
 > *Tu ne diriges pas par la stratégie — tu diriges par l'exemple et par la parole. Quand tu cries un ordre, les gens se surpassent. Quand tu les regardes dans les yeux, ils retrouvent leur courage. Tu es le cœur de l'escouade, pas le cerveau.*
 
-**Cri de Ralliement.** 1 action (pas d'Autorité) : tous les alliés à 6 cases retirent **1 niveau de Shaken**. 1×/combat.
+**Cri de Ralliement.** 1 action (pas d'Autorité) : tous les alliés à 6 cases retirent **1 niveau de Secoué**. 1×/combat.
 
-**Galvanisation naturelle.** Quand tu utilises Galvanisation (Autorité 1), l'allié récupère sa Surge Value **+ ton bonus EMP** en PV supplémentaires (comme le bonus du Medic, mais alimenté par le charisme, pas la médecine).
+**Galvanisation naturelle.** Quand tu utilises Galvanisation (Autorité 1), l'allié récupère sa Valeur de Surge **+ ton bonus EMP** en PV supplémentaires (comme le bonus du Medic, mais alimenté par le charisme, pas la médecine).
 
 ---
 
@@ -527,7 +527,7 @@ Tu apprends **1 ordre supplémentaire** de la liste de base.
 
 Après l'Ordre Décisif, tu ne peux pas donner d'Ordre Tactique ce tour (tu as tout donné dans cet ordre).
 
-> *"MAINTENANT !" Le sniper prend son tir. Le Grounder lance l'assaut. Le Medic sprint vers le blessé. L'Ordre Décisif est le moment où le Marshal transforme la bataille en une seconde. C'est la feature la plus puissante du jeu au niveau 5 — et c'est 1×/combat. Usage wisely.*
+> *"MAINTENANT !" Le sniper prend son tir. Le Grounder lance l'assaut. Le Medic sprint vers le blessé. L'Ordre Décisif est le moment où le Marshal transforme la bataille en une seconde. C'est la capacité la plus puissante du jeu au niveau 5 — et c'est 1×/combat. Usage wisely.*
 
 ---
 ---
@@ -551,8 +551,8 @@ Après l'Ordre Décisif, tu ne peux pas donner d'Ordre Tactique ce tour (tu as t
 | **Armures** | Légères uniquement |
 | **Armes** | Armes simples, armes légères (pistolets) |
 | **Compétences** | Ingénierie★ (obligatoire) + 3 parmi : Informatique★, Démolitions★, Investigation, Perception, Pilotage, Sciences★, Survie |
-| **Healing Surges/jour** | 4 + bonus STR = **3** (STR 7) |
-| **Surge Value** | Vigueur + bonus STR = **5 PV** (fixe) |
+| **Surges/jour** | 4 + bonus STR = **3** (STR 7) |
+| **Valeur de Surge** | Vigueur + bonus STR = **5 PV** (fixe) |
 
 ### Score d'Ingénierie/Informatique — Courbe niveaux 1-5
 
@@ -562,7 +562,7 @@ Après l'Ordre Décisif, tu ne peux pas donner d'Ordre Tactique ce tour (tu as t
 | 3 | 10 | +1 | +1 | 12 | 45% |
 | 5 | 11 | +1 | +1 | 13 | 50% |
 
-*Le Tech est meilleur que quiconque dans ses domaines — mais ses domaines sont tous "trained only".*
+*Le Tech est meilleur que quiconque dans ses domaines — mais ses domaines sont tous "formation requise".*
 
 ### Équipement de départ
 
@@ -721,7 +721,7 @@ Les Tech Points alimentent tes **Innovations** (arsenal à choix) et certaines a
 
 **Innovation Majeure.** Choisis **une** des innovations majeures suivantes (permanente) :
 
-**Essaim (Ingénieur).** Tu peux fragmenter ton drone en un **essaim de micro-drones** (1 action). L'essaim occupe une zone de Blast 2, dure 3 rounds. Les créatures dans la zone ont **Désavantage** sur les jets de Perception (visuel). Tu peux utiliser l'essaim pour Observer toute la zone. L'essaim a 1 PV total — une attaque de zone le détruit. Après, ton drone est détruit (nécessite reconstruction).
+**Essaim (Ingénieur).** Tu peux fragmenter ton drone en un **essaim de micro-drones** (1 action). L'essaim occupe une zone de Zone 2, dure 3 rounds. Les créatures dans la zone ont **Désavantage** sur les jets de Perception (visuel). Tu peux utiliser l'essaim pour Observer toute la zone. L'essaim a 1 PV total — une attaque de zone le détruit. Après, ton drone est détruit (nécessite reconstruction).
 
 **Intrusion Zero-Day (Hacker).** 1×/Shift, tu peux pirater un système **sans jet**. Tu réussis automatiquement, quel que soit le Firewall. Le MJ décrit les conséquences de l'intrusion comme si tu avais roulé un Réussite critique (Nat 1). C'est ton exploit signature — la porte dérobée que tu as préparée depuis des mois.
 
@@ -755,19 +755,19 @@ Les Tech Points alimentent tes **Innovations** (arsenal à choix) et certaines a
 | **Blessures** | 12 | 7 | 8 | 9 | 5 |
 | **Armure typique** | Lourde (8-10) | Légère (3-4) | Légère (3-4) | Moyenne (5-7) | Légère (3) |
 | **Surges** | 9 | 4 | 6 | 7 | 3 |
-| **Surge Value** | 12 | 7 | 8 | 9 | 5 |
+| **Valeur de Surge** | 12 | 7 | 8 | 9 | 5 |
 | **DPR solo** | Élevé (Double Tap) | Burst (2d6 Frappe) | Faible | Faible (ordres) | Faible (drone) |
-| **Utilité groupe** | Suppression, aggro | Éclairage, élimination | Soins, surge trigger | Ordres, Avantage team | Drone, hack, repair |
+| **Utilité groupe** | Suppression, aggro | Éclairage, élimination | Soins, déclencheur de surge | Ordres, Avantage team | Drone, hack, repair |
 
 ## Structure commune 1-5
 
 | Niveau | Ce qui se passe |
 |---|---|
 | **1** | Mécanique signature + 1 pick d'arsenal + compétence d'expertise |
-| **2** | Mécanique de ressource + feature secondaire |
+| **2** | Mécanique de ressource + capacité secondaire |
 | **3** | Sous-classe (2 choix) + 2e pick d'arsenal |
 | **4** | Stat +1 + signature améliorée (selon sous-classe) |
-| **5** | Feature majeure de classe (le "moment" iconique) |
+| **5** | Capacité majeure de classe (le "moment" iconique) |
 
 ## Ressources comparées
 

@@ -12,7 +12,7 @@ Un JDR tactique où le **loot est le moteur de la progression**. Roll-under d20,
 - **4 stats** — STR / DEX / WIT / EMP (+ Vigueur dérivée)
 - **3 actions/tour** — Attaquer, se déplacer, utiliser un objet. Pas de "action/bonus action/réaction".
 - **PV + Blessures** — Un seul pool de PV. Compteur de Blessures (0-6) inspiré de Nimble. 6 = mort.
-- **Shaken** — Chaque touché inflige du Shaken (Désavantage). 3 paliers. Reset à la fin du tour.
+- **Secoué** — Chaque touché inflige du Secoué (Désavantage). 3 paliers. Reset à la fin du tour.
 - **Loot = progression** — Les armes, armures et gadgets sont la vraie source de puissance.
 - **5 classes** — Grounder (tank/DPR), Infiltrator (burst/furtivité), Medic (soins), Marshal (support/ordres), Tech (drone/hack)
 - **8 Origines** — Background de personnage avec compétences + trait passif
@@ -42,7 +42,7 @@ docx/                Versions Word générées
 
 ## Inspirations
 
-- **Dragonbane** — Roll-under d20, Shaken, initiative par cartes, Round/Stretch/Shift
+- **Dragonbane** — Roll-under d20, Secoué, initiative par cartes, Round/Stretch/Shift
 - **Ultramodern5** — Classes, Tech Levels (TL0-5)
 - **Nimble** — Compacité, système de Wounds/Blessures, simplicité
 - **ICRPG** — Loot comme moteur de progression
@@ -51,7 +51,7 @@ docx/                Versions Word générées
 ## État du projet
 
 ### Complet
-- Système de règles (PV + Blessures, Shaken, saves, compétences)
+- Système de règles (PV + Blessures, Secoué, saves, compétences)
 - 5 classes (Grounder 1-15, 4 classes 1-5)
 - 20 compétences (13 générales + 7 trained-only)
 - 8 tables de loot

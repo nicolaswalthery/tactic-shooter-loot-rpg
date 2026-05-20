@@ -17,8 +17,8 @@
 | **Armures** | Toutes armures, boucliers balistiques |
 | **Armes** | Toutes armes à feu, armes simples de mêlée |
 | **Compétences** | 2 parmi : Athlétisme, Intimidation, Perception, Survie, Tactique★, Connaissance (militaire) |
-| **Healing Surges/jour** | 7 + bonus STR = **9** (STR 10) |
-| **Surge Value** | Vigueur + bonus STR = **12 PV** (fixe) |
+| **Surges/jour** | 7 + bonus STR = **9** (STR 10) |
+| **Valeur de Surge** | Vigueur + bonus STR = **12 PV** (fixe) |
 
 ### Score de Tir — Courbe sur 15 niveaux
 
@@ -50,17 +50,17 @@ Au niveau 1, tu choisis une doctrine. Tu peux changer de doctrine pendant un Shi
 
 Tu favorises les armes automatiques — rafales, suppression, volume de feu.
 
-- **Tir de suppression amélioré.** Quand tu touches avec une arme en mode autofire, la cible subit automatiquement **Shaken +1 niveau** (en plus du Shaken normal de l'autofire).
-- **Dégâts collatéraux.** Quand tu touches une cible avec une arme autofire, tu peux infliger la moitié des dégâts (avant Armure) à **une cible adjacente** à ta cible principale. 1×/tour.
+- **Suppression améliorée.** Quand tu touches avec une arme en mode tir auto, la cible subit automatiquement **Secoué +1 niveau** (en plus du Secoué normal du tir auto).
+- **Tir de Saturation.** Quand tu utilises le tir auto, tu peux cibler une **zone de 2×2 cases** au lieu de 3 cibles individuelles. Toutes les créatures dans la zone font un save DEX. Échec = dégâts auto complets.
 
 ### Précision
 
 Tu gardes ton arme en tir unique — chaque balle compte.
 
-- **Tir ajusté.** Tes attaques avec des armes non-autofire infligent **+2 dégâts** (+3 au niv. 5, +4 au niv. 9, +5 au niv. 13).
-- **Critique amélioré.** Quand tu fais un Réussite critique (Nat 1) avec une arme non-autofire, lance les dés de dégâts **trois fois** au lieu de deux.
+- **Tir ajusté.** Tes attaques avec des armes en tir unique infligent **+2 dégâts** (+3 au niv. 5, +4 au niv. 9, +5 au niv. 13).
+- **Critique amélioré.** Quand tu fais une Réussite critique (Nat 1) avec une arme en tir unique, lance les dés de dégâts **trois fois** au lieu de deux.
 
-> **Design :** Assaut = contrôle de zone, suppression (Shaken). Précision = dégât par balle, élimination ciblée. Les deux sont viables, aucun n'est supérieur. La Doctrine est changeable par Shift Rest — un soldat s'adapte à la mission.
+> **Design :** Assaut = contrôle de zone, suppression (Secoué). Précision = dégât par balle, élimination ciblée. Les deux sont viables, aucun n'est supérieur. La Doctrine est changeable par Shift Rest — un soldat s'adapte à la mission.
 
 ---
 
@@ -104,11 +104,11 @@ Tu choisis des capacités dans cette liste aux niveaux indiqués (6 choix au tot
 
 **Spotter.** 1 action : dépense 1 Élan. Désigne un ennemi en ligne de vue. Le prochain allié qui attaque cette cible avant la fin de ton prochain tour a un **Avantage** sur son jet.
 
-**Snap Out Of It.** 1 action : dépense 1 Élan. Retire **1 niveau de Shaken** d'un allié à portée (2 cases). Inutilisable si tu es toi-même Shaken 2+.
+**Snap Out Of It.** 1 action : dépense 1 Élan. Retire **1 niveau de Secoué** d'un allié à portée (2 cases). Inutilisable si tu es toi-même Secoué 2+.
 
 **Tir d'Aggro.** 1 action : dépense 1 Élan. Attaque un ennemi. S'il est touché, cet ennemi a un **Désavantage** à toutes ses attaques qui ne t'incluent pas comme cible, jusqu'à la fin de ton prochain tour. Cesse si tu brises la ligne de vue.
 
-**Cauterize.** 1 action : dépense 1 Élan. Un allié adjacent dépense **1 de ses Healing Surges** et récupère sa Surge Value en PV. Ne compte pas comme Second Wind. 1×/combat par allié.
+**Cauterize.** 1 action : dépense 1 Élan. Un allié adjacent dépense **1 de ses Surges** et récupère sa Valeur de Surge en PV. Ne compte pas comme Second Souffle. 1×/combat par allié.
 
 ### Élan 2 (accessibles à partir du niv 6)
 
@@ -158,7 +158,7 @@ Tu choisis des capacités dans cette liste aux niveaux indiqués (6 choix au tot
 
 **Doctrine améliorée :**
 
-- *Assaut :* Dégâts collatéraux passent de "moitié des dégâts" à "dégâts complets − Armure de la cible secondaire."
+- *Assaut :* Tir de Saturation amélioré — les cibles qui **réussissent** leur save DEX dans la zone subissent quand même **la moitié des dégâts auto**.
 - *Précision :* Quand tu rates un tir d'**1 point** (d20 = Seuil + 1), c'est un touché. Marge d'erreur de 1.
 
 ---
@@ -177,9 +177,9 @@ Tu choisis des capacités dans cette liste aux niveaux indiqués (6 choix au tot
 
 ---
 
-### NIVEAU 7 — Sous-classe feature
+### NIVEAU 7 — Sous-classe capacité
 
-Gain de la feature de sous-classe de niveau 7.
+Gain de la capacité de sous-classe de niveau 7.
 
 ---
 
@@ -205,9 +205,9 @@ Gain de la feature de sous-classe de niveau 7.
 
 ---
 
-### NIVEAU 11 — Sous-classe feature
+### NIVEAU 11 — Sous-classe capacité
 
-Gain de la feature de sous-classe de niveau 11.
+Gain de la capacité de sous-classe de niveau 11.
 
 ---
 
@@ -217,7 +217,7 @@ Gain de la feature de sous-classe de niveau 11.
 
 **Doctrine maîtrisée :**
 
-- *Assaut :* Dégâts collatéraux peuvent toucher **2 cibles adjacentes**. Le bonus de Shaken autofire passe à **+2 niveaux**.
+- *Assaut :* Tir de Saturation passe à une **zone de 3×3 cases**. Le bonus de Suppression améliorée passe à **Secoué +2 niveaux**.
 - *Précision :* Marge d'erreur passe à **2**. De plus, 1×/Stretch Rest, tu peux transformer un tir raté en **Réussite critique** (critique automatique).
 
 ---
@@ -234,20 +234,20 @@ Gain de la feature de sous-classe de niveau 11.
 
 - **Feu de Couverture+** — L'attaquant subit Désavantage **et** −2 dégâts s'il touche quand même.
 - **Spotter+** — L'allié bénéficiant de l'Avantage inflige aussi **+1d6 dégâts**.
-- **Snap Out Of It+** — Retire **2 niveaux de Shaken**. Portée étendue à 4 cases.
+- **Snap Out Of It+** — Retire **2 niveaux de Secoué**. Portée étendue à 4 cases.
 - **Tir d'Aggro+** — Désavantage sur toutes les **actions** (pas seulement attaques). Dure **2 tours**.
-- **Cauterize+** — L'allié récupère Surge Value **+½ de ta Surge Value**. 2×/combat par allié.
+- **Cauterize+** — L'allié récupère Valeur de Surge **+½ de ta Valeur de Surge**. 2×/combat par allié.
 - **Tir Coordonné+** — Tu peux désigner **2 alliés**. Coûte toujours 2 Élan.
 
 ---
 
 ### NIVEAU 15 — Soldat Imparable + All In
 
-**Soldat Imparable.** Au début de chaque combat, tu commences avec **Élan = maximum** (pas besoin de le construire). La première fois que tu es réduit à 0 PV dans un combat, tu dépenses automatiquement jusqu'à **3 Healing Surges** (pas d'action). Si tu remontes au-dessus de 0, tu continues normalement. 1×/Shift Rest.
+**Soldat Imparable.** Au début de chaque combat, tu commences avec **Élan = maximum** (pas besoin de le construire). La première fois que tu es réduit à 0 PV dans un combat, tu dépenses automatiquement jusqu'à **3 Surges** (pas d'action). Si tu remontes au-dessus de 0, tu continues normalement. 1×/Shift Rest.
 
-**All In.** 1×/Shift Rest : quand tu touches un ennemi, déclare All In. **Triple les dégâts** de l'attaque (après Armure). L'arme doit être rechargée ensuite (1 action). Si la cible survit, elle est automatiquement **Shaken 3** et subit un jet forcé sur la Table de Blessures Critiques.
+**All In.** 1×/Shift Rest : quand tu touches un ennemi, déclare All In. **Triple les dégâts** de l'attaque (après Armure). L'arme doit être rechargée ensuite (1 action). Si la cible survit, elle est automatiquement **Secoué 3** et subit un jet forcé sur la Table de Blessures Critiques.
 
-> *Niv 15 c'est le capstone — les deux facettes du Grounder. Soldat Imparable te rend presque impossible à abattre. All In te rend capable de finir n'importe qui. Tu es le point final d'une campagne.*
+> *Niv 15 c'est le couronnement — les deux facettes du Grounder. Soldat Imparable te rend presque impossible à abattre. All In te rend capable de finir n'importe qui. Tu es le point final d'une campagne.*
 
 ---
 
@@ -267,7 +267,7 @@ Quand tu utilises Interception de Tir (Fraternité), tu ne subis que **la moiti�
 Aura passive. Alliés à 3 cases : **+1 Armure**. Si tu es en Genou à Terre, le bonus passe à **+2 Armure**.
 
 **NIVEAU 15 — Dernier Debout.**
-Quand tu es réduit à 0 PV, tu peux dépenser **toutes tes Healing Surges restantes** d'un coup (pas d'action). Si tu remontes au-dessus de 0, tu continues. 1×/Shift Rest.
+Quand tu es réduit à 0 PV, tu peux dépenser **toutes tes Surges restantes** d'un coup (pas d'action). Si tu remontes au-dessus de 0, tu continues. 1×/Shift Rest.
 
 > *Combiné avec Soldat Imparable : d'abord les 3 surges automatiques, puis si tu retombes, Dernier Debout vide le reste. Le tank ultime.*
 
@@ -301,33 +301,33 @@ Après avoir fait une attaque à distance, tu peux te déplacer de **la moitié 
 | 4 | +1 | 1 | 2 | Stat +1, Doctrine améliorée |
 | 5 | +1 | 1 | 2 | **Double Tap** |
 | 6 | +2 | 2 | 3 | Vétéran du Terrain, Élan 2 débloqué |
-| 7 | +2 | 2 | 3 | **Sous-classe feature** |
+| 7 | +2 | 2 | 3 | **Sous-classe capacité** |
 | 8 | +2 | 2 | 4 | Stat +1 |
 | 9 | +2 | 2 | 4 | **Triple Tap** |
 | 10 | +2 | 2 | 5 | Bouclier Humain |
-| 11 | +3 | 3 | 5 | **Sous-classe feature** |
+| 11 | +3 | 3 | 5 | **Sous-classe capacité** |
 | 12 | +3 | 3 | 5 | Stat +1, Doctrine maîtrisée |
 | 13 | +3 | 3 | 5 | **Quadruple Tap** |
 | 14 | +3 | 3 | 6 | Améliorations Fraternité |
-| 15 | +3 | 3 | 6 | **Soldat Imparable + All In**, sous-classe capstone |
+| 15 | +3 | 3 | 6 | **Soldat Imparable + All In**, sous-classe couronnement |
 
 ---
 
 ## Exemple de jeu — Niveau 5 Grounder Assaut
 
-**SGT. VASQUEZ** — Grounder 5, Tête de Pont. STR 10, DEX 11 (après +1 au niv. 4). Prof +1. Fusil d'assaut TL2 +1 (loot). Score de Tir = 11 + 1 + 1 = **13 (65%)**. Doctrine : Assaut. Dégâts fusil 1d8+2, autofire 1d10+2. Bonus dégâts DEX 11 = +1d4. Armure 5 (gilet balistique). Élan max : 1.
+**SGT. VASQUEZ** — Grounder 5, Tête de Pont. STR 10, DEX 11 (après +1 au niv. 4). Prof +1. Fusil d'assaut TL2 +1 (loot). Score de Tir = 11 + 1 + 1 = **13 (65%)**. Doctrine : Assaut. Dégâts fusil 1d8+2, tir auto 1d10+2. Bonus dégâts DEX 11 = +1d4. Armure 5 (gilet balistique). Élan max : 1.
 
-PV : 12 + 4×8 = **44 PV.** Blessures : 12. Surges : 9/jour. Surge Value : 12.
+PV : 12 + 4×8 = **44 PV.** Blessures : 12. Surges : 9/jour. Valeur de Surge : 12.
 
 **Round 1 — Ouverture :**
 Vasquez utilise **Cri de Guerre** (action libre) → ennemis la ciblent, +2 Armure (total 7).
 
-- Action 1 : tir sur mercenaire (couvert, Armure 5 + 3 couverture = 8). d20 = 5 ≤ 13 → touché. Dégâts 1d8+2+1d4 = 10, − 8 Armure = 2 PV. +1 Shaken (Assaut). **+1 Élan (max atteint).**
-- Action 2 : tir. d20 = 9 ≤ 13 → touché. Dégâts 1d8+2+1d4 = 8, − 8 = minimum 1 PV. +1 Shaken (total 2). Élan déjà au max.
+- Action 1 : tir sur mercenaire (couvert, Armure 5 + 3 couverture = 8). d20 = 5 ≤ 13 → touché. Dégâts 1d8+2+1d4 = 10, − 8 Armure = 2 PV. +1 Secoué (Assaut). **+1 Élan (max atteint).**
+- Action 2 : tir. d20 = 9 ≤ 13 → touché. Dégâts 1d8+2+1d4 = 8, − 8 = minimum 1 PV. +1 Secoué (total 2). Élan déjà au max.
 - **Double Tap** se déclenche → attaque gratuite avec Désavantage. d20 (2d20 garde haut) = 11 ≤ 13 → touché. Dégâts 1d8+2+1d4 = 7, minimum 1 PV.
 - Action 3 : elle dépense 1 Élan → **Spotter** sur l'officier ennemi (Avantage au prochain allié).
 
-**Bilan :** 4+ PV infligés au mercenaire (Shaken 2), Spotter posé sur l'officier, +2 Armure du Cri. Élan revient à 0, il faut retoucher pour recharger.
+**Bilan :** 4+ PV infligés au mercenaire (Secoué 2), Spotter posé sur l'officier, +2 Armure du Cri. Élan revient à 0, il faut retoucher pour recharger.
 
 **Round 2 — Pression :**
 Vasquez rate son premier tir (d20 = 15 > 13). Elle choisit de **pousser le jet**. Elle prend la condition **Déstabilisée** (Désavantage sur tous les jets DEX). Relance : d20 = 8 ≤ 13 → touché ! Mais elle a maintenant Désavantage sur ses prochains tirs DEX...
@@ -346,9 +346,9 @@ Le Grounder est la classe qui profite le plus de la deuxième jambe. Son Score d
 | Viseur holographique | +1 Score ou Avantage en conditions spécifiques |
 | Armure renforcée | Survie → plus de rounds → plus d'Élan accumulé |
 | Stim packs | Déclencheurs de surge supplémentaires en combat |
-| Implant cybernétique STR | +1-3 STR → PV, Blessures, Surges, Surge Value augmentent |
+| Implant cybernétique STR | +1-3 STR → PV, Blessures, Surges, Valeur de Surge augmentent |
 
-Et le Grounder **souffre** quand son loot est dégradé. Un fusil +2 Endommagé tombe à +1. Un implant STR +2 Endommagé tombe à +1 — ça réduit ses PV max, ses Blessures, ses surges, sa Surge Value d'un coup. La rotation du loot crée un cycle de puissance dynamique que la proficiency seule ne peut pas fournir.
+Et le Grounder **souffre** quand son loot est dégradé. Un fusil +2 Endommagé tombe à +1. Un implant STR +2 Endommagé tombe à +1 — ça réduit ses PV max, ses Blessures, ses surges, sa Valeur de Surge d'un coup. La rotation du loot crée un cycle de puissance dynamique que la proficiency seule ne peut pas fournir.
 
 ---
 
@@ -358,21 +358,21 @@ Et le Grounder **souffre** quand son loot est dégradé. Un fusil +2 Endommagé 
 
 | Élément | v2 (20 niveaux) | v3 (15 niveaux) | Raison |
 |---|---|---|---|
-| Niveaux | 20 | **15** | Courbe plus saine, moins de dead levels |
+| Niveaux | 20 | **15** | Courbe plus saine, moins de niveaux morts |
 | Proficiency | +2 à +6 | **+1 / +2 / +3** | Loot = deuxième jambe de progression |
 | Élan max | 2 à 6 | **1 / 2 / 3** | Aligné sur prof. Gate naturelle pour Élan 2 |
 | Fraternité picks | 7 | **6** | Ratio préservé (40% vs 35% des niveaux) |
-| Stat increases | 4 principales + 4 secondaires | **3 au choix** | Limiter la courbe naturelle, le loot complète |
-| Capstone | Soldat Imparable (17) + All In (20) | **Les deux au niv 15** | Condensé — le capstone doit être épique |
+| Augmentations de stat | 4 principales + 4 secondaires | **3 au choix** | Limiter la courbe naturelle, le loot complète |
+| Couronnement | Soldat Imparable (17) + All In (20) | **Les deux au niv 15** | Condensé — le couronnement doit être épique |
 | Score Tir niv 1 | 12 (60%) | **11 (55%)** | Prof +1 au lieu de +2 — le loot compense |
 
 ### Ce qui est identique
 
-Doctrine (Assaut/Précision), Élan comme mécanique de ressource, Fraternité d'Armes comme arsenal à choix, Genou à Terre, progression Double→Triple→Quadruple Tap, 2 sous-classes (Tête de Pont / Éclaireur) avec features à 3/7/11/15, Cauterize comme trigger de surge, Bouclier Humain, Vétéran du Terrain.
+Doctrine (Assaut/Précision), Élan comme mécanique de ressource, Fraternité d'Armes comme arsenal à choix, Genou à Terre, progression Double→Triple→Quadruple Tap, 2 sous-classes (Tête de Pont / Éclaireur) avec capacités à 3/7/11/15, Cauterize comme déclencheur de surge, Bouclier Humain, Vétéran du Terrain.
 
 ### Interaction avec les 4 autres classes
 
-- **Medic :** Cauterize et les pouvoirs Medic sont tous deux des triggers de surge. Complémentaires.
-- **Marshal :** Marshal donne des ordres + triggers surges. Grounder fait feu de couverture + spotting. Combo Spotter + ordre Marshal = dévastatrice.
+- **Medic :** Cauterize et les pouvoirs Medic sont tous deux des déclencheurs de surge. Complémentaires.
+- **Marshal :** Marshal donne des ordres + déclenche les surges. Grounder fait feu de couverture + spotting. Combo Spotter + ordre Marshal = dévastatrice.
 - **Infiltrator :** L'Éclaireur chevauche en mobilité, mais l'Infiltrator a stealth + burst damage. L'Éclaireur est un soldat mobile, pas un fantôme.
 - **Tech :** Tech contrôle le terrain avec gadgets/drones, Grounder avec balles/suppression. Le Spotter aide le drone du Tech.

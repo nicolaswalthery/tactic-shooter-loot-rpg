@@ -22,8 +22,8 @@
 | **Blessures** | 0 / 6 |
 | **Armure** | **3** | Gilet pare-balles souple |
 | **Speed** | 6 cases | |
-| **Healing Surges** | **9/jour** | Base 7 + bonus STR 2 |
-| **Surge Value** | **12 PV** | Vig 10 + bonus STR 2 |
+| **Surges** | **9/jour** | Base 7 + bonus STR 2 |
+| **Valeur de Surge** | **12 PV** | Vig 10 + bonus STR 2 |
 | **Proficiency** | +1 | |
 | **Saves proficients** | STR, DEX | |
 
@@ -42,10 +42,10 @@
 
 **Équipement :** Fusil semi-auto ($300), Revolver ($150), Gilet pare-balles souple ($300, Discret), 2 grenades à concussion, kit de terrain, radio tactique.
 
-**Features :**
+**Capacités :**
 
 - **Doctrine de Tir : Précision**
-  - **Tir ajusté :** +2 dégâts sur tir unique (pas auto-fire). Tes dégâts fusil = 1d8 +1d6 **+2**.
+  - **Tir ajusté :** +2 dégâts sur tir unique (pas tir auto). Tes dégâts fusil = 1d8 +1d6 **+2**.
   - **Critique amélioré :** Sur Réussite critique (Nat 1), lance les dés de dégâts **3 fois** au lieu de 2.
 - **Fraternité d'Armes (1) : Cadre Solide** — Pas de Désavantage pour tirer en mouvement avec une arme à 2 mains.
 - **Entraînement Polyvalent** — Proficient avec toutes les armes à feu.
@@ -56,13 +56,13 @@
 CPL. RHEA CALDER — Grounder 1 (Précision)
 STR 10 (+2) | DEX 10 (+2) | WIT 8 (0) | EMP 7 (-1)
 PV: 24/24 | Blessures: 0/6 | Armure: 3 | Speed: 6
-Surges: 9/jour | Surge Value: 12
+Surges: 9/jour | Valeur de Surge: 12
 
 Fusil semi-auto    Score 11 (55%)  1d8+1d6+2  Portée 30
 Revolver           Score 11 (55%)  1d6+1d6    Portée 8
 
 Saves: STR 11 | DEX 11 | WIT 8 | EMP 7
-Shaken: ☐0 ☐1 ☐2 ☐3
+Secoué: ☐0 ☐1 ☐2 ☐3
 Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 ```
 
@@ -86,8 +86,8 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 | **Blessures** | 0 / 6 |
 | **Armure** | **4** | Veste balistique légère |
 | **Speed** | 6 cases | |
-| **Healing Surges** | **4/jour** | Base 5 + bonus STR -1 |
-| **Surge Value** | **7 PV** | Vig 8 + bonus STR -1 |
+| **Surges** | **4/jour** | Base 5 + bonus STR -1 |
+| **Valeur de Surge** | **7 PV** | Vig 8 + bonus STR -1 |
 | **Proficiency** | +1 | |
 | **Saves proficients** | DEX, WIT | |
 
@@ -106,7 +106,7 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 
 **Équipement :** Pistolet semi-auto ($200), Lame de combat ($200), Veste balistique légère ($400), kit de crochetage, micro-espion, communicateur chiffré.
 
-**Features :**
+**Capacités :**
 
 - **Frappe Ciblée (+1d6)** — Dégâts bonus quand tu as Avantage, que tu es Cachée, que la cible n'a pas agi, ou qu'un allié flanque. 1×/tour. Total avec Frappe : 1d6 +1d6 **+1d6** = moyenne 14 dégâts.
 - **Techniques de l'Ombre (1) : Pas de Loup** — Pas de Désavantage sur les jets de Discrétion pour se cacher en combat.
@@ -118,7 +118,7 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 NAIA SERRANO — Infiltrator 1
 STR 7 (-1) | DEX 11 (+3) | WIT 9 (+1) | EMP 7 (-1)
 PV: 14/14 | Blessures: 0/6 | Armure: 4 | Speed: 6
-Surges: 4/jour | Surge Value: 7
+Surges: 4/jour | Valeur de Surge: 7
 
 Pistolet semi-auto  Score 12 (60%)  1d6+1d6       Portée 10
 Lame de combat      Score 12 (60%)  1d6+1d6       Reach 1 (Finesse)
@@ -126,7 +126,7 @@ Lame de combat      Score 12 (60%)  1d6+1d6       Reach 1 (Finesse)
 
 Discrétion: 14 (70%) | Escamotage: 12 | Acrobatie: 12
 Saves: STR 7 | DEX 12 | WIT 10 | EMP 7
-Shaken: ☐0 ☐1 ☐2 ☐3
+Secoué: ☐0 ☐1 ☐2 ☐3
 Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 ```
 
@@ -150,8 +150,8 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 | **Blessures** | 0 / 6 |
 | **Armure** | **3** | Gilet pare-balles souple |
 | **Speed** | 6 cases | |
-| **Healing Surges** | **7/jour** | Base 6 + bonus STR 1 |
-| **Surge Value** | **9 PV** | Vig 8 + bonus STR 1 |
+| **Surges** | **7/jour** | Base 6 + bonus STR 1 |
+| **Valeur de Surge** | **9 PV** | Vig 8 + bonus STR 1 |
 | **Proficiency** | +1 | |
 | **Saves proficients** | WIT, EMP | |
 
@@ -169,27 +169,27 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 
 **Équipement :** Pistolet semi-auto ($200), Gilet pare-balles souple ($300, Discret), kit médical, kit pharmaceutique, $200 en équipement non-militaire (lampe tactique, rations, communicateur).
 
-**Features :**
+**Capacités :**
 
-- **Premiers Soins (1 action)** — Touche un allié adjacent. L'allié dépense 1 de ses Surges et récupère sa Surge Value **+ 2 PV** (ton bonus WIT). Kit médical requis. Ne marche pas sur toi-même.
-  - *Exemple : Rhea (Surge Value 12) soignée par Tomás = 12 + 2 = **14 PV récupérés**. Mieux que le Second Wind de Rhea (12 PV, 1×/combat).*
+- **Premiers Soins (1 action)** — Touche un allié adjacent. L'allié dépense 1 de ses Surges et récupère sa Valeur de Surge **+ 2 PV** (ton bonus WIT). Kit médical requis. Ne marche pas sur toi-même.
+  - *Exemple : Rhea (Valeur de Surge 12) soignée par Tomás = 12 + 2 = **14 PV récupérés**. Mieux que le Second Souffle de Rhea (12 PV, 1×/combat).*
 - **Pratiques Médicales (1) : Diagnostic Rapide** — Action libre au début de ton tour : tu connais le % de PV restants de tous les alliés visibles, et si l'un d'eux est Empoisonné, En Feu, ou infecté.
 - **Formation Scientifique** — Proficiency doublée en Médecine (déjà incluse). +Sciences★.
 
-**En jeu :** Tomás soigne avant tout — mais avec 1d6+1d4 au pistolet, il contribue au tir quand personne n'est blessé. Sa vraie valeur est dans Premiers Soins : chaque action de soin rend Surge Value + 2 PV à un allié (14 PV pour Rhea). Il est le déclencheur de surges de l'équipe. Son array Balanced lui donne une solidité générale sans pic ni trou critique.
+**En jeu :** Tomás soigne avant tout — mais avec 1d6+1d4 au pistolet, il contribue au tir quand personne n'est blessé. Sa vraie valeur est dans Premiers Soins : chaque action de soin rend Valeur de Surge + 2 PV à un allié (14 PV pour Rhea). Il est le déclencheur de surges de l'équipe. Son array Balanced lui donne une solidité générale sans pic ni trou critique.
 
 ```
 DR. TOMÁS ACHEBE — Medic 1
 STR 9 (+1) | DEX 8 (0) | WIT 10 (+2) | EMP 9 (+1)
 PV: 18/18 | Blessures: 0/6 | Armure: 3 | Speed: 6
-Surges: 7/jour | Surge Value: 9
+Surges: 7/jour | Valeur de Surge: 9
 
 Pistolet semi-auto  Score 9 (45%)   1d6+1d4   Portée 10
 
-Premiers Soins: allié dépense 1 surge → Surge Value + 2 PV
+Premiers Soins: allié dépense 1 surge → Valeur de Surge + 2 PV
 Médecine: 12 (60%) | Sciences: 11 | Perception: 11
 Saves: STR 9 | DEX 8 | WIT 11 | EMP 10
-Shaken: ☐0 ☐1 ☐2 ☐3
+Secoué: ☐0 ☐1 ☐2 ☐3
 Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 ```
 
@@ -213,8 +213,8 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 | **Blessures** | 0 / 6 |
 | **Armure** | **5** | Gilet pare-balles (NIJ III) |
 | **Speed** | 6 cases | |
-| **Healing Surges** | **8/jour** | Base 6 + bonus STR 2 |
-| **Surge Value** | **10 PV** | Vig 8 + bonus STR 2 |
+| **Surges** | **8/jour** | Base 6 + bonus STR 2 |
+| **Valeur de Surge** | **10 PV** | Vig 8 + bonus STR 2 |
 | **Proficiency** | +1 | |
 | **Saves proficients** | STR, EMP | |
 
@@ -233,21 +233,21 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 
 **Équipement :** Fusil semi-auto ($300), Revolver ($150), Gilet pare-balles NIJ III ($500, Armure 5, Désavantage Discrétion), radio militaire, jumelles, kit de terrain.
 
-**Features :**
+**Capacités :**
 
 - **Ordres Tactiques (2 ordres) :**
   - **"Concentre ton tir !"** (1 action) — Un allié visible gagne **Avantage** sur sa prochaine attaque + **+2 dégâts** si elle touche.
   - **"Tiens bon !"** (1 action) — Un allié visible gagne **+2 Armure** jusqu'au début de ton prochain tour.
-- **Commandements (1) : Présence de Commandement** — Les alliés à 6 cases ont **Avantage** aux jets de sang-froid (Shaken).
+- **Commandements (1) : Présence de Commandement** — Les alliés à 6 cases ont **Avantage** aux jets de sang-froid (Secoué).
 - **Présence** — Alliés à 6 cases ont Avantage contre la peur et la panique.
 
-**En jeu :** Juno ne fait pas de dégâts — elle rend tout le monde meilleur. Tour typique : "Concentre ton tir !" sur Rhea (Avantage + 2 dégâts), "Tiens bon !" sur Naia (+2 Armure = 6 total), puis un tir au fusil (45%, pas terrible). Sa vraie puissance : Présence de Commandement donne Avantage aux saves de Shaken de tout le groupe. Armure 5 (Désavantage en Discrétion, mais elle s'en fiche — elle est le cerveau, pas le fantôme).
+**En jeu :** Juno ne fait pas de dégâts — elle rend tout le monde meilleur. Tour typique : "Concentre ton tir !" sur Rhea (Avantage + 2 dégâts), "Tiens bon !" sur Naia (+2 Armure = 6 total), puis un tir au fusil (45%, pas terrible). Sa vraie puissance : Présence de Commandement donne Avantage aux saves de Secoué de tout le groupe. Armure 5 (Désavantage en Discrétion, mais elle s'en fiche — elle est le cerveau, pas le fantôme).
 
 ```
 LT. JUNO OKAFOR — Marshal 1
 STR 10 (+2) | DEX 8 (0) | WIT 7 (-1) | EMP 10 (+2)
 PV: 20/20 | Blessures: 0/6 | Armure: 5 | Speed: 6
-Surges: 8/jour | Surge Value: 10
+Surges: 8/jour | Valeur de Surge: 10
 
 Fusil semi-auto    Score 9 (45%)   1d8+1d4   Portée 30
 Revolver           Score 9 (45%)   1d6+1d4   Portée 8
@@ -256,7 +256,7 @@ Ordres: "Concentre ton tir!" (Avantage +2 dégâts)
         "Tiens bon!" (+2 Armure allié)
 Persuasion: 11 | Intimidation: 11 | Intuition: 11
 Saves: STR 11 | DEX 8 | WIT 7 | EMP 11
-Shaken: ☐0 ☐1 ☐2 ☐3
+Secoué: ☐0 ☐1 ☐2 ☐3
 Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 ```
 
@@ -280,8 +280,8 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 | **Blessures** | 0 / 6 |
 | **Armure** | **2** | Cuir épais / veste renforcée |
 | **Speed** | 6 cases | |
-| **Healing Surges** | **3/jour** | Base 4 + bonus STR -1 |
-| **Surge Value** | **5 PV** | Vig 6 + bonus STR -1 |
+| **Surges** | **3/jour** | Base 4 + bonus STR -1 |
+| **Valeur de Surge** | **5 PV** | Vig 6 + bonus STR -1 |
 | **Proficiency** | +1 | |
 | **Saves proficients** | WIT, DEX | |
 
@@ -293,7 +293,7 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 
 | Arme | Score | Dégâts | Portée | Propriétés |
 |---|---|---|---|---|
-| Machine pistol | DEX 9 + 1 = **10** (50%) | 1d4 +1d4, auto 1d6 +1d4 | 6 | Auto-fire |
+| Machine pistol | DEX 9 + 1 = **10** (50%) | 1d4 +1d4, auto 1d6 +1d4 | 6 | Tir Auto |
 
 > *+1d4 = bonus de dégâts (DEX 9).*
 
@@ -312,7 +312,7 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 
 **Équipement :** Machine pistol ($300), Cuir épais ($50), kit d'ingénierie, drone éclaireur "Rustbucket", $200 en composants divers (fil, soudure, pièces de rechange).
 
-**Features :**
+**Capacités :**
 
 - **Drone Compagnon** — Voir ci-dessus. Marquer une cible = Avantage pour tout le groupe.
 - **Innovations (1) : Bidouilleur** — Tu peux tenter de **réparer** un objet Endommagé en plein combat (1 action + jet d'Ingénierie diff 3). Succès : l'objet repasse à Neuf.
@@ -324,14 +324,14 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 SUKI "PATCH" TANAKA — Tech 1
 STR 7 (-1) | DEX 9 (+1) | WIT 11 (+3) | EMP 7 (-1)
 PV: 10/10 | Blessures: 0/6 | Armure: 2 | Speed: 6
-Surges: 3/jour | Surge Value: 5
+Surges: 3/jour | Valeur de Surge: 5
 
 Machine pistol      Score 10 (50%)  1d4+1d4 / auto 1d6+1d4  Portée 6
 Drone "Rustbucket"  PV 6 | Arm 0 | Vol 8 | Marquer = Avantage
 
 Ingénierie: 13 (65%) | Informatique: 12 | Perception: 12
 Saves: STR 7 | DEX 10 | WIT 12 | EMP 7
-Shaken: ☐0 ☐1 ☐2 ☐3
+Secoué: ☐0 ☐1 ☐2 ☐3
 Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 ```
 
@@ -361,11 +361,11 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 
 **Naia (Infiltrator) :** Tu es un scalpel, pas un marteau. Cache-toi (70% de réussite), frappe (14 dégâts avec Frappe Ciblée), replie-toi. Ne reste JAMAIS exposée — 7 PV et Armure 4, tu meurs en 2 tirs.
 
-**Tomás (Medic) :** Soigne en priorité (45% au tir, mais 1d6+1d4 = au moins tu contribues si tu dois tirer). Chaque action de Premiers Soins rend Surge Value + 2 PV à un allié — c'est plus que leur Second Wind. Reste à côté du Grounder ou du Marshal. Diagnostic Rapide te dit qui a besoin de toi.
+**Tomás (Medic) :** Soigne en priorité (45% au tir, mais 1d6+1d4 = au moins tu contribues si tu dois tirer). Chaque action de Premiers Soins rend Valeur de Surge + 2 PV à un allié — c'est plus que leur Second Souffle. Reste à côté du Grounder ou du Marshal. Diagnostic Rapide te dit qui a besoin de toi.
 
-**Juno (Marshal) :** Tu ne fais pas de dégâts. Tu rends les autres terrifiants. "Concentre ton tir !" sur Rhea = Avantage + 2 dégâts. "Tiens bon !" sur Naia = +2 Armure. Présence de Commandement = tout le groupe résiste mieux au Shaken. Tu es le cerveau.
+**Juno (Marshal) :** Tu ne fais pas de dégâts. Tu rends les autres terrifiants. "Concentre ton tir !" sur Rhea = Avantage + 2 dégâts. "Tiens bon !" sur Naia = +2 Armure. Présence de Commandement = tout le groupe résiste mieux au Secoué. Tu es le cerveau.
 
-**Suki (Tech) :** **Ne va JAMAIS au front.** 5 PV, Armure 2. Un seul tir te met à terre. Envoie le drone Marquer les cibles (Avantage pour tout le monde), reste derrière un mur, et répare l'équipement cassé. Ta machine pistol en auto-fire est ton dernier recours.
+**Suki (Tech) :** **Ne va JAMAIS au front.** 5 PV, Armure 2. Un seul tir te met à terre. Envoie le drone Marquer les cibles (Avantage pour tout le monde), reste derrière un mur, et répare l'équipement cassé. Ta machine pistol en tir auto est ton dernier recours.
 
 ---
 
@@ -375,7 +375,7 @@ Conditions: ☐Épuisé ☐Déstabilisé ☐Confus ☐Stressé
 
 1. **Juno** donne "Concentre ton tir !" sur le mercenaire le plus dangereux → Rhea aura Avantage.
 2. **Suki** envoie le drone Marquer le même mercenaire → tous les alliés ont Avantage contre lui.
-3. **Rhea** tire avec Avantage (2d20 garde bas, Score 11 → ~80% de toucher). Dégâts : 1d8 +1d6 +2 = ~10.5. Si elle touche, l'ennemi est Shaken.
+3. **Rhea** tire avec Avantage (2d20 garde bas, Score 11 → ~80% de toucher). Dégâts : 1d8 +1d6 +2 = ~10.5. Si elle touche, l'ennemi est Secoué.
 4. **Naia** se cache (Discrétion 14 = 70%), puis frappe avec Frappe Ciblée depuis la furtivité : 1d6 +1d6 +1d6 = ~14 dégâts.
 5. **Tomás** reste en retrait, prêt à Premiers Soins dès que quelqu'un prend un coup.
 

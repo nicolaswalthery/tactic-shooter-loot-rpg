@@ -10,7 +10,7 @@ L'équilibrage repose sur une question simple : **combien de rounds faut-il aux 
 
 Si les PJ tuent en 2 rounds → trop facile.
 Si les PJ tuent en 3-5 rounds → zone de tension idéale.
-Si les PJ tuent en 6+ rounds → combat enlisé, frustrant, ou mortel (attrition de Shaken).
+Si les PJ tuent en 6+ rounds → combat enlisé, frustrant, ou mortel (attrition de Secoué).
 
 Pour calculer ça, il te faut deux chiffres : le **DPR** (dégâts par round) des PJ et les **PV effectives** des ennemis.
 
@@ -25,7 +25,7 @@ Chaque PJ fait en moyenne 3 actions par round. En pratique, 1-2 actions sont des
 | Classe | Score | % toucher | Dégâts/tir | DPR (2 tirs) | DPR (1 tir) | Rôle |
 |---|---|---|---|---|---|---|
 | **Grounder (Précision)** | 11 | 55% | 1d8+1d6+2 (10.5) | **11.6** | 5.8 | DPR primaire |
-| **Grounder (Assaut, auto)** | 11 | 55% save | 1d10+1d6 (9) | **~10** (auto + Shaken) | — | DPR + suppression |
+| **Grounder (Assaut, auto)** | 11 | 55% save | 1d10+1d6 (9) | **~10** (auto + Secoué) | — | DPR + suppression |
 | **Infiltrator** | 12 | 60% | 1d6+1d6 (7) | **8.4** | — | Burst ponctuel |
 | **Infiltrator (Frappe Ciblée)** | 12 | 60% | 1d6+1d6+1d6 (10.5) | — | **6.3** (1×/tour) | Burst conditionnel |
 | **Marshal** | 9 | 45% | 1d8+1d4 (7) | **6.3** | 3.2 | Support, DPR léger |
@@ -89,7 +89,7 @@ Les PV effectives = PV réelles ajustées par l'Armure. Plus l'Armure est haute,
 | 1 Boss niv 4 + 4 Minions | 105 + 20 = 125 | ~25 | ~5 rounds ⚠️ Boss fight |
 | 1 Boss niv 4 + 8 Minions | 105 + 40 = 145 | ~25 | ~6 rounds 🔴 Mortel |
 
-**Zone optimale : 3-5 rounds.** Assez long pour que le Shaken s'accumule et que les ressources soient dépensées. Assez court pour que ça reste excitant.
+**Zone optimale : 3-5 rounds.** Assez long pour que le Secoué s'accumule et que les ressources soient dépensées. Assez court pour que ça reste excitant.
 
 ---
 
@@ -105,7 +105,7 @@ Les PV effectives = PV réelles ajustées par l'Armure. Plus l'Armure est haute,
 | **Marshal** | 20 | 5 | ~17 | 10 | 8 | 10 + 8×10 = **90** |
 | **Tech** | 10 | 2 | ~6 | 5 | 3 | 5 + 3×5 = **20** |
 
-Le "Total PV récupérables" est théorique (toutes les surges de la journée dépensées sur un seul combat). En pratique, les PJ dépensent 2-4 surges par combat.
+Le "Total PV récupérables" est théorique (tous les surges de la journée dépensés sur un seul combat). En pratique, les PJ dépensent 2-4 surges par combat.
 
 ### DPR ennemi typique
 
@@ -140,10 +140,10 @@ Le premier PJ à tomber est presque toujours le **Tech** (PV eff. 6) ou l'**Infi
 
 ### Pour un groupe de 4-5 PJ
 
-| Difficulté | Ennemis (pour 5 PJ) | TTK attendu | Surges dépensées | Risque |
+| Difficulté | Ennemis (pour 5 PJ) | TTK attendu | Surges dépensés | Risque |
 |---|---|---|---|---|
 | **Facile** | 4-6 Minions | 1-2 rounds | 0-1 | Aucun PJ en danger |
-| **Moyen** | 2 Adversaires + 3-4 Minions | 3-4 rounds | 1-3 | Shaken fréquent, PV entamés |
+| **Moyen** | 2 Adversaires + 3-4 Minions | 3-4 rounds | 1-3 | Secoué fréquent, PV entamés |
 | **Difficile** | 3 Adversaires + 4-6 Minions | 4-5 rounds | 3-5 | 1 PJ tombe probablement à 0 PV |
 | **Mortel** | 4+ Adversaires + Minions OU 2 Adv niv+2 | 5-6 rounds | 5+ | TPK possible si mal joué |
 | **Boss fight** | 1 Boss (Phase 2 obligatoire) + 4-6 Minions | 4-6 rounds | 3-6 | Le Boss est le timer ; les Minions gèrent les PJ |
@@ -173,12 +173,12 @@ Un seul combat Moyen ne tue personne. Trois combats Moyens dans le même Shift t
 |---|---|---|---|---|
 | **Surges Grounder** | 9 | 7 (-2) | 4 (-3) | 1 (-3) |
 | **Surges Tech** | 3 | 1 (-2) | **0** ❌ | 0 |
-| **Second Wind** | Disponible | Utilisé | — | — |
+| **Second Souffle** | Disponible | Utilisé | — | — |
 | **Conditions** | 0 | 0-1 (push) | 1-2 | 2-3 (impact fort) |
 | **Équipement** | Neuf | Neuf | 1 Endommagé? | 1-2 Endommagés |
 | **Stretch Rests** | 2 dispo | 1 dispo | 0 dispo | — |
 
-**Le Tech est à sec après 2 combats.** 3 surges de base. Un combat moyen coûte 1-2 surges (Second Wind + 1 soin). Après 2 combats, il n'a plus de surges et ses 5 PV ne se rechargent plus. Le 3e combat est une sentence de mort pour lui.
+**Le Tech est à sec après 2 combats.** 3 surges de base. Un combat moyen coûte 1-2 surges (Second Souffle + 1 soin). Après 2 combats, il n'a plus de surges et ses 5 PV ne se rechargent plus. Le 3e combat est une sentence de mort pour lui.
 
 **Le cap de 2 Stretch Rests par Shift** est le verrou qui empêche la récupération infinie. Sans ce cap, les joueurs se reposent 15 min après chaque combat et reviennent au max. Avec le cap, ils doivent choisir : se reposer maintenant ou garder le Stretch pour plus tard ?
 
@@ -250,7 +250,7 @@ Le combat ne devrait pas être statique. Quelque chose change au round 3-4 :
 
 ### 8.1. Trop de Minions
 
-Les Minions meurent en 1 coup, mais **chaque Minion inflige du Shaken**. 10 Minions qui tirent = 4-5 hits = Shaken 3 sur plusieurs PJ. Même si les dégâts sont faibles (1d4, Armure absorbe presque tout), le Shaken s'accumule et paralyse l'escouade. 
+Les Minions meurent en 1 coup, mais **chaque Minion inflige du Secoué**. 10 Minions qui tirent = 4-5 hits = Secoué 3 sur plusieurs PJ. Même si les dégâts sont faibles (1d4, Armure absorbe presque tout), le Secoué s'accumule et paralyse l'escouade. 
 
 **Solution :** Maximum 3 Minions par PJ en simultané. Les renforts arrivent par vagues, pas tous en même temps.
 
@@ -275,7 +275,7 @@ Un Boss seul contre 5 PJ se fait concentrer et meurt en 2-3 rounds, quelle que s
 
 ### 8.4. Pas de couverture
 
-Un combat en terrain ouvert = les deux camps se tirent dessus sans bouger. C'est ennuyeux et punitif (Shaken s'accumule sans moyen de l'éviter).
+Un combat en terrain ouvert = les deux camps se tirent dessus sans bouger. C'est ennuyeux et punitif (Secoué s'accumule sans moyen de l'éviter).
 
 **Solution :** Il y a toujours de la couverture. Même un parking a des voitures. Même un couloir a des portes.
 
@@ -299,8 +299,8 @@ Le Tech a 5 PV niv 1. Si les ennemis le ciblent (et les ennemis intelligents le 
 
 **Analyse :**
 - TTK : 4 Minions. Le Grounder en élimine 2 en 1 round (2 tirs à 55%, dégâts > 2+1d4). L'Infiltrator en prend 1. Le Marshal/Tech/Medic en prennent 1 entre eux. **Combat fini en 1-2 rounds.**
-- Risque : Quasi-nul. 4 Minions à Score 8 = 40% de toucher, 1d4 dégâts. L'Armure des PJ absorbe presque tout. Shaken 1 possible, pas dangereux.
-- Surges dépensées : 0-1.
+- Risque : Quasi-nul. 4 Minions à Score 8 = 40% de toucher, 1d4 dégâts. L'Armure des PJ absorbe presque tout. Secoué 1 possible, pas dangereux.
+- Surges dépensés : 0-1.
 - **Objectif :** Échauffement. Apprendre les mécaniques.
 
 ---
@@ -318,8 +318,8 @@ Le Tech a 5 PV niv 1. Si les ennemis le ciblent (et les ennemis intelligents le 
 - PV eff. totales : (4 × 5) + (2 × 28) = 76.
 - TTK : 76 ÷ 25 DPR ≈ **3 rounds.**
 - Les Minions tombent vite (round 1-2). Les Mercenaires résistent 2-3 rounds chacun.
-- Risque : Les 4 Minions au round 1 infligent potentiellement Shaken 2-3 sur un PJ exposé. Le Mercenaire à 1d8+1 = 5.5 dégâts moyens, contre Armure 3-4 du PJ = 1-2 dégâts nets + Shaken.
-- Surges dépensées : 2-4.
+- Risque : Les 4 Minions au round 1 infligent potentiellement Secoué 2-3 sur un PJ exposé. Le Mercenaire à 1d8+1 = 5.5 dégâts moyens, contre Armure 3-4 du PJ = 1-2 dégâts nets + Secoué.
+- Surges dépensés : 2-4.
 - **Objectif :** Combat standard. Test de positionnement (couverture) et de priorité (Minions d'abord ou Adversaires d'abord ?).
 
 ---
@@ -337,9 +337,9 @@ Le Tech a 5 PV niv 1. Si les ennemis le ciblent (et les ennemis intelligents le 
 **Analyse :**
 - PV eff. totales : (3 × 5) + (2 × 16) + (1 × 32) = 79. Mais la tourelle a Armure 6 (réduit les dégâts considérablement pour des PJ niv 1).
 - TTK : La tourelle seule prend 4-5 rounds à détruire. Les drones et soldats tombent en 2-3 rounds.
-- Risque : La tourelle en auto-fire touche 2-3 PJ par round, chacun fait save DEX ou prend 2d8 (9) - Armure. Shaken garanti sur tous. En 2 rounds, l'escouade entière peut être à Shaken 2+.
+- Risque : La tourelle en tir auto touche 2-3 PJ par round, chacun fait save DEX ou prend 2d8 (9) - Armure. Secoué garanti sur tous. En 2 rounds, l'escouade entière peut être à Secoué 2+.
 - **Le Tech peut hacker la tourelle** (Firewall 4) — c'est la solution élégante.
-- Surges dépensées : 4-6. Quelqu'un tombe probablement à 0 PV.
+- Surges dépensés : 4-6. Quelqu'un tombe probablement à 0 PV.
 - **Objectif :** Combat puzzle. La tourelle est le problème — les PJ doivent trouver une solution (hack, grenade EMP, flanquer pour l'angle mort 90°, ou la détruire à brute force).
 
 ---
@@ -351,14 +351,14 @@ Le Tech a 5 PV niv 1. Si les ennemis le ciblent (et les ennemis intelligents le 
 | Ennemi | Type | Score | Dégâts | Armure | PV | Spécial |
 |---|---|---|---|---|---|---|
 | Garde ×2 | Minion Recrue | 8 | 1d4 | 2 | 1 hit | Formation |
-| Harada | Boss niv 4 | 11 | 1d8+3 / 1d6+3 Stun | 6 | 24 (+ Phase 2: 15 PV) | 2 cartes, Commandement, Riposte, Phase 2 |
+| Harada | Boss niv 4 | 11 | 1d8+3 / 1d6+3 Étourdissement | 6 | 24 (+ Phase 2: 15 PV) | 2 cartes, Commandement, Riposte, Phase 2 |
 | Renforts (round 3) | Minion Vétéran ×2d4 | 9 | 1d6 auto 1d8 | 4 | 1 hit | Arrivent round 3 |
 
 **Analyse :**
 - PV eff. Harada : 24 PV (Phase 1) + 15 PV (Phase 2) = 39 PV total. TTK réel : **4-5 rounds** (Phase 1 ~2r + Phase 2 ~2-3r). Dynamique.
 - Harada agit 2×/round. Commandement donne Avantage à ses gardes. Riposte punit les attaquants au corps à corps. Phase 2 (PV 0 → regagne 40 PV, passe au fusil, Frénésie) étend le combat de 2-3 rounds.
-- Les renforts au round 3 ajoutent Shaken + distraction. Le Marshal ou le Grounder doit les gérer pendant que le reste focus Harada.
-- Surges dépensées : 6-8. Au moins 1 PJ tombe à 0 PV. Possible 2.
+- Les renforts au round 3 ajoutent Secoué + distraction. Le Marshal ou le Grounder doit les gérer pendant que le reste focus Harada.
+- Surges dépensés : 6-8. Au moins 1 PJ tombe à 0 PV. Possible 2.
 - **TTK total avec Phase 2 : 7-9 rounds.** C'est long. Le Medic est absolument critique.
 
 ---

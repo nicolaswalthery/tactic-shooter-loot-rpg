@@ -19,25 +19,25 @@
 | Push de jet | **Dragonbane-style.** Relancer un jet raté. Coût : condition (Désavantage sur 1 stat) OU dégradation d'équipement. |
 | Conditions | **4 conditions sur 4 stats :** Épuisé (STR), Déstabilisé (DEX), Confus (WIT), Stressé (EMP). Chaque condition = Désavantage sur tous les jets de la stat. |
 | Dégradation loot | **3 états : Neuf → Endommagé → Détruit.** Endommagé = bonus divisé par 2. Détruit = inutilisable. |
-| Stat increases | **3 augmentations** aux niveaux 4, 8, 12 (stat au choix, pas de restriction principale/secondaire). |
+| Augmentations de stat | **3 augmentations** aux niveaux 4, 8, 12 (stat au choix, pas de restriction principale/secondaire). |
 | Dégâts | Dés d'arme + bonus de dégâts (stat 8-9 = +1d4, stat 10-12 = +1d6, stat 13+ = +1d8. PJ uniquement). **Minimum 1 dégât** par attaque réussie. |
 | Armure | **Passive** — toujours active. Couverture partielle ajoute +2 à l'Armure. |
 | Mouvement | **Grille tactique, 6 cases de base** (Nimble). Sprint = 2 actions. |
-| Tir automatique | **2 actions.** Jusqu'à 3 cibles, save DEX, dégâts "auto" (dé supérieur). **Shaken garanti** même sur save réussi. |
+| Tir automatique | **2 actions.** Jusqu'à 3 cibles, save DEX, dégâts "auto" (dé supérieur). **Secoué garanti** même sur save réussi. |
 | Munitions | **Abstraction narrative.** Pas de tracking. Outil scénaristique du MJ si besoin. |
 | Mêlée | Réaction possible au corps à corps pour parer. |
-| Shaken | Niveaux 1/2/3. Chaque hit = +1 niveau. Dure **1 round max**. Save STR ou WIT début de tour (pas de diff). |
+| Secoué | Niveaux 1/2/3. Chaque hit = +1 niveau. Dure **1 round max**. Save STR ou WIT début de tour (pas de diff). |
 | Économie d'actions | 3 actions par tour (modèle Nimble). |
 | Initiative | **Cartes d'initiative (Dragonbane).** Retirage chaque round. Boss = 2+ cartes. |
 | Gestion du temps | **Round (~10s), Stretch (~15min), Shift (~6h).** 4 shifts/jour. |
 | Catégories d'ennemis | **Minion** (1 touche = mort), **Adversaire** (PV/Blessures normaux), **Boss** (2+ cartes, réactions). |
 | Tech Levels | Système TL 0-5 d'Ultramodern5 intégré. |
-| Crafting | Basé sur le toolkit Genesys (Hard Points, Qualités, Attachments). |
+| Crafting | Basé sur le toolkit Genesys (Points de Modification, Qualités, Accessoires). |
 | Classes | **5 classes core** : Grounder, Infiltrator, Medic, Marshal, Tech. |
 | Points de vie | **Pool unique : PV + PV.** PV = ablation. Blessures = blessures réelles. Crits infligent 1 Blessure → PV. |
 | Vigueur | **Indice de durabilité par classe** (6, 8, 10). Valeur fixe, pas de dé. |
-| Guérison | **Healing Surges** (inspiré 4e). Modèle restrictif : déclencheurs obligatoires. |
-| Repos | **Restrictif.** Second Wind 1×/combat. Stretch Rest = 1 surge. Shift Rest = tout revient. Max 2 Stretch entre chaque Shift. |
+| Guérison | **Surges** (inspiré 4e). Modèle restrictif : déclencheurs obligatoires. |
+| Repos | **Restrictif.** Second Souffle 1×/combat. Stretch Rest = 1 surge. Shift Rest = tout revient. Max 2 Stretch entre chaque Shift. |
 | Compatibilité 5e | Oui, comme Nimble — conversion rapide des modules et monstres existants. |
 
 ---
@@ -90,7 +90,7 @@ Le système distingue deux types de perception fondamentalement différents :
 
 ### Bonus de stat
 
-Le **bonus** d'une stat = **valeur - 8**. C'est l'équivalent du modificateur D&D 5e. Il intervient dans les formules de dégâts, PV, Blessures, Healing Surges, etc.
+Le **bonus** d'une stat = **valeur - 8**. C'est l'équivalent du modificateur D&D 5e. Il intervient dans les formules de dégâts, PV, Blessures, Surges, etc.
 
 | Valeur | Bonus |
 |---|---|
@@ -100,11 +100,11 @@ Le **bonus** d'une stat = **valeur - 8**. C'est l'équivalent du modificateur D&
 | 10 | +2 |
 | 11 | +3 |
 
-**Exemple :** STR 10 → bonus STR = +2. Utilisé pour les PV, les Blessures, les Healing Surges.
+**Exemple :** STR 10 → bonus STR = +2. Utilisé pour les PV, les Blessures, les Surges.
 
 ### Bonus de dégâts
 
-Le bonus de stat intervient pour les PV, Blessures, Healing Surges, etc. Mais les **dégâts des armes** utilisent un système à seuils séparé, inspiré de Dragonbane. La stat utilisée dépend de l'arme : **DEX** pour les armes à distance, **STR** pour la mêlée (ou DEX si finesse).
+Le bonus de stat intervient pour les PV, Blessures, Surges, etc. Mais les **dégâts des armes** utilisent un système à seuils séparé, inspiré de Dragonbane. La stat utilisée dépend de l'arme : **DEX** pour les armes à distance, **STR** pour la mêlée (ou DEX si finesse).
 
 | Valeur de stat d'arme | Bonus de dégâts |
 |---|---|
@@ -132,9 +132,9 @@ Chaque classe a 1 save avantagé (+) et 1 save désavantagé (–), les 2 autres
 
 EMP est la stat qui pourra se dégrader avec la cybernétisation (inspiré Cyberpunk 2020/RED). Chaque implant réduit l'EMP max ou impose un malus. Un Street Samurai avec plein de chrome a STR 13, DEX 13... et EMP 8. Il est une machine de guerre mais il ne peut plus connecter avec personne — vulnérable à la manipulation émotionnelle, à la peur, au breakdown mental. Ce mécanisme est optionnel et réservé aux settings cyberpunk.
 
-### Jet de sang-froid pour Shaken (v4 — 1 round)
+### Jet de sang-froid pour Secoué (v4 — 1 round)
 
-Le joueur fait un jet de **STR ou WIT** (roll-under, pas de difficulté) au début de son tour. Réussite = Shaken effacé, tour normal. Échec = effets de Shaken ce tour, puis réinitialisation à 0 en fin de tour. Voir section 6 pour le détail complet.
+Le joueur fait un jet de **STR ou WIT** (roll-under, pas de difficulté) au début de son tour. Réussite = Secoué effacé, tour normal. Échec = effets de Secoué ce tour, puis réinitialisation à 0 en fin de tour. Voir section 6 pour le détail complet.
 
 ---
 
@@ -219,7 +219,7 @@ Les modificateurs ne sont jamais des +1/-2. C'est toujours **Avantage** (avantag
 | Obscurité, fumée, brouillard | **Désavantage** sur les attaques à distance |
 | Cible au sol (prone) | **Avantage** en mêlée, **Désavantage** à distance |
 | Viser (1 action dépensée) | **Avantage** sur le prochain tir |
-| Shaken (tout niveau) | **Désavantage** sur toutes tes actions |
+| Secoué (tout niveau) | **Désavantage** sur toutes tes actions |
 | Surprise | **Avantage** + tu choisis ta carte d'initiative |
 
 Le MJ a un seul levier : Avantage, Désavantage, ou normal. Pas de calcul.
@@ -235,7 +235,7 @@ Un Gunslinger (DEX 10, proficient en armes de poing, prof +1 au niv 1) tire sur 
 5. Dégâts : 1d8 (arme) + 1d4 (bonus dégâts, DEX 10) = ex: 5 + 3 = **8**
 6. Armure effective du mercenaire : 5 (armure) + 2 (couverture) = **7**
 7. Dégâts nets : 8 - 7 = **1 PV perdu**
-8. Le mercenaire passe à **Shaken 1** (Désavantage sur toutes ses actions).
+8. Le mercenaire passe à **Secoué 1** (Désavantage sur toutes ses actions).
 
 Le joueur connaît son Score (12), pas de Défense à demander au MJ. Il roule, il touche ou pas. L'Armure + couverture gèrent la protection.
 
@@ -391,7 +391,7 @@ Identique à D&D 5e / Dragonbane (avantage/désavantage) :
 
 1. **Le joueur sait immédiatement.** Pas besoin d'attendre "est-ce que ça touche ?". Tu vois ton dé, tu connais ton seuil, c'est réglé.
 2. **Échelle lisible.** Les Scores vont de 7 à 17. Des chiffres petits, faciles à manipuler.
-3. **Compatible avec tout le design existant.** L'Armure, le Shaken, les PV/Blessures, les Healing Surges — rien ne change. Seul le moment du "touché/raté" est inversé.
+3. **Compatible avec tout le design existant.** L'Armure, le Secoué, les PV/Blessures, les Surges — rien ne change. Seul le moment du "touché/raté" est inversé.
 4. **L'armure est clairement séparée.** Toucher = roll-under (passer ou rater). Armure = absorption (dégâts réduits). Le joueur comprend les deux couches distinctement.
 5. **La difficulté est réservée aux skill checks.** Difficulté d'un skill check, Firewall pour le hacking — c'est un nombre qu'on soustrait du Score. En combat, la difficulté est toujours 0 (attaques ET saves).
 
@@ -404,7 +404,7 @@ Identique à D&D 5e / Dragonbane (avantage/désavantage) :
 | Coût | Exemples |
 |------|----------|
 | 1 action | Attaque (tir simple), se déplacer, recharger, viser (Avantage au prochain tir), évaluer (Assess), interagir, cantrip/pouvoir mineur, se relever |
-| 2 actions | **Tir Automatique** (arme auto-fire), Pouvoir/capacité majeur, sprint (double mouvement), premiers soins, hacking, utiliser un gadget complexe |
+| 2 actions | **Tir Automatique** (arme tir auto), Pouvoir/capacité majeur, sprint (double mouvement), premiers soins, hacking, utiliser un gadget complexe |
 | 3 actions | Capacité ultime, action très complexe |
 
 ### Réactions (hors tour — coûte 1 action de ton prochain tour)
@@ -417,13 +417,13 @@ Chaque réaction coûte **1 action**, retirée de ton prochain tour. Chaque type
 | **Interposition** | Tu prends l'attaque à la place d'un allié adjacent | Universel. 1×/round. |
 | **Attaque d'opportunité** | Frappe un ennemi qui quitte ta zone de mêlée | Mêlée uniquement. 1×/round. |
 | **Riposte** (capacité de classe) | Contre-attaque après avoir été touché | Certaines classes seulement. 1×/round. |
-| **Snap Out Of It** | Réduit le niveau de Shaken d'un allié adjacent de 1 | Universel. 1×/round. |
+| **Snap Out Of It** | Réduit le niveau de Secoué d'un allié adjacent de 1 | Universel. 1×/round. |
 
 ### Tir Automatique (Autofire)
 
-Les armes avec la propriété **Auto-fire** peuvent tirer en mode automatique. Chaque arme auto-fire possède **deux valeurs de dégâts** : dégâts simples et dégâts auto (le dé monte d'un cran en auto).
+Les armes avec la propriété **Tir Auto** peuvent tirer en mode automatique. Chaque arme tir auto possède **deux valeurs de dégâts** : dégâts simples et dégâts auto (le dé monte d'un cran en auto).
 
-**Tir Simple (1 action) :** Jet d'attaque normal (roll-under). Touché = dégâts simples (+ bonus de dégâts de stat) + Shaken +1 niveau. Raté = rien.
+**Tir Simple (1 action) :** Jet d'attaque normal (roll-under). Touché = dégâts simples (+ bonus de dégâts de stat) + Secoué +1 niveau. Raté = rien.
 
 **Tir Automatique (2 actions) :** Désigne jusqu'à **3 cibles** à portée. L'attaquant **ne fait pas de jet d'attaque**. Chaque cible fait un **save DEX** (roll-under, difficulté 0).
 
@@ -431,11 +431,11 @@ Les armes avec la propriété **Auto-fire** peuvent tirer en mode automatique. C
 |---|---|
 | **Échec** | Dégâts auto de l'arme (+ bonus de dégâts de stat). Armure s'applique. |
 | **Réussite** | Pas de dégâts. |
-| **Dans les deux cas** | La cible gagne **Shaken +1 niveau** (les balles sifflent, c'est de la suppression). |
+| **Dans les deux cas** | La cible gagne **Secoué +1 niveau** (les balles sifflent, c'est de la suppression). |
 
-> **Exemple :** Un Grounder avec un fusil d'assaut (1d8 simple / 1d10 auto, DEX 10 → +1d4 dégâts) tire en automatique sur 3 soldats. Chaque soldat fait un save DEX. Ceux qui échouent prennent 1d10 + 1d4 (Armure s'applique). Les trois deviennent Shaken +1, qu'ils aient esquivé ou non.
+> **Exemple :** Un Grounder avec un fusil d'assaut (1d8 simple / 1d10 auto, DEX 10 → +1d4 dégâts) tire en automatique sur 3 soldats. Chaque soldat fait un save DEX. Ceux qui échouent prennent 1d10 + 1d4 (Armure s'applique). Les trois deviennent Secoué +1, qu'ils aient esquivé ou non.
 
-> **Design note :** Le tir automatique est qualitativement différent du tir simple. C'est les cibles qui décident si elles esquivent (save DEX), pas toi qui décides si tu touches (jet d'attaque). Très efficace contre les cibles lentes (DEX basse), faible contre les cibles agiles (DEX haute). Le Shaken garanti est la vraie valeur — même sur un save réussi, tu fais monter le Shaken. C'est la suppression.
+> **Design note :** Le tir automatique est qualitativement différent du tir simple. C'est les cibles qui décident si elles esquivent (save DEX), pas toi qui décides si tu touches (jet d'attaque). Très efficace contre les cibles lentes (DEX basse), faible contre les cibles agiles (DEX haute). Le Secoué garanti est la vraie valeur — même sur un save réussi, tu fais monter le Secoué. C'est la suppression.
 
 ### Munitions — Abstraction narrative
 
@@ -474,9 +474,9 @@ Au début de **chaque round**, chaque participant tire une carte numérotée (1-
 
 | Type de repos | Durée | Effet |
 |---|---|---|
-| **Second Wind** | 1 round (en combat) | Dépense 1 Healing Surge, récupère Surge Value en PV. 1×/combat. |
-| **Stretch Rest** (repos court) | 1 stretch (15 min) | Dépense **1 Healing Surge** (max). Soigne **1 condition**. Max 2 Stretch Rests entre chaque Shift. |
-| **Shift Rest** (repos long) | 1 shift (6h), lieu sûr | Toutes les surges reviennent. PV au max. 1 Blessures récupéré (2 avec soins). Toutes conditions soignées. Équipement Endommagé réparable. |
+| **Second Souffle** | 1 round (en combat) | Dépense 1 Surge, récupère Valeur de Surge en PV. 1×/combat. |
+| **Stretch Rest** (repos court) | 1 stretch (15 min) | Dépense **1 Surge** (max). Soigne **1 condition**. Max 2 Stretch Rests entre chaque Shift. |
+| **Shift Rest** (repos long) | 1 shift (6h), lieu sûr | Tous les surges reviennent. PV au max. 1 Blessures récupéré (2 avec soins). Toutes conditions soignées. Équipement Endommagé réparable. |
 
 **Voyage :** ~15 km/shift à pied, ~30 km/shift en véhicule. Max 2 shifts de voyage/jour (un 3ème = Épuisé).
 
@@ -552,19 +552,19 @@ Voir section 3 (Mouvement & Positionnement) pour le détail complet. En résumé
 ### Parade en mêlée
 Au corps à corps uniquement, un personnage peut utiliser sa réaction "Parade" pour tenter de bloquer une attaque (jet d'arme de mêlée). Cela coûte 1 action du prochain tour. En cas de réussite, l'attaque est annulée.
 
-**Même si l'armure absorbe TOUS les dégâts → le personnage doit quand même faire un jet de Shaken** (voir section 6). L'impact existe, même si la balle n'a pas pénétré.
+**Même si l'armure absorbe TOUS les dégâts → le personnage doit quand même faire un jet de Secoué** (voir section 6). L'impact existe, même si la balle n'a pas pénétré.
 
 ---
 
 ## 5. VIGUEUR, VITALITY POINTS & WOUND POINTS
 
-> **Source :** Inspiré du système PV/Blessures de Star Wars d20 (Revised Core Rulebook, WotC 2002), du système Healing Surges de D&D 4e, adapté à notre mécanique Armure/Shaken. CON supprimé — la durabilité repose sur la **Vigueur** (indice de classe) + **STR** (condition physique personnelle).
+> **Source :** Inspiré du système PV/Blessures de Star Wars d20 (Revised Core Rulebook, WotC 2002), du système Surges de D&D 4e, adapté à notre mécanique Armure/Secoué. CON supprimé — la durabilité repose sur la **Vigueur** (indice de classe) + **STR** (condition physique personnelle).
 
 ### Vigueur — L'indice de durabilité de classe
 
 > **Design Intent :** La Vigueur ne représente pas "tu es né costaud." C'est "ton parcours t'a endurci." C'est l'accumulation d'expérience face à la douleur, au stress physique, au danger. Un Heavy a Vigueur 10 parce qu'il a passé des années sur le terrain — il a pris des balles, dormi dans la boue, fait des marches forcées. Son corps *sait* ce que c'est qu'encaisser. Un Techie a Vigueur 6 parce que son parcours c'est des labos, des écrans, des salles serveur climatisées — son corps n'a jamais été confronté à la violence physique prolongée.
 >
-> **Vigueur = ce que ta classe t'a appris à endurer. Bonus STR (= STR - 8) = ce que toi, personnellement, tu apportes en plus.** Les deux s'additionnent partout : Blessures, PV par niveau, surge value.
+> **Vigueur = ce que ta classe t'a appris à endurer. Bonus STR (= STR - 8) = ce que toi, personnellement, tu apportes en plus.** Les deux s'additionnent partout : Blessures, PV par niveau, Valeur de Surge.
 
 La Vigueur est un **chiffre fixe par classe** (6, 8, 10 ou 12) — ce n'est pas un dé qu'on lance. Un seul nombre, trois fonctions :
 
@@ -582,7 +582,7 @@ La Vigueur est un **chiffre fixe par classe** (6, 8, 10 ou 12) — ce n'est pas 
 
 Les points de vie sont séparés en **deux barres distinctes** qui représentent des choses fondamentalement différentes :
 
-- **Points de Vie (PV)** = Chance, fatigue, éraflures, "near-misses". C'est l'entraînement du personnage qui transforme un tir létal en un impact de rien du tout. Les PV **augmentent avec le niveau** — un vétéran encaisse plus de "presque" qu'une recrue. Les PV se **récupèrent via les Healing Surges**.
+- **Points de Vie (PV)** = Chance, fatigue, éraflures, "near-misses". C'est l'entraînement du personnage qui transforme un tir létal en un impact de rien du tout. Les PV **augmentent avec le niveau** — un vétéran encaisse plus de "presque" qu'une recrue. Les PV se **récupèrent via les Surges**.
 - **Blessures** = Blessures réelles. Chair, os, sang. Quand tu perds des Blessures, quelque chose de grave s'est passé dans ton corps. Les Blessures sont **fixes** — ils ne montent pas avec le niveau (comme Star Wars d20). Les Blessures se **récupèrent lentement** (repos uniquement).
 
 ### Calcul des PV et Blessures
@@ -602,11 +602,11 @@ Les points de vie sont séparés en **deux barres distinctes** qui représentent
 | Espion | Infiltrator (Vig 8) | 5 | 8 | 8 | 0 | 8 + 4×5 = 28 | 8 |
 | Hacker | Tech (Vig 6) | 10 | 6 | 7 | -1 | 5 + 9×4 = 41 | 5 |
 
-### Healing Surges — Le système de guérison
+### Surges — Le système de guérison
 
-> **Source :** Directement inspiré de D&D 4e. Toute guérison de PV passe par les Healing Surges. Le concept central : un soldat entraîné (haute Vigueur, STR élevé) récupère mieux et plus souvent qu'un civil.
+> **Source :** Directement inspiré de D&D 4e. Toute guérison de PV passe par les Surges. Le concept central : un soldat entraîné (haute Vigueur, STR élevé) récupère mieux et plus souvent qu'un civil.
 
-**Nombre de Healing Surges par jour** = base classe + bonus STR :
+**Nombre de Surges par jour** = base classe + bonus STR :
 
 | Classe | Base Surges | Profil |
 |--------|-------------|--------|
@@ -616,9 +616,9 @@ Les points de vie sont séparés en **deux barres distinctes** qui représentent
 | **Infiltrator** | 5 + STR | Furtif. Évite les coups, moins besoin de réserve. |
 | **Tech** | 4 + STR | Arrière-ligne. Le plus fragile. |
 
-**Healing Surge Value** (combien tu récupères par surge) = **Vigueur + bonus STR**, fixe, toujours identique. Pas de lancer de dé — zéro aléatoire, tu peux planifier tes décisions tactiques en toute confiance.
+**Valeur de Surge** (combien tu récupères par surge) = **Vigueur + bonus STR**, fixe, toujours identique. Pas de lancer de dé — zéro aléatoire, tu peux planifier tes décisions tactiques en toute confiance.
 
-| Exemple | Vigueur | STR | Surges/jour | Surge Value | Total récupérable/jour |
+| Exemple | Vigueur | STR | Surges/jour | Valeur de Surge | Total récupérable/jour |
 |---------|---------|-----|-------------|-------------|----------------------|
 | Grounder (STR 10, bonus +2) | 10 | +2 | 9 | 12 PV | 108 PV |
 | Marshal (STR 9, bonus +1) | 8 | +1 | 7 | 9 PV | 63 PV |
@@ -627,22 +627,22 @@ Les points de vie sont séparés en **deux barres distinctes** qui représentent
 
 Le tank a le double de récupération totale du Techie. C'est ce qui encourage le Heavy à prendre les coups : il en tire un bien meilleur rendement.
 
-**Comment dépenser une Healing Surge — Modèle restrictif :**
+**Comment dépenser une Surge — Modèle restrictif :**
 
 > **Changement v4 :** Les surges sont une ressource finie et précieuse. On ne les dépense pas librement — il faut un **déclencheur**. C'est ce qui rend le Medic et le Marshal indispensables.
 
 | Déclencheur | Quand | Coût | Effet |
 |---|---|---|---|
-| **Second Wind** | En combat (1 action) | 1 Surge du personnage | Récupère Surge Value en PV. **1×/combat.** |
-| **Stretch Rest** | Hors combat (~15 min) | 1 Surge du patient | Récupère Surge Value en PV. **1 seule fois par Stretch.** |
-| **Stim Pack** | En combat ou hors combat (1 action) | 1 Surge du patient + consomme le stim | Récupère Surge Value en PV. Le stim est la clé. |
-| **Pouvoir Medic** | En combat ou Stretch (1 action du Medic) | 1 Surge du patient | Le Medic active la surge d'un allié adjacent. Bonus possibles selon niveau. |
+| **Second Souffle** | En combat (1 action) | 1 Surge du personnage | Récupère Valeur de Surge en PV. **1×/combat.** |
+| **Stretch Rest** | Hors combat (~15 min) | 1 Surge du patient | Récupère Valeur de Surge en PV. **1 seule fois par Stretch.** |
+| **Stim Pack** | En combat ou hors combat (1 action) | 1 Surge du patient + consomme le stim | Récupère Valeur de Surge en PV. Le stim est la clé. |
+| **Pouvoir Medic** | En combat ou Stretch (1 action du Medic) | 1 Surge du patient | Le Medic active le surge d'un allié adjacent. Bonus possibles selon niveau. |
 | **Pouvoir Marshal** | En combat (capacité de classe) | 1 Surge de l'allié ciblé | Le Marshal galvanise un allié — "Debout soldat !" |
 | **Objet spécial (TL élevé)** | Variable | 1 Surge + l'objet | Nano-injecteur, auto-chirurgien, etc. |
 
-**Contraintes :** Max **2 Stretch Rests** entre chaque Shift Rest. Surges ne se régénèrent **que** sur un Shift Rest (6-8h). Personne ne crée de surges supplémentaires (sauf capacités très rares de haut niveau). **Les surges ne soignent PAS les PV.** Jamais.
+**Contraintes :** Max **2 Stretch Rests** entre chaque Shift Rest. Les surges ne se régénèrent **que** sur un Shift Rest (6-8h). Personne ne crée de surges supplémentaires (sauf capacités très rares de haut niveau). **Les surges ne soignent PAS les Blessures.** Jamais.
 
-**Shift Rest (6-8h) :** PV au maximum. Toutes les Surges reviennent. Shaken effacé. Toutes conditions effacées. Blessures : récupère **1 Blessures** naturellement (2 avec soins médicaux). Critiques mineurs guérissent automatiquement. Équipement Endommagé peut être réparé (jet d'Engineering).
+**Shift Rest (6-8h) :** PV au maximum. Tous les Surges reviennent. Secoué effacé. Toutes conditions effacées. Blessures : récupère **1 Blessures** naturellement (2 avec soins médicaux). Critiques mineurs guérissent automatiquement. Équipement Endommagé peut être réparé (jet d'Engineering).
 
 **Règle critique :** Si tu n'as plus de surges, tu ne peux plus te soigner en PV. La seule option est un Shift Rest.
 
@@ -682,33 +682,33 @@ Quand les PV tombent à 0, les dégâts restants de l'attaque qui les a vidés *
 
 *Exemple : Elena a 14 PV et 10 PV. Elle prend 16 dégâts (après Armure). 14 dégâts vident ses PV, les 2 restants frappent ses Blessures → 8 PV.*
 
-**4. PV à 0 → Mourant**
+**4. Blessures à 0 → Mourant**
 À 0 Blessures, le personnage est **Mourant** : inconscient et en train de mourir.
 
 **Blessures (roll-under, début de chaque tour) :**
 - **d20 ≤ 10 :** Réussite. Accumule 1 réussite.
 - **d20 > 10 :** Échec. Accumule 1 échec.
-- **Nat 1 (Réussite critique) :** Tu te relèves avec **1 PV** et Shaken 2.
+- **Nat 1 (Réussite critique) :** Tu te relèves avec **1 PV** et Secoué 2.
 - **Nat 20 (Échec critique) :** Compte comme **2 échecs.**
-- **3 réussites** = stabilisé (inconscient, 0 Blessures, plus Mourant).
+- **3 réussites** = stabilisé (inconscient, 0 Blessure, plus Mourant).
 - **3 échecs** = mort.
-- Subir des dégâts pendant Mourant = **1 échec automatique** (réussite critique ennemie = 2 échecs).
+- Subir des dégâts pendant l'état Mourant = **1 échec automatique** (réussite critique ennemie = 2 échecs).
 - Un allié peut stabiliser avec **1 action** + jet de **Médecine** (pas de difficulté).
 
-### Interaction PV/Blessures × Armure × Shaken
+### Interaction PV/Blessures × Armure × Secoué
 
 | Mécanique | Interaction avec PV/Blessures |
 |-----------|----------------------|
-| **Armure** | S'applique **avant** la répartition PV/Blessures. Les dégâts nets après Armure vont aux PV (normal) ou Blessures (crit/Dying). L'armure protège toujours. |
-| **Shaken** | Se déclenche sur **toute attaque qui touche**, indépendamment de PV/Blessures. Même si l'armure absorbe tout et que les PV prennent les dégâts, le Shaken monte de +1 niveau. En cas de tir automatique, Shaken monte même si la cible réussit son save DEX. |
+| **Armure** | S'applique **avant** la répartition PV/Blessures. Les dégâts nets après Armure vont aux PV (normal) ou Blessures (crit/Mourant). L'armure protège toujours. |
+| **Secoué** | Se déclenche sur **toute attaque qui touche**, indépendamment de PV/Blessures. Même si l'armure absorbe tout et que les PV prennent les dégâts, le Secoué monte de +1 niveau. En cas de tir automatique, Secoué monte même si la cible réussit son save DEX. |
 | **Cover** | Les bonus d'Armure de la couverture protègent les PV comme les PV. Se mettre à couvert est encore plus vital quand les PV sont bas. |
-| **Vicious (qualité)** | Ajoute +X×10 au jet sur la Table de Blessures Critiques quand des dégâts Blessures sont infligés. |
+| **Vicieux (qualité)** | Ajoute +X×10 au jet sur la Table de Blessures Critiques quand des dégâts Blessures sont infligés. |
 
 ### Récupération — PV via Surges, Blessures via repos
 
 | Pool | Récupération | Méthode |
 |------|-------------|---------|
-| **PV** | **Healing Surges uniquement.** Chaque surge récupère Vigueur + bonus STR. Nombre de surges limité par jour (base classe + bonus STR). | Second Wind, potions, Médic, repos court (dépenser surges), repos long (toutes surges + PV max). |
+| **PV** | **Surges uniquement.** Chaque surge récupère Vigueur + bonus STR. Nombre de surges limité par jour (base classe + bonus STR). | Second Souffle, potions, Médic, repos court (dépenser surges), repos long (toutes surges + PV max). |
 | **Blessures** | **1 Blessures par jour de repos.** 2 Blessures/jour avec repos complet au lit + soins médicaux (jet de Médecine par un soignant). | Repos long, soins médicaux, médicaments, cybernétique médicale. |
 | **Blessures (soins de terrain)** | Un jet de Medicine réussi restaure **1d4 Blessures** (1/jour par patient, nécessite kit médical du bon TL). | Le Medic est indispensable. |
 | **Blessures (nanotech TL4+)** | Les nanotech médicaux peuvent restaurer **2d6 Blessures** en 1 heure. Très rare et très cher. | Réservé aux settings haute technologie. |
@@ -734,44 +734,44 @@ Un jet sur la Table de Blessures Critiques se fait quand :
 1. Un **coup critique (Nat 1 — Réussite critique)** inflige des dégâts aux Blessures, OU
 2. Les **PV tombent à 0** et des dégâts débordent vers les PV.
 
-Le jet : **d100 + 10 par blessure critique déjà subie + Vicious bonus** (qualité d'arme). L'escalade est brutale : un personnage déjà blessé risque la mutilation ou la mort sur le prochain crit.
+Le jet : **d100 + 10 par blessure critique déjà subie + Vicieux bonus** (qualité d'arme). L'escalade est brutale : un personnage déjà blessé risque la mutilation ou la mort sur le prochain crit.
 
 ---
 
-## 6. SHAKEN — L'ÉTAT DE CHOC
+## 6. SECOUÉ — L'ÉTAT DE CHOC
 
 ### Principe
 
-Shaken est un **statut à niveaux** (1, 2, 3) qui ne dure **qu'un seul round**. C'est l'état de choc, la perte momentanée de repères quand les balles sifflent autour de toi.
+Secoué est un **statut à niveaux** (1, 2, 3) qui ne dure **qu'un seul round**. C'est l'état de choc, la perte momentanée de repères quand les balles sifflent autour de toi.
 
 ### Déclenchement
 
-Quand un personnage est **touché par une attaque** (le jet d'attaque réussit, ou le save échoue en cas de tir automatique), **qu'il ait subi des dégâts effectifs ou que l'armure ait tout absorbé**, il gagne **+1 niveau de Shaken** (max 3). Pas de save pour résister — c'est automatique.
+Quand un personnage est **touché par une attaque** (le jet d'attaque réussit, ou le save échoue en cas de tir automatique), **qu'il ait subi des dégâts effectifs ou que l'armure ait tout absorbé**, il gagne **+1 niveau de Secoué** (max 3). Pas de save pour résister — c'est automatique.
 
-- **Pas Shaken → Shaken 1**
-- **Shaken 1 → Shaken 2** (hit supplémentaire)
-- **Shaken 2 → Shaken 3** (encore un hit, maximum)
+- **Pas Secoué → Secoué 1**
+- **Secoué 1 → Secoué 2** (hit supplémentaire)
+- **Secoué 2 → Secoué 3** (encore un hit, maximum)
 
-> **Cas spécial — Tir automatique :** Le tir automatique cause Shaken **même si la cible réussit son save DEX** et ne prend pas de dégâts. Les balles sifflent, c'est la suppression. C'est le seul cas où Shaken s'applique sans touché.
+> **Cas spécial — Tir automatique :** Le tir automatique cause Secoué **même si la cible réussit son save DEX** et ne prend pas de dégâts. Les balles sifflent, c'est la suppression. C'est le seul cas où Secoué s'applique sans touché.
 
 ### Récupération — Début de ton tour
 
-**Au début de ton tour**, si tu es Shaken, tu fais un **save de sang-froid (STR ou WIT, au choix du joueur, roll-under, pas de difficulté).** C'est une action gratuite.
+**Au début de ton tour**, si tu es Secoué, tu fais un **save de sang-froid (STR ou WIT, au choix du joueur, roll-under, pas de difficulté).** C'est une action gratuite.
 
-- **Réussite :** Tu n'es plus Shaken. Agis normalement.
-- **Échec :** Tu subis les effets de ton niveau de Shaken pendant ce tour.
+- **Réussite :** Tu n'es plus Secoué. Agis normalement.
+- **Échec :** Tu subis les effets de ton niveau de Secoué pendant ce tour.
 
-**Shaken ne persiste jamais au-delà du tour.** À la fin de ton tour, ton compteur de Shaken se réinitialise à 0, que tu aies réussi ou raté le save. Seuls les hits reçus **depuis ton dernier tour** comptent pour le prochain round.
+**Secoué ne persiste jamais au-delà du tour.** À la fin de ton tour, ton compteur de Secoué se réinitialise à 0, que tu aies réussi ou raté le save. Seuls les hits reçus **depuis ton dernier tour** comptent pour le prochain round.
 
-### Effet Shaken par niveau (si save raté)
+### Effet Secoué par niveau (si save raté)
 
 | Niveau | Effet |
 |---|---|
-| **Shaken 1** | **Désavantage** sur tous les jets ce tour |
-| **Shaken 2** | **Double Désavantage** sur tous les jets ce tour |
-| **Shaken 3** (max) | **Double Désavantage** sur tous les jets ce tour + **perd 1 action** (2 au lieu de 3) |
+| **Secoué 1** | **Désavantage** sur tous les jets ce tour |
+| **Secoué 2** | **Double Désavantage** sur tous les jets ce tour |
+| **Secoué 3** (max) | **Double Désavantage** sur tous les jets ce tour + **perd 1 action** (2 au lieu de 3) |
 
-> **Note :** Tu gardes tes actions (sauf Shaken 3), mais tout est fait avec Désavantage. C'est punitif mais tu restes actif.
+> **Note :** Tu gardes tes actions (sauf Secoué 3), mais tout est fait avec Désavantage. C'est punitif mais tu restes actif.
 
 > **Aide d'un allié — Snap Out Of It :** En réaction, un allié adjacent peut te donner **Avantage** sur ton save de sang-froid. Ça coûte 1 action du prochain tour de l'allié.
 
@@ -779,45 +779,45 @@ Quand un personnage est **touché par une attaque** (le jet d'attaque réussit, 
 
 ```
 ROUND 1 — Tours ennemis (avant Marcos) :
-  Tir 1 touche Marcos → SHAKEN 1
-  Tir 2 touche Marcos → SHAKEN 2
+  Tir 1 touche Marcos → SECOUÉ 1
+  Tir 2 touche Marcos → SECOUÉ 2
 
 ROUND 1 — Tour de Marcos :
   Début de tour → Save de sang-froid (STR ou WIT, pas de diff)
-  Échec → Shaken 2 = Double Désavantage sur tous ses jets ce tour.
+  Échec → Secoué 2 = Double Désavantage sur tous ses jets ce tour.
   Marcos utilise ses 3 actions (avec Double Désavantage).
-  Fin de tour → Shaken réinitialisé à 0.
+  Fin de tour → Secoué réinitialisé à 0.
 
 ROUND 2 — Tours ennemis :
-  Marcos est en couverture totale → aucun tir ne le touche → pas de Shaken.
+  Marcos est en couverture totale → aucun tir ne le touche → pas de Secoué.
 
 ROUND 2 — Tour de Marcos :
-  Pas Shaken → agit normalement.
+  Pas Secoué → agit normalement.
 ```
 
-### Pourquoi Shaken 1 round
+### Pourquoi Secoué 1 round
 
-Le Shaken qui dure 1 round simplifie le tracking (pas de compteur persistant) tout en gardant l'impact tactique. Un personnage sous un barrage soutenu accumule Shaken chaque round — le save de sang-froid est le moment de tension. La question n'est pas "combien de tours pour s'en remettre" mais "est-ce que tu encaisses le choc maintenant ?"
+Le Secoué qui dure 1 round simplifie le tracking (pas de compteur persistant) tout en gardant l'impact tactique. Un personnage sous un barrage soutenu accumule Secoué chaque round — le save de sang-froid est le moment de tension. La question n'est pas "combien de tours pour s'en remettre" mais "est-ce que tu encaisses le choc maintenant ?"
 
 ### Interaction Tir simple × Tir automatique × Aim
 
-| Approche | Dégâts | Shaken infligé | Rôle tactique |
+| Approche | Dégâts | Secoué infligé | Rôle tactique |
 |----------|--------|----------------|---------------|
-| **Aim** (2 actions, 1 tir, Avantage) | Élevé | +1 Shaken si touché | Percer les blindés, abattre les cibles prioritaires |
-| **Tir simple ×3** (3 actions, 3 tirs) | Moyen par tir | +1 Shaken par hit (max +3) | Volume, pêche aux crits |
-| **Tir automatique** (2 actions, save DEX) | Dégâts auto (+ élevés) | **Shaken garanti même sans dégâts** | Suppression, contrôle de zone |
+| **Aim** (2 actions, 1 tir, Avantage) | Élevé | +1 Secoué si touché | Percer les blindés, abattre les cibles prioritaires |
+| **Tir simple ×3** (3 actions, 3 tirs) | Moyen par tir | +1 Secoué par hit (max +3) | Volume, pêche aux crits |
+| **Tir automatique** (2 actions, save DEX) | Dégâts auto (+ élevés) | **Secoué garanti même sans dégâts** | Suppression, contrôle de zone |
 
 Le Heavy arrose en auto pour verrouiller. Le Sniper vise pour percer. Le Grounder s'adapte. Ni l'un ni l'autre n'est obsolète.
 
 ### Immunités & résistances
 
-- Certaines capacités de classe (ex : le Heavy, le Veteran) donnent Avantage au jet de sang-froid ou réduisent le niveau de Shaken reçu.
-- Certaines armures (exo-armures stabilisées, TL4+) peuvent réduire le Shaken reçu de 1 niveau.
-- Certains avantages de classe : "Battle Hardened" (Avantage permanent au sang-froid), "Nerves of Steel" (immunité au Shaken 1 — seul Shaken 2+ t'affecte), "Unshakeable" (immunité totale au Shaken, très rare et réservé aux capacités de haut niveau).
+- Certaines capacités de classe (ex : le Heavy, le Veteran) donnent Avantage au jet de sang-froid ou réduisent le niveau de Secoué reçu.
+- Certaines armures (exo-armures stabilisées, TL4+) peuvent réduire le Secoué reçu de 1 niveau.
+- Certains avantages de classe : "Battle Hardened" (Avantage permanent au sang-froid), "Nerves of Steel" (immunité au Secoué 1 — seul Secoué 2+ t'affecte), "Unshakeable" (immunité totale au Secoué, très rare et réservé aux capacités de haut niveau).
 
 ### Impact tactique
 
-Ce système crée naturellement du **feu de suppression** — même si tu ne blesses pas l'ennemi (tir automatique, save réussi), tu le forces à monter en Shaken. Ça encourage le tir de couverture, le positionnement, et le travail d'équipe (un tire en automatique pour empiler Shaken, l'autre flanque pour finir). Et ça donne une raison mécanique claire de **se mettre à couvert** : un tour sans hit = pas d'escalade du Shaken = récupération plus facile.
+Ce système crée naturellement du **feu de suppression** — même si tu ne blesses pas l'ennemi (tir automatique, save réussi), tu le forces à monter en Secoué. Ça encourage le tir de couverture, le positionnement, et le travail d'équipe (un tire en automatique pour empiler Secoué, l'autre flanque pour finir). Et ça donne une raison mécanique claire de **se mettre à couvert** : un tour sans hit = pas d'escalade du Secoué = récupération plus facile.
 
 ---
 
@@ -869,13 +869,13 @@ Chaque condition donne **Désavantage sur tous les jets liés à une stat** (att
 - **Shift Rest (6-8h) :** Soigne **toutes** les conditions.
 - **Pouvoir de classe :** Certaines capacités (Medic, Marshal) peuvent soigner 1 condition en combat.
 
-### Interaction Conditions × Shaken
+### Interaction Conditions × Secoué
 
-Les conditions et le Shaken sont des mécaniques **séparées** qui se cumulent :
-- **Shaken** = Désavantage sur **tout** (état de choc global). Se récupère par save STR début de tour.
+Les conditions et le Secoué sont des mécaniques **séparées** qui se cumulent :
+- **Secoué** = Désavantage sur **tout** (état de choc global). Se récupère par save STR début de tour.
 - **Conditions** = Désavantage sur **une stat spécifique**. Se récupère par repos ou pouvoir de classe.
 
-Un personnage Shaken 1 ET Confus a : Désavantage sur tout (Shaken) + Désavantage supplémentaire sur les jets WIT (Confus). Sur un jet WIT, il a **double Désavantage** (3d20 garde le plus haut).
+Un personnage Secoué 1 ET Confus a : Désavantage sur tout (Secoué) + Désavantage supplémentaire sur les jets WIT (Confus). Sur un jet WIT, il a **double Désavantage** (3d20 garde le plus haut).
 
 ---
 
@@ -938,21 +938,21 @@ Directement repris d'UM5. Le Tech Level (TL) définit le niveau technologique du
 
 | Niveau | Contenu type |
 |---|---|
-| **1** | Features de base + mécanique signature + mécanique de ressource |
-| **2** | Feature secondaire |
-| **3** | **Sous-classe** (choix entre 2-3 options) + feature de sous-classe |
+| **1** | Capacités de base + mécanique signature + mécanique de ressource |
+| **2** | Capacité secondaire |
+| **3** | **Sous-classe** (choix entre 2-3 options) + capacité de sous-classe |
 | **4** | **Stat +1** (au choix) |
-| **5** | Feature majeure de classe |
-| **6** | Feature de classe ou pick-list |
-| **7** | **Sous-classe feature** |
+| **5** | Capacité majeure de classe |
+| **6** | Capacité de classe ou liste de choix |
+| **7** | **Capacité de sous-classe** |
 | **8** | **Stat +1** (au choix) |
-| **9** | Feature majeure de classe |
-| **10** | Feature de classe ou pick-list |
-| **11** | **Sous-classe feature** |
+| **9** | Capacité majeure de classe |
+| **10** | Capacité de classe ou liste de choix |
+| **11** | **Capacité de sous-classe** |
 | **12** | **Stat +1** (au choix) |
-| **13** | Feature majeure de classe |
-| **14** | Feature de classe ou pick-list |
-| **15** | **Capstone** de classe + sous-classe capstone |
+| **13** | Capacité majeure de classe |
+| **14** | Capacité de classe ou liste de choix |
+| **15** | **Couronnement** de classe + sous-classe couronnement |
 
 ### Saves par classe
 
@@ -973,7 +973,7 @@ Le Grounder est la première classe entièrement rédigée sur 15 niveaux (voir 
 - **Arsenal à choix :** Fraternité d'Armes (6 picks, capacités Élan 0/1/2)
 - **Sous-classes :** Tête de Pont (tank, aggro) / Éclaireur (mobilité, frappes chirurgicales)
 - **Progression clé :** Genou à Terre (2), Double Tap (5), Triple Tap (9), Quadruple Tap (13)
-- **Capstone (15) :** Soldat Imparable + All In
+- **Couronnement (15) :** Soldat Imparable + All In
 
 ### Classes restantes — Esquisse
 
@@ -1016,7 +1016,7 @@ Chaque pièce d'équipement notable (armes, armures, implants, gadgets — pas l
 
 | Objet | Neuf | Endommagé | Détruit |
 |---|---|---|---|
-| Fusil d'assaut +2, Pierce 1 | +2 au Score, Pierce 1 | +1 au Score, Pierce 1 | Inutilisable |
+| Fusil d'assaut +2, Perforant 1 | +2 au Score, Perforant 1 | +1 au Score, Perforant 1 | Inutilisable |
 | Implant cybernétique +3 STR | +3 STR | +1 STR | Dysfonctionnel |
 | Armure tactique (Armure 5) | Armure 5 | Armure 2 | Ne protège plus |
 
@@ -1070,16 +1070,16 @@ On crée des tables par contexte, chacune avec 20 entrées (d20 roll) :
 
 | d20 | Objet | Rareté | TL | Qualités & Effet |
 |-----|-------|--------|----|------------------|
-| 1-3 | Munitions perforantes standard | Standard | 2 | Pierce 2. Ignore 2 points d'Armure. |
+| 1-3 | Munitions perforantes standard | Standard | 2 | Perforant 2. Ignore 2 points d'Armure. |
 | 4-5 | Gilet tactique renforcé | Standard | 2 | Armure 5, Deflection 1. Léger. |
-| 6-7 | ESP Maelstrom (compact) | Rare | 2 | 1d8, Auto-fire, 400 coups. Bascule en rafale pour toucher plusieurs cibles. |
-| 8-9 | Kit médical de terrain TL3 | Rare | 3 | Soigne 2d8+INT, retire 1 Wound, Limited Ammo 3. |
-| 10-11 | God's Eye sniper scope | Rare | 2 | Attachment : Accurate 2, Pierce 2. Lunette de précision. |
-| 12-13 | Gyrojet Lancejet | Rare | 2 | 1d12, Auto-fire (2d8), Guided 2. Roquettes auto-guidées. |
-| 14-15 | Ion Cannon (portable) | Rare | 3 | 1d10 lightning, Stun 3, Disorient 2. Surcharge électronique. |
-| 16-17 | Exo-armor frame (légère) | Rare | 3 | Armure 9, Enhanced Lifting Servos, Cumbersome 3. -5ft speed. |
-| 18-19 | Railcannon | Légendaire | 4 | 1d10 piercing, Pierce 5, Auto-fire, Slow-Firing 1. Tir magnétique dévastateur. |
-| 20 | Arc Rifle | Légendaire | 4 | 1d12 lightning, Stun 4, Concussive 1, Burn 1. Shaken automatique. |
+| 6-7 | ESP Maelstrom (compact) | Rare | 2 | 1d8, Tir Auto, 400 coups. Bascule en rafale pour toucher plusieurs cibles. |
+| 8-9 | Kit médical de terrain TL3 | Rare | 3 | Soigne 2d8+INT, retire 1 Wound, Munitions Limitées 3. |
+| 10-11 | God's Eye sniper scope | Rare | 2 | Accessoire : Accurate 2, Perforant 2. Lunette de précision. |
+| 12-13 | Gyrojet Lancejet | Rare | 2 | 1d12, Tir Auto (2d8), Guidé 2. Roquettes auto-guidées. |
+| 14-15 | Ion Cannon (portable) | Rare | 3 | 1d10 lightning, Étourdissement 3, Disorient 2. Surcharge électronique. |
+| 16-17 | Exo-armor frame (légère) | Rare | 3 | Armure 9, Servos de Levage Améliorés, Encombrant 3. -5ft speed. |
+| 18-19 | Railcannon | Légendaire | 4 | 1d10 piercing, Perforant 5, Tir Auto, Slow-Firing 1. Tir magnétique dévastateur. |
+| 20 | Arc Rifle | Légendaire | 4 | 1d12 lightning, Étourdissement 4, Concussive 1, Brûlure 1. Secoué automatique. |
 
 ---
 
@@ -1087,11 +1087,11 @@ On crée des tables par contexte, chacune avec 20 entrées (d20 roll) :
 
 ### Le système en résumé
 
-Chaque objet a des **Hard Points** (slots de modification). On peut y installer des **Attachments** (modifications) qui ajoutent des **Qualités** (propriétés spéciales).
+Chaque objet a des **Points de Modification** (slots de modification). On peut y installer des **Accessoires** (modifications) qui ajoutent des **Qualités** (propriétés spéciales).
 
-### Hard Points par objet
+### Points de Modification par objet
 
-| Type d'objet | Hard Points |
+| Type d'objet | Points de Modification |
 |--------------|------------|
 | Arme légère (pistolet) | 1-2 |
 | Arme moyenne (fusil) | 2-3 |
@@ -1114,44 +1114,44 @@ Les qualités sont soit **Passives** (toujours actives) soit **Actives** (à dé
 | Qualité | Type | Rating | Effet (adapté d20) |
 |---------|------|--------|--------------------|
 | **Accurate** | Passive | 1-2 | +1 au Score d'attaque par rang. Arme précise par design ou technologie. |
-| **Auto-fire** | Active | — | Tir en rafale. L'attaquant subit désavantage au jet. Sur touché, peut dépenser un résultat de 1-2 pour infliger un touché additionnel (même cible ou cible adjacente). Chaque touché inflige les dégâts de base. |
-| **Blast** | Active | X | Explosion / dispersion. Sur touché, chaque personnage engagé avec (adjacent à) la cible subit X dégâts. Sur miss, peut se déclencher sur résultat 1-2 : la cible ET les adjacents subissent X dégâts. |
-| **Breach** | Passive | X | Perce les blindages lourds. Ignore X × 10 points d'Armure (principalement véhicules/exo-armure). Chaque rang de Breach = ignorer 1 point d'armure véhicule ou 10 Armure personnel. |
-| **Burn** | Active | X | Dégâts persistants (feu, acide, plasma). Sur déclenchement, la cible subit les dégâts de base de l'arme au début de chacun de ses tours pendant X rounds. La victime peut utiliser 1 action pour un save DEX afin d'éteindre les flammes. |
-| **Concussive** | Active | X | Choc violent. Sur déclenchement, la cible est **Staggered** (ne peut effectuer d'actions, seulement se déplacer) pendant X rounds. Extrêmement puissant — Rating max recommandé : 1-2. |
-| **Cumbersome** | Passive | X | Arme lourde/encombrante. Nécessite STR ≥ X pour être maniée correctement. Pour chaque point de STR manquant, désavantage aux jets d'attaque. |
+| **Tir Auto** | Active | — | Tir en rafale. L'attaquant subit désavantage au jet. Sur touché, peut dépenser un résultat de 1-2 pour infliger un touché additionnel (même cible ou cible adjacente). Chaque touché inflige les dégâts de base. |
+| **Zone** | Active | X | Explosion / dispersion. Sur touché, chaque personnage engagé avec (adjacent à) la cible subit X dégâts. Sur miss, peut se déclencher sur résultat 1-2 : la cible ET les adjacents subissent X dégâts. |
+| **Brèche** | Passive | X | Perce les blindages lourds. Ignore X × 10 points d'Armure (principalement véhicules/exo-armure). Chaque rang de Brèche = ignorer 1 point d'armure véhicule ou 10 Armure personnel. |
+| **Brûlure** | Active | X | Dégâts persistants (feu, acide, plasma). Sur déclenchement, la cible subit les dégâts de base de l'arme au début de chacun de ses tours pendant X rounds. La victime peut utiliser 1 action pour un save DEX afin d'éteindre les flammes. |
+| **Concussive** | Active | X | Choc violent. Sur déclenchement, la cible est **Chancelant** (ne peut effectuer d'actions, seulement se déplacer) pendant X rounds. Extrêmement puissant — Rating max recommandé : 1-2. |
+| **Encombrant** | Passive | X | Arme lourde/encombrante. Nécessite STR ≥ X pour être maniée correctement. Pour chaque point de STR manquant, désavantage aux jets d'attaque. |
 | **Defensive** | Passive | X | L'objet augmente la défense au corps à corps. +X à l'Armure contre les attaques de mêlée uniquement. |
 | **Deflection** | Passive | X | L'objet augmente la défense à distance. +X à l'Armure contre les attaques à distance uniquement. |
 | **Disorient** | Active | X | Désoriente la cible. Sur déclenchement, la cible subit désavantage à tous ses jets de compétence pendant X rounds. |
 | **Ensnare** | Active | X | Immobilise la cible (filet, mousse, grappin). Sur déclenchement, la cible ne peut plus se déplacer pendant X rounds. La cible peut utiliser 1 action pour un save STR afin de se libérer. |
-| **Guided** | Active | X | Projectile auto-guidé. Si l'attaque rate, le tireur peut retenter un jet d'attaque à la fin du round (diff X). Peut se déclencher à chaque round suivant tant que le projectile est en vol. |
+| **Guidé** | Active | X | Projectile auto-guidé. Si l'attaque rate, le tireur peut retenter un jet d'attaque à la fin du round (diff X). Peut se déclencher à chaque round suivant tant que le projectile est en vol. |
 | **Inaccurate** | Passive | X | Arme imprécise. Désavantage aux jets d'attaque (ou -X au jet si Rating > 1). Utilisé pour équilibrer des armes puissantes. |
 | **Inferior** | Passive | — | Fabrication médiocre. L'arme génère automatiquement un effet négatif mineur (au choix du MJ) à chaque utilisation. |
-| **Knockdown** | Active | — | Renverse la cible. Sur déclenchement, une cible touchée est mise **à terre** (prone). |
-| **Limited Ammo** | Passive | X | Munitions limitées. L'arme peut tirer X fois avant de devoir être rechargée (1 action). Pour les grenades : Limited Ammo 1 = usage unique. |
+| **Renversement** | Active | — | Renverse la cible. Sur déclenchement, une cible touchée est mise **à terre** (prone). |
+| **Munitions Limitées** | Passive | X | Munitions limitées. L'arme peut tirer X fois avant de devoir être rechargée (1 action). Pour les grenades : Munitions Limitées 1 = usage unique. |
 | **Linked** | Active | X | Armes couplées (tourelles, doubles canons). Sur touché, peut infliger jusqu'à X touchés additionnels sur la même cible (chaque touché = dégâts de base). |
-| **Pierce** | Passive | X | Pénétration. Les touchés de cette arme ignorent X points d'Armure. Si Pierce > Armure de la cible, le surplus n'a pas d'effet additionnel. |
+| **Perforant** | Passive | X | Pénétration. Les touchés de cette arme ignorent X points d'Armure. Si Perforant > Armure de la cible, le surplus n'a pas d'effet additionnel. |
 | **Prepare** | Passive | X | Préparation requise. L'utilisateur doit dépenser X actions de préparation avant de pouvoir utiliser l'arme (déployer trépied, verrouiller cible, etc.). |
-| **Reinforced** | Passive | — | Indestructible. L'arme est immunisée à l'effet Sunder. Sur une armure : le porteur est immunisé aux effets Pierce et Breach. |
+| **Renforcé** | Passive | — | Indestructible. L'arme est immunisée à l'effet Sunder. Sur une armure : le porteur est immunisé aux effets Perforant et Brèche. |
 | **Slow-Firing** | Passive | X | Rechargement lent. Après avoir tiré, l'arme ne peut pas être utilisée pendant X rounds (refroidissement, recharge capaciteurs). |
-| **Stun** | Active | X | Choc neuronal. Sur déclenchement, inflige X points de Strain (stress/fatigue) en plus des dégâts normaux. Le Strain n'est pas réduit par l'Armure. |
-| **Stun Damage** | Passive | — | Dégâts non-létaux. Tous les dégâts de cette arme sont convertis en Strain au lieu de blessures. La cible tombe inconsciente si son Strain dépasse son seuil, mais ne meurt pas. |
+| **Étourdissement** | Active | X | Choc neuronal. Sur déclenchement, inflige X points de Strain (stress/fatigue) en plus des dégâts normaux. Le Strain n'est pas réduit par l'Armure. |
+| **Dégâts d'Étourdissement** | Passive | — | Dégâts non-létaux. Tous les dégâts de cette arme sont convertis en Strain au lieu de blessures. La cible tombe inconsciente si son Strain dépasse son seuil, mais ne meurt pas. |
 | **Sunder** | Active | — | Destruction d'équipement. Sur déclenchement, le tireur peut choisir de détruire/endommager une pièce d'équipement de la cible au lieu d'infliger des dégâts normaux. |
 | **Unwieldy** | Passive | X | Difficile à manier. Nécessite DEX ≥ X pour être utilisée correctement. Pour chaque point de DEX manquant, désavantage aux jets d'attaque. |
-| **Vicious** | Passive | X | Blessures aggravées. Ajoute +X×10 au jet sur la table des Blessures Critiques quand un crit est infligé. Rend les crits plus dévastateurs. |
+| **Vicieux** | Passive | X | Blessures aggravées. Ajoute +X×10 au jet sur la table des Blessures Critiques quand un crit est infligé. Rend les crits plus dévastateurs. |
 
 #### Qualités d'armure (Genesys + ajouts SF)
 
 | Qualité | Type | Effet |
 |---------|------|-------|
-| **Reinforced** | Passive | Immunise l'Armure du porteur aux effets Pierce et Breach. Armure "impénétrable". |
+| **Renforcé** | Passive | Immunise l'Armure du porteur aux effets Perforant et Brèche. Armure "impénétrable". |
 | **Deflective Plating** | Passive | +X Armure contre les attaques à distance uniquement. |
 | **Defensive** | Passive | +X Armure contre les attaques de mêlée uniquement. |
 | **Sealed** | Passive | Protection environnementale : vide spatial, gaz toxiques, radiations, pression. |
-| **Enhanced Lifting Servos** | Passive | Augmente la capacité de port de charges. Réduit la qualité Cumbersome des armes portées de 2. |
+| **Servos de Levage Améliorés** | Passive | Augmente la capacité de port de charges. Réduit la qualité Encombrant des armes portées de 2. |
 | **Intimidating Visage** | Passive | Avantage aux jets d'intimidation quand l'armure est portée. |
 | **EMP Shielding** | Passive | Immunise l'armure et les systèmes intégrés aux effets EMP/Pincher. |
-| **Stabilized** | Passive | Avantage aux jets de sang-froid (Shaken). L'armure absorbe les chocs et stabilise le porteur. |
+| **Stabilized** | Passive | Avantage aux jets de sang-froid (Secoué). L'armure absorbe les chocs et stabilise le porteur. |
 | **Stealth Coating** | Passive | Avantage aux jets de discrétion. Revêtement anti-détection. |
 | **Vacuum Sealed** | Passive | Permet de survivre dans le vide spatial. Inclut réserve d'oxygène. |
 
@@ -1182,7 +1182,7 @@ Dans un système Armure (réduction d'armure), la **distribution** des dégâts 
 
 **La technologie ne donne pas juste "plus de dégâts" — elle donne de la fiabilité.**
 
-**Application au crafting et au loot :** Un Attachment ou une qualité d'arme peut transformer le profil de dés d'une arme sans changer sa moyenne. Par exemple, un "Barrel Stabilizer" transforme 1d12 → 2d6 (même moyenne 7, mais pénétration d'armure radicalement meilleure). C'est un upgrade extrêmement précieux qui n'apparaît pas dans les chiffres bruts — il faut le comprendre pour l'apprécier. Ce type de modification est un marqueur de maîtrise du système pour les joueurs expérimentés.
+**Application au crafting et au loot :** Un Accessoire ou une qualité d'arme peut transformer le profil de dés d'une arme sans changer sa moyenne. Par exemple, un "Barrel Stabilizer" transforme 1d12 → 2d6 (même moyenne 7, mais pénétration d'armure radicalement meilleure). C'est un upgrade extrêmement précieux qui n'apparaît pas dans les chiffres bruts — il faut le comprendre pour l'apprécier. Ce type de modification est un marqueur de maîtrise du système pour les joueurs expérimentés.
 
 **Corrélation TL ↔ Profil de dés (guide pour le MJ) :**
 
@@ -1197,19 +1197,19 @@ Dans un système Armure (réduction d'armure), la **distribution** des dégâts 
 #### Notes de design (issues de Genesys)
 
 - **Nombre de qualités par arme :** Maximum 3-4 qualités par arme. N'hésite pas à n'en mettre qu'une seule, voire aucune.
-- **Pierce vs Breach :** Ne jamais mettre les deux sur la même arme. Pierce = anti-personnel, Breach = anti-véhicule/exo.
-- **Cumbersome + Unwieldy :** Jamais de Rating 1 (tous les personnages ont minimum 1 en STR/DEX, donc ça ne fait rien).
-- **Vicious :** Puissant. Ne pas mettre de Rating supérieur à 5. Au-delà, un crit peut tuer instantanément un personnage en pleine santé.
-- **Burn et Ensnare :** Rating 1-3 recommandé, 4 max très rare.
+- **Perforant vs Brèche :** Ne jamais mettre les deux sur la même arme. Perforant = anti-personnel, Brèche = anti-véhicule/exo.
+- **Encombrant + Unwieldy :** Jamais de Rating 1 (tous les personnages ont minimum 1 en STR/DEX, donc ça ne fait rien).
+- **Vicieux :** Puissant. Ne pas mettre de Rating supérieur à 5. Au-delà, un crit peut tuer instantanément un personnage en pleine santé.
+- **Brûlure et Ensnare :** Rating 1-3 recommandé, 4 max très rare.
 - **Concussive :** Rating 1 seulement dans 99% des cas. Extrêmement punitif.
-- **Limited Ammo :** En combat, les rencontres durent 4-5 rounds. Un Rating supérieur à 5 signifie que le rechargement n'entrera jamais en jeu.
-- **Guided :** Rating 2-4 recommandé. Rating 1 = le projectile ne touche quasi jamais en second tir. Rating 5 = meilleur que le tir initial.
+- **Munitions Limitées :** En combat, les rencontres durent 4-5 rounds. Un Rating supérieur à 5 signifie que le rechargement n'entrera jamais en jeu.
+- **Guidé :** Rating 2-4 recommandé. Rating 1 = le projectile ne touche quasi jamais en second tir. Rating 5 = meilleur que le tir initial.
 
 ### Processus de Crafting
 
 1. **Prérequis :** Proficiency en Engineering/Mechanics + Kit d'ingénierie du bon TL
 2. **Choix de la base :** Type d'objet + stats par défaut
-3. **Ajout d'Attachments :** Chaque attachment coûte des Hard Points + matériaux + temps
+3. **Ajout d'Accessoires :** Chaque accessoire coûte des Points de Modification + matériaux + temps
 4. **Jet de Crafting :** WIT + Engineering vs. difficulté (basée sur rareté/TL de l'objet) — roll-under
    - Succès → objet créé
    - Échec → matériaux consommés, résultat partiel
@@ -1272,7 +1272,7 @@ Adapté de Nimble pour le contexte moderne/SF :
 |---------|-------|
 | **Aggressive** | +2 speed si se déplace vers un ennemi |
 | **Blindfire** | Peut tirer sans ligne de vue (avec Désavantage) |
-| **Covering Fire** | Force un jet de Shaken sur les ennemis dans une zone, même sans toucher |
+| **Covering Fire** | Force un jet de Secoué sur les ennemis dans une zone, même sans toucher |
 | **Cybernetic** | Un implant spécial (vision thermique, bras renforcé, etc.) |
 | **Drone Support** | Contrôle 1-3 drones minions |
 | **EMP Burst** | Désactive l'électronique dans X cases, 1/rencontre |
@@ -1281,7 +1281,7 @@ Adapté de Nimble pour le contexte moderne/SF :
 | **Hacker** | Peut pirater les équipements des héros |
 | **Medic** | Soigne un allié de Xd6 PV, 1/tour |
 | **Mounted** | En véhicule, +speed, +dégâts après mouvement |
-| **Pack Tactics** | Avantage à l'attaque si un allié est adjacent à la cible |
+| **Tactique de Meute** | Avantage à l'attaque si un allié est adjacent à la cible |
 | **Phase 2** (Boss) | Quand PV tombent à 0, regagne X PV et change de pattern d'attaque |
 | **Shielded** | Champ de force : ignore les X premiers dégâts par tour |
 | **Sniper** | +dégâts à longue portée, peut tirer sans révéler sa position |
@@ -1321,8 +1321,8 @@ ATTAQUE: Fusil d'assaut Score 10 — 2d8+4 (Range 12)
 
 POUVOIRS:
 • Covering Fire (1 action) — Tous les ennemis dans un cône de 3 cases
-  doivent faire un jet de Shaken (difficulté 4).
-• Pack Tactics — Avantage si un allié est adjacent à la cible.
+  doivent faire un jet de Secoué (difficulté 4).
+• Tactique de Meute — Avantage si un allié est adjacent à la cible.
 • Tactical Retreat — Fuit sous couvert si PV < 10.
 ```
 
@@ -1334,7 +1334,7 @@ PV: 60 | Blessures: 18 | Speed: 6 | Armure: 8 (armure tactique TL3)
 Initiative: 2 cartes (agit 2×/round) | Saves: STR 10 (+1 prof), WIT 11 (+1 prof)
 
 ATTAQUE: Pistolet lourd Score 11 — 1d10+4 piercing (Range 10)
-         Matraque électrique Score 10 — 1d8+3 + Stun (Reach 1)
+         Matraque électrique Score 10 — 1d8+3 + Étourdissement (Reach 1)
 
 POUVOIRS:
 • Commandement (1 action) — Tous les alliés à 6 cases gagnent Avantage pendant 1 round.
@@ -1413,7 +1413,7 @@ Chaque action de hacking après l'intrusion a une chance d'être détectée. Le 
 
 ## 13. TABLE DE BLESSURES CRITIQUES
 
-> **Source :** Basée sur la table de Genesys (FFG), rendue plus punitive. Le cumul Genesys est conservé : chaque blessure critique déjà subie ajoute +10 au prochain jet. La qualité d'arme **Vicious X** ajoute +X×10 au jet.
+> **Source :** Basée sur la table de Genesys (FFG), rendue plus punitive. Le cumul Genesys est conservé : chaque blessure critique déjà subie ajoute +10 au prochain jet. La qualité d'arme **Vicieux X** ajoute +X×10 au jet.
 
 ### Déclenchement
 
@@ -1421,7 +1421,7 @@ Un jet sur cette table se fait quand :
 1. Un **Nat 1 (Réussite critique)** inflige des dégâts aux Blessures, OU
 2. Les **PV tombent à 0** et des dégâts débordent vers les PV.
 
-### Jet : d100 + 10 par crit déjà subi + Vicious bonus
+### Jet : d100 + 10 par crit déjà subi + Vicieux bonus
 
 | d100 | Sévérité | Nom | Effet |
 |---|---|---|---|
@@ -1430,8 +1430,8 @@ Un jet sur cette table se fait quand :
 | 11-15 | Mineure | **Lâcher prise** | Le personnage lâche ce qu'il tient (arme, objet). |
 | 16-20 | Mineure | **Sonné** | Perd 1 action au prochain tour. |
 | 21-25 | Mineure | **Déséquilibré** | Désavantage au prochain jet. |
-| 26-30 | Mineure | **Impact moral** | Le personnage est Shaken (s'il ne l'est pas déjà). |
-| 31-35 | Mineure | **Staggered** | Le personnage ne peut pas agir (seulement se déplacer) jusqu'à la fin de son prochain tour. |
+| 26-30 | Mineure | **Impact moral** | Le personnage est Secoué (s'il ne l'est pas déjà). |
+| 31-35 | Mineure | **Chancelant** | Le personnage ne peut pas agir (seulement se déplacer) jusqu'à la fin de son prochain tour. |
 | 36-40 | Mineure | **Douleur vive** | Difficulté +2 au prochain jet. |
 | 41-45 | Modérée | **À terre** | Le personnage est mis à terre (prone) et subit 1 PV. |
 | 46-50 | Modérée | **Commotion légère** | Désavantage à tous les jets WIT et EMP jusqu'à soins (Medicine difficulté 2). |
@@ -1441,7 +1441,7 @@ Un jet sur cette table se fait quand :
 | 66-70 | Modérée | **Hémorragie légère** | 1 Blessures perdu par round pendant 3 rounds. Un jet de Medicine (difficulté 2) stoppe l'hémorragie. |
 | 71-75 | Modérée | **Entravé** | Vitesse réduite de moitié jusqu'à soins (Medicine difficulté 2). |
 | 76-80 | Modérée | **Surpassé** | L'attaquant peut immédiatement effectuer une attaque gratuite supplémentaire. |
-| 81-85 | Modérée | **Épuisé** | Le personnage ne peut plus dépenser de Healing Surges jusqu'à un repos court. |
+| 81-85 | Modérée | **Épuisé** | Le personnage ne peut plus dépenser de Surges jusqu'à un repos court. |
 | 86-90 | Modérée | **Compromis** | Difficulté +2 à tous les jets jusqu'à soins (Medicine difficulté 3). |
 | 91-95 | Grave | **Au bord du gouffre** | Le personnage perd 2 Blessures au début de chacun de ses tours jusqu'à soins (Medicine difficulté 3). |
 | 96-100 | Grave | **Membre estropié** | Un membre (au choix du MJ) est inutilisable jusqu'à soins. Difficulté +2 à tout jet nécessitant ce membre. Medicine difficulté 3 pour soigner. |
@@ -1449,7 +1449,7 @@ Un jet sur cette table se fait quand :
 | 106-110 | Grave | **Blessure horrifique** | Tirer 1d4 : 1 = STR, 2 = DEX, 3 = WIT, 4 = EMP. La stat est réduite de 1 (permanent) jusqu'à soins (Medicine difficulté 4). |
 | 111-115 | Grave | **Immobilisé** | Le personnage ne peut plus se déplacer jusqu'à soins (Medicine difficulté 3). |
 | 116-120 | Grave | **Aveuglé** | Le personnage ne peut plus voir. Double désavantage à tout, triple désavantage à Perception. Jusqu'à soins (Medicine difficulté 4). |
-| 121-125 | Grave | **Paralysé** | Le personnage est Staggered (pas d'actions, seulement mouvement) jusqu'à soins (Medicine difficulté 4). |
+| 121-125 | Grave | **Paralysé** | Le personnage est Chancelant (pas d'actions, seulement mouvement) jusqu'à soins (Medicine difficulté 4). |
 | 126-130 | Dévastatrice | **Blessure atroce** | Tirer 1d4 : 1 = STR, 2 = DEX, 3 = WIT, 4 = EMP. La stat est **définitivement** réduite de 1 (minimum 6). Prothèse/cybernétique peut compenser. |
 | 131-140 | Dévastatrice | **Hémorragie critique** | Le personnage perd 1 Blessures et subit difficulté +2 à tout au début de chaque tour. Pour chaque 5 Blessures perdus au-delà du seuil, il subit une blessure critique supplémentaire (relancer). Medicine difficulté 5 pour stopper. |
 | 141-150 | Dévastatrice | **La fin approche** | Le personnage meurt à la fin du prochain round complet à moins que la blessure ne soit soignée. Medicine difficulté 5. |
@@ -1462,9 +1462,9 @@ Le système Genesys de cumul est conservé et rendu explicite :
 - **1ère blessure critique :** jet normal (d100)
 - **2ème blessure critique :** d100 + 10
 - **3ème blessure critique :** d100 + 20
-- **Avec une arme Vicious 3 :** d100 + 30 en plus
+- **Avec une arme Vicieux 3 :** d100 + 30 en plus
 
-Un personnage avec 3 blessures critiques non-soignées qui se prend un crit d'une arme Vicious 2 roule : d100 + 30 + 20 = d100 + 50. Même un résultat bas de 51 donne 101 → **Mutilé**. L'escalade est brutale et voulue.
+Un personnage avec 3 blessures critiques non-soignées qui se prend un crit d'une arme Vicieux 2 roule : d100 + 30 + 20 = d100 + 50. Même un résultat bas de 51 donne 101 → **Mutilé**. L'escalade est brutale et voulue.
 
 ### Soigner les blessures critiques
 
@@ -1484,12 +1484,12 @@ Les blessures critiques restent actives même si leur effet temporaire a expiré
 3. ✅ 3 actions + réactions — verrouillé
 4. ✅ Armure passive + **pas de défense passive** + **minimum 1 dégât** — verrouillé v4
 5. ✅ Points de Vie / Blessures (pool unique de PV) — verrouillé v3
-6. ✅ Shaken (sang-froid = STR Save) — verrouillé v3
+6. ✅ Secoué (sang-froid = STR Save) — verrouillé v3
 7. ✅ Tech Levels (UM5) — verrouillé
 8. ✅ 20 compétences (UM5 + 4 modernes) — verrouillé v3
 9. ✅ Qualités d'items Genesys — verrouillé
 10. ✅ **Vigueur** (indice de durabilité par classe) — verrouillé v3
-11. ✅ **Healing Surges** (modèle restrictif) — verrouillé v4
+11. ✅ **Surges** (modèle restrictif) — verrouillé v4
 12. ✅ **Roll-under + initiative cartes + gestion temps Dragonbane** — verrouillé v4
 13. ✅ **Hacking / Firewall** — verrouillé v3
 14. ✅ **Table de Blessures Critiques** — verrouillé v3
@@ -1509,7 +1509,7 @@ Les blessures critiques restent actives même si leur effet temporaire a expiré
 ### Phase 3 : Équipement, Loot & Crafting
 - Tables d'armes UM5 simplifiées (avec bonus +0 à +3 et états de dégradation)
 - Tables de loot par biome (8 tables × 20 entrées)
-- Système de crafting Genesys adapté (Engineering skill, Hard Points)
+- Système de crafting Genesys adapté (Engineering skill, Points de Modification)
 
 ### Phase 4 : GM Toolkit
 - Monster/NPC Builder (Nimble-style, avec pouvoirs qui imposent Désavantage)
@@ -1538,7 +1538,7 @@ Les blessures critiques restent actives même si leur effet temporaire a expiré
 - **Stat increases :** 4+4 → **3 au choix** (niveaux 4, 8, 12).
 - **Ennemis :** Les ennemis difficiles à toucher utilisent des **pouvoirs qui imposent Désavantage**, jamais de difficulté numérique en combat.
 - **5 classes core :** 11 classes UM5 → **5** (Grounder, Infiltrator, Medic, Marshal, Tech). Marshal passe de Vig 10 à **Vig 8**.
-- **Healing Surges :** Modèle D&D 5e → **modèle restrictif** (déclencheurs obligatoires, 1 surge max par Stretch Rest, max 2 Stretch entre Shifts).
+- **Surges :** Modèle D&D 5e → **modèle restrictif** (déclencheurs obligatoires, 1 surge max par Stretch Rest, max 2 Stretch entre Shifts).
 - **Terminologie :** Les termes anglais Boon/Bane sont remplacés par **Avantage/Désavantage** dans tout le système.
 
 ### Changements v3 — Résumé (historique)
@@ -1550,9 +1550,9 @@ Les blessures critiques restent actives même si leur effet temporaire a expiré
 - **Critique :** Nat 1 = Réussite critique (crit), Nat 20 = Échec critique (fumble).
 - **Vigueur :** Indice de durabilité par classe. Valeur fixe.
 - **PV/Blessures :** Niveau 1 = Vigueur + STR. Blessures fixe.
-- **Healing Surges :** Nombre = base classe + STR. Valeur = Vigueur + STR.
+- **Surges :** Nombre = base classe + STR. Valeur = Vigueur + STR.
 - **Saves :** 4 saves (STR/DEX/WIT/EMP). Roll-under.
-- **Shaken :** Sang-froid = STR Save.
+- **Secoué :** Sang-froid = STR Save.
 - **Skills :** 20 skills UM5 redistribuées sur 4 stats. 7 trained-only.
 
 ### Prochains livrables

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\nicol\\\\Documents\\\\jdr-tactic-shooter-loot\" -Recurse -File)",
+      "Bash(Select-Object FullName)",
+      "Bash(Sort-Object FullName)",
+      "Bash(sed -i 's/Valeur de Sursaut/Valeur de Surge/g' design_document_v4.md)",
+      "Bash(sed -i 's/Base Sursauts/Base Surges/g' design_document_v4.md)",
+      "Bash(sed -i 's/Sursauts/Surges/g' design_document_v4.md)",
+      "Bash(sed -i 's/Sursaut/Surge/g' design_document_v4.md)",
+      "Bash(sed -i 's/sursauts/surges/g' design_document_v4.md)"
+    ]
+  }
+}

@@ -13,8 +13,8 @@
 | Progression du toucher | **Deux jambes : prof (stable) + loot (volatile)** | Prof seule (design doc v3) |
 | Bonus loot | **+0 à +3** sur armes, viseurs, implants, etc. | Pas formalisé |
 | Ennemis difficiles | **Uniquement via Désavantage** (pouvoirs de monstre, conditions) | Difficulté variable envisagée puis rejetée |
-| Stat increases | **3 augmentations** : niv 4, 8, 12 (stat au choix) | 4 principales + 4 secondaires (v1) |
-| Surge Value | **Fixe** (Vigueur + bonus STR). Pas de dé. | Grounder v1 "1d10 + bonus STR" |
+| Augmentations de stat | **3 augmentations** : niv 4, 8, 12 (stat au choix) | 4 principales + 4 secondaires (v1) |
+| Valeur de Surge | **Fixe** (Vigueur + bonus STR). Pas de dé. | Grounder v1 "1d10 + bonus STR" |
 | Surges/jour | **Base classe + bonus STR** | Grounder v1 "3 + bonus STR" |
 | Blessures | **Vigueur + bonus STR** | Grounder v1 "STR score complet" |
 | Marshal Vigueur | **8** (leader cerveau, pas tank) | Design doc v3 (Vig 10) |
@@ -40,7 +40,7 @@
 
 | Stat | Bonus | Rôle dans les formules |
 |---|---|---|
-| **STR** | valeur − 8 | PV, Blessures, Surges/jour, Surge Value, save corporel, mêlée |
+| **STR** | valeur − 8 | PV, Blessures, Surges/jour, Valeur de Surge, save corporel, mêlée |
 | **DEX** | valeur − 8 | Tir, réflexes, esquive, initiative bonus |
 | **WIT** | valeur − 8 | Hacking, médecine, sciences, perception environnement |
 | **EMP** | valeur − 8 | Social, leadership, perception des gens |
@@ -76,7 +76,7 @@ Les PV sont le pool unique de points de vie. Ils représentent la chance, la fat
 | **Marshal** | 8 | 7/niv | 5/niv | 4/niv |
 | **Tech** | 6 | 5/niv | 4/niv | 3/niv |
 
-> *Note : la Vigueur n'affecte plus le gain de PV par niveau — seulement les PV niv 1, les Blessures, les Surges, et la Surge Value. Le gain/niv dépend uniquement du bonus STR.*
+> *Note : la Vigueur n'affecte plus le gain de PV par niveau — seulement les PV niv 1, les Blessures, les Surges, et la Valeur de Surge. Le gain/niv dépend uniquement du bonus STR.*
 
 ### Exemples complets (STR 10, bonus +2)
 
@@ -114,15 +114,15 @@ Les Blessures remplacent les Blessures et les PV. C'est un compteur de 0 à 6.
 
 | Événement | Blessures |
 |---|---|
-| **PV tombent à 0** | +1 Blessure → Dying (1 action/tour) |
+| **PV tombent à 0** | +1 Blessure → Mourant (1 action/tour) |
 | **Réussite critique ennemie (Nat 1)** | Dégâts normaux sur PV + **1 Blessure** |
-| **Subir des dégâts pendant Dying** | **+2 Blessures** |
-| **Subir un crit pendant Dying** | **+3 Blessures** |
-| **Agir agressivement pendant Dying** | +1 Blessure (sauf save STR réussi) |
+| **Subir des dégâts pendant Mourant** | **+2 Blessures** |
+| **Subir un crit pendant Mourant** | **+3 Blessures** |
+| **Agir agressivement pendant Mourant** | +1 Blessure (sauf save STR réussi) |
 
-### Dying
+### Mourant
 
-À 0 PV, tu es **Dying**. Tu restes conscient mais tu n'as que **1 action par tour** (au lieu de 3). Ta Concentration est brisée. Tu peux ramper, tirer, parler, utiliser un objet — mais chaque action agressive (attaquer, lancer) coûte +1 Blessure sauf save STR réussi.
+À 0 PV, tu es **Mourant**. Tu restes conscient mais tu n'as que **1 action par tour** (au lieu de 3). Ta Concentration est brisée. Tu peux ramper, tirer, parler, utiliser un objet — mais chaque action agressive (attaquer, lancer) coûte +1 Blessure sauf save STR réussi.
 
 ### Stabiliser
 
@@ -134,11 +134,11 @@ Un allié adjacent peut te stabiliser avec **1 action + jet de Médecine** (pas 
 - Le Medic peut en soigner **1 de plus** par Shift avec un jet de Médecine
 - Certains objets légendaires ou capacités de haut niveau peuvent soigner des Blessures
 
-### Dying et Healing Surges
+### Mourant et Surges
 
-Un allié peut utiliser Premiers Soins (Medic) ou un Stim pack sur toi pour te remonter au-dessus de 0 PV → tu n'es plus Dying. **Mais tes Blessures restent** jusqu'au repos.
+Un allié peut utiliser Premiers Soins (Medic) ou un Stim pack sur toi pour te remonter au-dessus de 0 PV → tu n'es plus Mourant. **Mais tes Blessures restent** jusqu'au repos.
 
-## 5. HEALING SURGES
+## 5. SURGES
 
 ### Surges par jour
 
@@ -152,11 +152,11 @@ Un allié peut utiliser Premiers Soins (Medic) ou un Stim pack sur toi pour te r
 | **Infiltrator** | 5 | 7 | 5 |
 | **Tech** | 4 | 6 | 4 |
 
-### Surge Value
+### Valeur de Surge
 
 **Formule : Vigueur + bonus STR** (fixe, pas de dé)
 
-| Classe | Surge Value (STR 10, +2) | Surge Value (STR 8, 0) |
+| Classe | Valeur de Surge (STR 10, +2) | Valeur de Surge (STR 8, 0) |
 |---|---|---|
 | **Grounder** | 12 | 10 |
 | **Marshal/Medic** | 10 | 8 |
@@ -167,19 +167,19 @@ Un allié peut utiliser Premiers Soins (Medic) ou un Stim pack sur toi pour te r
 
 ## 6. ÉCONOMIE DES SURGES — MODÈLE RESTRICTIF
 
-> **Principe :** Les surges sont finies et précieuses. Il faut un **déclencheur**. C'est ce qui rend le Medic et le Marshal indispensables.
+> **Principe :** Les surges sont finis et précieux. Il faut un **déclencheur**. C'est ce qui rend le Medic et le Marshal indispensables.
 
 | Déclencheur | Quand | Coût | Effet |
 |---|---|---|---|
-| **Second Wind** | Combat (1 action) | 1 Surge perso | Récupère Surge Value en PV. **1×/combat.** |
-| **Stretch Rest** | Hors combat (~15 min) | 1 Surge | Récupère Surge Value en PV. **1×/Stretch.** |
-| **Stim Pack** | Combat ou hors combat | 1 Surge + consomme le stim | Récupère Surge Value en PV. |
-| **Pouvoir Medic** | Combat ou Stretch | 1 Surge du patient | Le Medic active la surge d'un allié. Bonus possibles. |
+| **Second Souffle** | Combat (1 action) | 1 Surge perso | Récupère Valeur de Surge en PV. **1×/combat.** |
+| **Stretch Rest** | Hors combat (~15 min) | 1 Surge | Récupère Valeur de Surge en PV. **1×/Stretch.** |
+| **Stim Pack** | Combat ou hors combat | 1 Surge + consomme le stim | Récupère Valeur de Surge en PV. |
+| **Pouvoir Medic** | Combat ou Stretch | 1 Surge du patient | Le Medic active le surge d'un allié. Bonus possibles. |
 | **Pouvoir Marshal** | Combat | 1 Surge de l'allié ciblé | Galvanise un allié. |
 
 **Contraintes :** Max 2 Stretch Rests entre chaque Shift. Surges ne se régénèrent que sur Shift Rest (6-8h). Les surges ne soignent PAS les PV.
 
-**Shift Rest (6-8h) :** PV au max. Toutes surges reviennent. Shaken/conditions effacés. **1 Blessure guérie** (+1 avec Medic). Critiques mineurs guérissent. Équipement Endommagé peut être réparé (voir section 10).
+**Shift Rest (6-8h) :** PV au max. Tous les surges reviennent. Secoué/conditions effacés. **1 Blessure guérie** (+1 avec Medic). Critiques mineurs guérissent. Équipement Endommagé peut être réparé (voir section 10).
 
 ---
 
@@ -249,21 +249,21 @@ La progression du personnage repose sur deux sources parallèles :
 
 | Niveau | Contenu type |
 |---|---|
-| **1** | Features de base + mécanique signature |
-| **2** | Feature secondaire ou mécanique de ressource |
-| **3** | **Sous-classe** (choix entre 2–3 options) + feature de sous-classe |
+| **1** | Capacités de base + mécanique signature |
+| **2** | Capacité secondaire ou mécanique de ressource |
+| **3** | **Sous-classe** (choix entre 2–3 options) + capacité de sous-classe |
 | **4** | **Stat +1** (au choix) |
-| **5** | Feature majeure de classe |
-| **6** | Feature de classe ou pick-list |
-| **7** | **Sous-classe feature** |
+| **5** | Capacité majeure de classe |
+| **6** | Capacité de classe ou liste de choix |
+| **7** | **Sous-classe capacité** |
 | **8** | **Stat +1** (au choix) |
-| **9** | Feature majeure de classe |
-| **10** | Feature de classe ou pick-list |
-| **11** | **Sous-classe feature** |
+| **9** | Capacité majeure de classe |
+| **10** | Capacité de classe ou liste de choix |
+| **11** | **Sous-classe capacité** |
 | **12** | **Stat +1** (au choix) |
-| **13** | Feature majeure de classe |
-| **14** | Feature de classe ou pick-list |
-| **15** | **Capstone** de classe + sous-classe capstone |
+| **13** | Capacité majeure de classe |
+| **14** | Capacité de classe ou liste de choix |
+| **15** | **Couronnement** de classe + sous-classe couronnement |
 
 ### Trois arcs narratifs
 
@@ -271,7 +271,7 @@ La progression du personnage repose sur deux sources parallèles :
 |---|---|---|---|---|
 | **Recrue** | 1–5 | +1 | +0 à +1 | Apprendre, survivre, premier loot marquant |
 | **Vétéran** | 6–10 | +2 | +1 à +2 | Maîtriser, s'équiper, former une identité |
-| **Élite** | 11–15 | +3 | +2 à +3 | Dominer, loot légendaire, capstone |
+| **Élite** | 11–15 | +3 | +2 à +3 | Dominer, loot légendaire, couronnement |
 
 ---
 
@@ -339,7 +339,7 @@ Chaque pièce d'équipement notable (armes, armures, implants, gadgets — pas l
 
 | Objet | Neuf | Endommagé | Détruit |
 |---|---|---|---|
-| Fusil d'assaut +2, Pierce 1 | +2 au Score, Pierce 1 | +1 au Score, Pierce 1 | Inutilisable |
+| Fusil d'assaut +2, Perforant 1 | +2 au Score, Perforant 1 | +1 au Score, Perforant 1 | Inutilisable |
 | Viseur holographique +1 | +1 au Score | +0 au Score (pas de bonus, mais encore attaché) | Grillé, à remplacer |
 | Implant cybernétique +3 STR | +3 STR | +1 STR | Dysfonctionnel, risque de rejet |
 | Armure tactique (Armure 5) | Armure 5 | Armure 2 | Ne protège plus |
@@ -420,16 +420,16 @@ Skill check   = stat + proficiency (si formé) + bonus loot (si applicable)
 | # | Sujet | Ancienne valeur | **Résolution canonique** | Date |
 |---|---|---|---|---|
 | 1 | Surges/jour Grounder | 3 + STR (v1) | **7 + STR** | 27/02 |
-| 2 | Surge Value | 1d10 + STR (v1) | **Fixe : Vig + STR** | 27/02 |
+| 2 | Valeur de Surge | 1d10 + STR (v1) | **Fixe : Vig + STR** | 27/02 |
 | 3 | Blessures Grounder | STR score (v1) | **Vig + bonus STR** | 27/02 |
 | 4 | Marshal Vigueur | 10 (design doc) | **8** | 27/02 |
 | 5 | Repos / Surges | D&D 5e style (playtest kit) | **Restrictif (guérison v2)** | 27/02 |
 | 6 | Niveaux max | 20 (design doc, v1) | **15** | 27/02 |
-| 7 | Shaken | Vague (v1) | **Niveaux 1/2/3** (conditions v1) | 27/02 |
+| 7 | Secoué | Vague (v1) | **Niveaux 1/2/3** (conditions v1) | 27/02 |
 | 8 | Proficiency | +2 à +6 (design doc) | **+1 / +2 / +3** | 27/02 |
 | 9 | Loot dans progression | Pas formalisé | **+0 à +3, deuxième jambe** | 27/02 |
 | 10 | Push de jet | Pas de push | **Dragonbane-style, condition OU dégradation loot** | 27/02 |
-| 11 | Stat increases | 4 principales + 4 secondaires | **3 au choix (niv 4/8/12)** | 27/02 |
+| 11 | Augmentations de stat | 4 principales + 4 secondaires | **3 au choix (niv 4/8/12)** | 27/02 |
 | 12 | Dégradation loot | Pas formalisé | **Neuf → Endommagé → Détruit** | 27/02 |
 
 ---

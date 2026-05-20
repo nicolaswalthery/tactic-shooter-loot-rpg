@@ -43,7 +43,7 @@ Chaque tour = **3 actions.** Exemples :
 | Viser (Avantage au prochain tir) | 1 action |
 | Sprint (12 cases) | 2 actions |
 | Premiers soins | 1 action (Medic) |
-| Second Wind (auto-guérison) | 1 action, 1×/combat |
+| Second Souffle (auto-guérison) | 1 action, 1×/combat |
 | Se relever (prone → debout) | 1 action |
 | Tir automatique (save DEX des cibles) | 2 actions |
 | Hacking — Intrusion | 2 actions |
@@ -59,10 +59,10 @@ Chaque tour = **3 actions.** Exemples :
 
 ## PV et Blessures
 
-- **PV (Points de Vie)** = Chance, fatigue, éraflures. Se récupèrent via Healing Surges.
+- **PV (Points de Vie)** = Chance, fatigue, éraflures. Se récupèrent via Surges.
 - **Blessures** = Blessures réelles. Fixes. Récupération lente.
 
-**Dégâts normaux → PV d'abord.** PV à 0 → **les dégâts restants le personnage est Dying + 1 Blessure.**
+**Dégâts normaux → PV d'abord.** PV à 0 → **les dégâts restants le personnage est Mourant + 1 Blessure.**
 *Exemple : Tu as 14 PV. Tu prends 16 dégâts (après Armure). Tes PV tombent à 0. Tu es Mourant + 1 Blessure.*
 **Réussite critique (Nat 1) → infligent 1 Blessure → Blessures direct** + Table de Blessures Critiques.
 **PV à 0 → Mourant.** 6 Blessures = mort si pas de soins.
@@ -72,24 +72,24 @@ Chaque tour = **3 actions.** Exemples :
 Inconscient. Au début de chaque tour, fais un **Blessure (d20 roll-under, seuil 10)** :
 - **d20 ≤ 10 :** Réussite. Accumule 1 réussite.
 - **d20 > 10 :** Échec. Accumule 1 échec.
-- **Nat 1 (Réussite critique) :** Tu te relèves avec **1 PV** et Shaken 2.
+- **Nat 1 (Réussite critique) :** Tu te relèves avec **1 PV** et Secoué 2.
 - **Nat 20 (Échec critique) :** Compte comme **2 échecs.**
 - **3 réussites** = stabilisé (inconscient, 0 Blessures, plus Mourant).
 - **3 échecs** = mort.
 - Subir des dégâts pendant Mourant = 1 échec auto (réussite critique = 2 échecs).
 
-## Healing Surges
+## Surges
 
 | Méthode | Quand | PV récupérés |
 |---|---|---|
-| **Second Wind** | 1 action, 1×/combat | Surge Value |
-| **Premiers Soins** (par le Medic) | 1 action | Surge Value + bonus WIT du Medic |
+| **Second Souffle** | 1 action, 1×/combat | Valeur de Surge |
+| **Premiers Soins** (par le Medic) | 1 action | Valeur de Surge + bonus WIT du Medic |
 | **Repos court** (1 Stretch = 15 min) | Hors combat | Autant de surges que voulu |
-| **Repos long** (1 Shift = 6h) | Hors combat | PV au max, toutes surges reviennent |
+| **Repos long** (1 Shift = 6h) | Hors combat | PV au max, tous les surges reviennent |
 
 **Blessures :** 1 Blessures/jour naturellement. Le Medic peut soigner +1d4 Blessures/patient par Shift.
 
-**Limite :** Max **2 Stretch Rests** entre chaque Shift Rest. Les surges sont précieuses — gérez-les.
+**Limite :** Max **2 Stretch Rests** entre chaque Shift Rest. Les surges sont précieux — gérez-les.
 
 ## Push de jet
 
@@ -101,21 +101,21 @@ Tu rates un jet ? Tu peux **pousser** — relancer le d20 entier.
 
 Tu ne peux push **qu'une seule fois** par jet.
 
-## Shaken
+## Secoué
 
-**Quand tu es touché** par une attaque (même si l'Armure absorbe tout) → tu gagnes **+1 niveau de Shaken** (max 3). Pas de save pour résister — c'est automatique.
+**Quand tu es touché** par une attaque (même si l'Armure absorbe tout) → tu gagnes **+1 niveau de Secoué** (max 3). Pas de save pour résister — c'est automatique.
 
-**Au début de ton tour**, si tu es Shaken, fais un **save de sang-froid (STR ou WIT, au choix du joueur).** Pas de difficulté.
-- **Réussite :** Tu n'es plus Shaken. Agis normalement.
-- **Échec :** Tu subis les effets de ton niveau de Shaken pour ce tour.
+**Au début de ton tour**, si tu es Secoué, fais un **save de sang-froid (STR ou WIT, au choix du joueur).** Pas de difficulté.
+- **Réussite :** Tu n'es plus Secoué. Agis normalement.
+- **Échec :** Tu subis les effets de ton niveau de Secoué pour ce tour.
 
-**Shaken ne dure jamais plus d'un round.** À la fin de ton tour, ton Shaken se réinitialise à 0, quel que soit le résultat du save. Le compteur repart de zéro à chaque round — seuls les hits reçus **depuis ton dernier tour** comptent.
+**Secoué ne dure jamais plus d'un round.** À la fin de ton tour, ton Secoué se réinitialise à 0, quel que soit le résultat du save. Le compteur repart de zéro à chaque round — seuls les hits reçus **depuis ton dernier tour** comptent.
 
 | Niveau | Effet (si save raté) |
 |---|---|
-| **Shaken 1** | Désavantage sur tous les jets ce tour |
-| **Shaken 2** | Double Désavantage sur tous les jets ce tour |
-| **Shaken 3** | Double Désavantage + **1 action en moins** (2 au lieu de 3) |
+| **Secoué 1** | Désavantage sur tous les jets ce tour |
+| **Secoué 2** | Double Désavantage sur tous les jets ce tour |
+| **Secoué 3** | Double Désavantage + **1 action en moins** (2 au lieu de 3) |
 
 ## Conditions
 
@@ -126,7 +126,7 @@ Tu ne peux push **qu'une seule fois** par jet.
 | **Confus** | WIT | Désavantage sur tous les jets WIT | Stretch Rest (1) ou Shift Rest (toutes) |
 | **Stressé** | EMP | Désavantage sur tous les jets EMP | Stretch Rest (1) ou Shift Rest (toutes) |
 
-Les conditions se cumulent entre elles et avec Shaken.
+Les conditions se cumulent entre elles et avec Secoué.
 **Stretch Rest (15 min) :** Soigne **1 condition** au choix.
 **Shift Rest (6h) :** Soigne **toutes** les conditions.
 
@@ -195,8 +195,8 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 | PV | **45** (40 base + 5 Tête de Pont) |
 | Armure | **8** (armure lourde tactique) |
 | Speed | 6 cases |
-| Healing Surges | **9/jour** |
-| Surge Value | **12 PV** |
+| Surges | **9/jour** |
+| Valeur de Surge | **12 PV** |
 | Saves proficients | STR, DEX |
 
 **Score d'attaque :**
@@ -209,7 +209,7 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 
 > *+1d6 = bonus de dégâts (DEX et STR à 10).*
 
-**Features de classe :**
+**Capacités de classe :**
 - **Élan** (ressource, max 1) — Gagné quand tu touches un ennemi, un allié tombe à 0 PV, ou tu Pares une attaque.
 - **Cadre Solide** — Pas de Désavantage pour tirer en mouvement avec arme à 2 mains.
 - **Arsenal (2 picks) :**
@@ -224,7 +224,7 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 - Pistolet semi-auto TL1 — 1d6, portée 10
 - Couteau de combat — 1d4, reach 1
 - Armure lourde tactique (Armure 8)
-- Grenades frag ×2 (Blast 4, 2d6, save DEX)
+- Grenades frag ×2 (Zone 4, 2d6, save DEX)
 - Kit de premiers soins basique
 - Radio tactique
 
@@ -246,8 +246,8 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 | Blessures | **7** |
 | Armure | **3** (armure légère furtive) |
 | Speed | 6 cases |
-| Healing Surges | **4/jour** |
-| Surge Value | **7 PV** |
+| Surges | **4/jour** |
+| Valeur de Surge | **7 PV** |
 | Saves proficients | DEX, WIT |
 
 **Score d'attaque :**
@@ -259,12 +259,12 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 
 > *+1d6 = bonus de dégâts (DEX 11, Finesse sur la lame).*
 
-**Features de classe :**
+**Capacités de classe :**
 - **Frappe Ciblée** — +1d6 dégâts bonus quand tu as Avantage, es Caché, agis en premier, ou un allié est adjacent à ta cible.
 - **Ombre** (ressource, max 1) — Gagné quand tu élimines un ennemi depuis la furtivité, réussis un jet de Discrétion diff 3+, ou réussis un jet d'Escamotage critique.
 - **Arsenal (2 picks) :**
   - **Disparition** (1 Ombre, action bonus) — Deviens Caché même si les ennemis te voient. Dure jusqu'à ta prochaine attaque ou fin du round.
-  - **Frappe Paralysante** (1 Ombre, sur touche mêlée) — La cible est Staggered 1 round (ne peut pas agir, seulement se déplacer). Save STR pour annuler.
+  - **Frappe Paralysante** (1 Ombre, sur touche mêlée) — La cible est Chancelant 1 round (ne peut pas agir, seulement se déplacer). Save STR pour annuler.
 - **Sous-classe : Nettoyeur** —
   - **Frappe Létale** — Quand Frappe Ciblée s'active : reroll les 1 et 2 sur les dés de Frappe Ciblée.
   - **Dissimulation de cadavre** — Après une élimination, jet de Discrétion gratuit pour rester caché.
@@ -295,8 +295,8 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 | PV | **26** |
 | Armure | **3** (armure légère) |
 | Speed | 6 cases |
-| Healing Surges | **6/jour** |
-| Surge Value | **8 PV** |
+| Surges | **6/jour** |
+| Valeur de Surge | **8 PV** |
 | Saves proficients | WIT, EMP |
 
 **Score d'attaque :**
@@ -314,8 +314,8 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 | Perception | WIT 11 = **11** |
 | Persuasion | EMP 8 + 1 = **9** |
 
-**Features de classe :**
-- **Premiers Soins** (signature, 1 action) — Déclenche le surge d'un allié + bonus WIT (+3) en guérison. L'allié récupère **Surge Value + 3 PV**.
+**Capacités de classe :**
+- **Premiers Soins** (signature, 1 action) — Déclenche le surge d'un allié + bonus WIT (+3) en guérison. L'allié récupère **Valeur de Surge + 3 PV**.
 - **Triage** (ressource, max 1) — Gagné quand tu soignes un allié, stabilises quelqu'un à 0 Blessures, ou retires une condition d'un allié.
 - **Arsenal (2 picks) :**
   - **Injection d'Adrénaline** (1 Triage, 1 action) — L'allié ciblé gagne +2 actions ce tour et Avantage sur son prochain jet.
@@ -349,8 +349,8 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 | PV | **30** |
 | Armure | **5** (armure moyenne) |
 | Speed | 6 cases |
-| Healing Surges | **7/jour** |
-| Surge Value | **9 PV** |
+| Surges | **7/jour** |
+| Valeur de Surge | **9 PV** |
 | Saves proficients | STR, EMP |
 
 **Score d'attaque :**
@@ -369,7 +369,7 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 | Intimidation | EMP 11 + 1 = **12** |
 | Perception | WIT 8 = **8** |
 
-**Features de classe :**
+**Capacités de classe :**
 - **Ordres Tactiques** (signature, 1 action) — Donne 1 ordre à 1 allié à 6 cases :
   - *"Bouge !"* — L'allié se déplace de 4 cases gratuitement (hors de son tour).
   - *"Concentre ton tir !"* — L'allié a Avantage à sa prochaine attaque.
@@ -378,7 +378,7 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
   - *"Couvre-le !"* — L'allié peut faire 1 attaque d'opportunité gratuite la prochaine fois qu'un ennemi bouge à portée.
 - **Autorité** (ressource, max 1) — Gagné quand un ordre est suivi avec succès (l'allié touche, réussit le save, etc.), quand tu réussis un jet EMP diff 3+, ou quand un allié élimine un ennemi que tu as désigné.
 - **Arsenal (2 picks) :**
-  - **Galvanisation** (1 Autorité, 1 action) — Tous les alliés à 6 cases récupèrent **1d6 PV** et retirent Shaken 1.
+  - **Galvanisation** (1 Autorité, 1 action) — Tous les alliés à 6 cases récupèrent **1d6 PV** et retirent Secoué 1.
   - **Plan B** (1 Autorité, réaction) — Quand un allié rate un jet : il peut immédiatement relancer (c'est un push gratuit sans coût).
 - **Sous-classe : Stratège** —
   - **Embuscade Planifiée** — Au premier round de combat, si le groupe n'est pas surpris : tous les alliés ont Avantage à leur première action.
@@ -411,8 +411,8 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 | Blessures | **5** |
 | Armure | **3** (armure légère) |
 | Speed | 6 cases |
-| Healing Surges | **3/jour** |
-| Surge Value | **5 PV** |
+| Surges | **3/jour** |
+| Valeur de Surge | **5 PV** |
 | Saves proficients | WIT, DEX |
 
 **Score d'attaque :**
@@ -430,7 +430,7 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 | Perception | WIT 11 = **11** |
 | Investigation | WIT 11 = **11** |
 
-**Features de classe :**
+**Capacités de classe :**
 - **Drone Compagnon** — Drone Scout (PV 5, Armure 0, Speed Vol 8, portée contrôle 100 cases). Peut observer, marquer des cibles (Avantage pour le prochain allié), et relayer un lien de hacking.
 - **Tech Points** (ressource, pool/Shift = 3 + bonus WIT = **6 TP**) — Ne se regagnent pas en combat. Rechargés au Shift Rest.
 - **Arsenal (2 picks) :**
@@ -446,7 +446,7 @@ Chaque round : tire une carte numérotée (1-10). Ordre croissant (1 = premier).
 - Deck de hacking amélioré TL3 +1 (✓ Neuf) — Anti-ICE Blanche
 - Kit d'ingénierie TL3
 - Drone Scout "Pixel" (PV 5, Vol 8, caméra)
-- EMP grenade ×1 (Blast 3, désactive électronique 2 rounds)
+- EMP grenade ×1 (Zone 3, désactive électronique 2 rounds)
 - Logiciel : Exploit Kit ×1 (Avantage sur 1 jet d'Intrusion)
 
 **Score Hacking effectif : 13** (WIT 11 + prof 1 + deck +1)
@@ -488,7 +488,7 @@ Pouvoir: Formation (+1 Armure par allié adjacent, max +3)
 ```
 Score Att: 9 | Dégâts: 1d6 (fusil d'assaut, range 12, auto 1d8) | Armure: 4 (gilet tactique)
 Saves: tous 8 | Speed: 6
-Pouvoir: Pack Tactics (Avantage si allié adjacent à la cible)
+Pouvoir: Tactique de Meute (Avantage si allié adjacent à la cible)
 ```
 
 ---
@@ -506,7 +506,7 @@ ATTAQUE:
   Couteau — Score 10 | 1d4+2 (reach 1)
 
 POUVOIRS:
-• Pack Tactics — Avantage si un allié est adjacent à la cible.
+• Tactique de Meute — Avantage si un allié est adjacent à la cible.
 • Retraite Tactique — Fuit sous couvert si PV < 5.
 ```
 
@@ -521,7 +521,7 @@ PV: 11 | 5 | Speed: 6 | Armure: 3 (veste tactique)
 Initiative: 1 carte | Saves: STR 8, DEX 11, WIT 9, EMP 8
 
 ATTAQUE:
-  Fusil de précision — Score 11 | 1d10+2 (range 20, Precise 1, Pierce 1)
+  Fusil de précision — Score 11 | 1d10+2 (range 20, Précis 1, Perforant 1)
 
 POUVOIRS:
 • Tireur Embusqué — Invisible tant qu'il n'a pas tiré. Jet de Discrétion gratuit après chaque tir.
@@ -580,12 +580,12 @@ Initiative: 2 cartes (agit 2×/round) | Saves: STR 10, DEX 9, WIT 9, EMP 12
 
 ATTAQUE:
   Pistolet lourd — Score 11 | 1d8+3 (range 8)
-  Matraque électrique — Score 10 | 1d6+3 + Stun 1 (reach 1, Lightning)
+  Matraque électrique — Score 10 | 1d6+3 + Étourdissement 1 (reach 1, Lightning)
 
 POUVOIRS:
 • Commandement (1 action) — Tous les alliés à 6 cases gagnent Avantage pendant 1 round.
 • Appel de renforts (2 actions, 1×/combat) — 1d4 soldats PMC arrivent en 2 rounds.
-• Nerfs d'acier — Avantage aux jets de Shaken.
+• Nerfs d'acier — Avantage aux jets de Secoué.
 • Réaction : Riposte — Quand un PJ le rate en mêlée, contre-attaque gratuite.
 
 PHASE 2 (quand PV = 0):
@@ -709,7 +709,7 @@ Les joueurs choisissent comment entrer :
 ### Phase 3 — Premier étage (combat principal)
 
 **Le couloir du 1er étage :**
-- 3 soldats PMC (Minions vétérans). Pack Tactics = dangereux si les PJ arrivent un par un.
+- 3 soldats PMC (Minions vétérans). Tactique de Meute = dangereux si les PJ arrivent un par un.
 - Le Marshal peut Embuscade Planifiée (Avantage au premier tour pour tous).
 
 **Le laboratoire — Combat du Boss :**
@@ -764,13 +764,13 @@ L'alarme est déclenchée (automatiquement après Phase 3, ou plus tôt si bruya
 
 # PARTIE 5 — TABLE DE BLESSURES CRITIQUES (résumée)
 
-Jet : **d100** + 10 par crit déjà subi + Vicious bonus.
+Jet : **d100** + 10 par crit déjà subi + Vicieux bonus.
 
 | d100 | Sévérité | Effet rapide |
 |---|---|---|
 | 01-10 | Mineure | Stress / lâche objet / perd 1 action |
-| 11-20 | Mineure | Sonné / Shaken automatique |
-| 21-30 | Mineure | Staggered 1 tour / Désavantage 1 tour |
+| 11-20 | Mineure | Sonné / Secoué automatique |
+| 21-30 | Mineure | Chancelant 1 tour / Désavantage 1 tour |
 | 31-40 | Mineure | Douleur vive (diff +2 prochain jet) |
 | 41-60 | Modérée | Blessure persistante : Désavantage à 1 stat jusqu'à soins |
 | 61-80 | Modérée | Hémorragie (1 Blessures/round, 3 rounds) ou entravé |
@@ -791,8 +791,8 @@ Après la session :
 1. **Clarté :** Le roll-under était-il intuitif ? Les joueurs ont-ils compris le seuil ?
 2. **Rythme du combat :** Combien de rounds en moyenne ? Trop long, trop court ?
 3. **PV/Blessures :** La double barre de vie était-elle claire ?
-4. **Shaken :** Le mécanisme a-t-il fonctionné ? Trop punitif ? Pas assez ?
-5. **Healing Surges :** Les joueurs ont-ils manqué de surges ? Le Medic était-il sollicité ?
+4. **Secoué :** Le mécanisme a-t-il fonctionné ? Trop punitif ? Pas assez ?
+5. **Surges :** Les joueurs ont-ils manqué de surges ? Le Medic était-il sollicité ?
 6. **Push :** Les joueurs ont-ils pushé ? Le coût (condition/dégradation) semblait-il juste ?
 7. **Dégradation :** L'équipement s'est-il dégradé ? Les joueurs ont-ils ressenti la perte ?
 8. **Conditions :** Les 4 conditions ont-elles été utilisées ? Claires ?

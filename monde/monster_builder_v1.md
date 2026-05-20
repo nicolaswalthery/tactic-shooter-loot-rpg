@@ -134,7 +134,7 @@ Un template est un profil-type prêt à l'emploi. Choisis un template, ajoute le
 - **Armure :** Gilet balistique (Armure = table)
 - **Armes :** Fusil d'assaut (dégâts table, range 12, auto dé+1) + couteau (1d4+STR, reach 1)
 - **Saves avantagés :** STR
-- **Pouvoirs suggérés :** Pack Tactics, Couverture de Feu, Retraite Tactique
+- **Pouvoirs suggérés :** Tactique de Meute, Couverture de Feu, Retraite Tactique
 - **Comme Minion :** Score 8-10, dégâts 1d6, pas d'auto
 
 ### Template : Tireur d'élite
@@ -194,7 +194,7 @@ Un template est un profil-type prêt à l'emploi. Choisis un template, ajoute le
 - **Stats clés :** STR 10-13, DEX 8-10 (variable)
 - **Armure :** Naturelle (peau épaisse, carapace, blindage)
 - **Armes :** Griffes/Morsure/Tentacules (dégâts table, reach 1-2) + attaque spéciale
-- **Saves avantagés :** STR (souvent immunisé à Shaken)
+- **Saves avantagés :** STR (souvent immunisé à Secoué)
 - **Pouvoirs suggérés :** Frénésie, Charge, Terreur, Poison, Régénération
 
 ### Template : Véhicule / Tourelle
@@ -204,7 +204,7 @@ Un template est un profil-type prêt à l'emploi. Choisis un template, ajoute le
 - **Stats clés :** — (pas de stats classiques)
 - **Armure :** Blindage (Armure table +4)
 - **Armes :** Arme montée (dégâts table × 1.5, range 15+)
-- **Saves :** Immunisé aux conditions mentales (Shaken, Stressé, Confus). Vulnérable EMP.
+- **Saves :** Immunisé aux conditions mentales (Secoué, Stressé, Confus). Vulnérable EMP.
 - **Pouvoirs suggérés :** Blindage, Suppression, EMP Vulnérable, Tourelle Automatique
 
 ---
@@ -219,15 +219,15 @@ Les pouvoirs sont ce qui rend chaque ennemi unique. Sans pouvoirs, un Adversaire
 
 | Pouvoir | Effet | Catégorie |
 |---|---|---|
-| **Pack Tactics** | Avantage à l'attaque si un allié est adjacent à la cible. | Minion, Adversaire |
+| **Tactique de Meute** | Avantage à l'attaque si un allié est adjacent à la cible. | Minion, Adversaire |
 | **Charge** | Si se déplace de 4+ cases en ligne droite avant d'attaquer : +1d6 dégâts. | Adversaire, Boss |
 | **Frénésie** | Quand PV < 50% : +2 dégâts sur toutes les attaques. | Adversaire, Boss |
 | **Frappe Ciblée** | +1d6 dégâts quand attaque avec Avantage ou depuis couvert. | Adversaire |
 | **Première Balle** | Au premier round, si agit avant la cible : Avantage + dégâts doublés. | Adversaire |
 | **Tir Perforant** | Les attaques à distance ignorent 2 points d'Armure. | Adversaire, Boss |
 | **Multiattaque** | Peut faire 2 attaques différentes avec 2 actions (au lieu de la même). | Boss |
-| **Attaque de Zone** | L'attaque touche toutes les cibles dans un Blast 2 (save DEX pour demi-dégâts). | Boss |
-| **Exécution** | +2d6 dégâts contre les cibles Staggered ou à 0 PV. | Boss |
+| **Attaque de Zone** | L'attaque touche toutes les cibles dans une Zone 2 (save DEX pour demi-dégâts). | Boss |
+| **Exécution** | +2d6 dégâts contre les cibles Chancelant ou à 0 PV. | Boss |
 | **Déchiquetage** | Sur un Réussite critique (Nat 1) : dégâts normaux + 1 Blessure + entrée sur table de blessures critiques. | Boss |
 
 ### Pouvoirs défensifs
@@ -247,13 +247,13 @@ Les pouvoirs sont ce qui rend chaque ennemi unique. Sans pouvoirs, un Adversaire
 
 | Pouvoir | Effet | Catégorie |
 |---|---|---|
-| **Couverture de Feu** | 1 action : toutes les cibles dans un cône de 3 cases font un jet de Shaken (diff 3). Même sans toucher. | Adversaire, Boss |
+| **Couverture de Feu** | 1 action : toutes les cibles dans un cône de 3 cases font un jet de Secoué (diff 3). Même sans toucher. | Adversaire, Boss |
 | **Suppression** | Quand touche une cible : la cible a Désavantage à sa prochaine action. | Adversaire, Boss |
 | **Grappin / Immobilisation** | Sur une touche mêlée : la cible est Immobilisée (save STR pour se libérer, 1 action). | Adversaire, Boss |
 | **Terreur** | 1 action : toutes les cibles à 6 cases font un save EMP . Échec = Stressé. | Boss |
 | **Hack Ennemi** | 1 action : jet WIT vs Firewall d'un implant ou d'un équipement électronique d'un PJ. Succès = l'objet dysfonctionne 1 round. | Adversaire, Boss |
 | **Brouilleur** | Passif : pas de communication sans fil à 6 cases. Les drones dans la zone perdent le contact. | Adversaire |
-| **EMP Burst** | 1×/combat : désactive toute l'électronique dans un Blast 3 pendant 2 rounds. Save WIT pour les implants. | Boss |
+| **EMP Burst** | 1×/combat : désactive toute l'électronique dans une Zone 3 pendant 2 rounds. Save WIT pour les implants. | Boss |
 | **Cri de Guerre** | 1 action : tous les alliés à 6 cases gagnent Avantage pendant 1 round. | Adversaire (Leader), Boss |
 
 ### Pouvoirs tactiques
@@ -268,7 +268,7 @@ Les pouvoirs sont ce qui rend chaque ennemi unique. Sans pouvoirs, un Adversaire
 | **Galvanisation** | 1 action : un allié à 6 cases récupère 2d6 PV. | Adversaire (Leader), Boss |
 | **Soutien Drone** | Contrôle 1-3 drones Minions. Les drones agissent sur le tour du contrôleur. | Adversaire, Boss |
 | **Tireur Embusqué** | Ne peut pas être repéré tant qu'il ne tire pas. Après un tir : jet de Discrétion gratuit pour rester caché. | Adversaire |
-| **Bombardier Suicide** | Quand éliminé : explose. Blast 2, dégâts = dégâts d'attaque × 2. Save DEX. | Minion |
+| **Bombardier Suicide** | Quand éliminé : explose. Zone 2, dégâts = dégâts d'attaque × 2. Save DEX. | Minion |
 
 ### Pouvoirs de Boss exclusifs
 
@@ -276,7 +276,7 @@ Les pouvoirs sont ce qui rend chaque ennemi unique. Sans pouvoirs, un Adversaire
 |---|---|
 | **Phase 2** | Quand PV tombent à 0 la première fois : regagne 50% de ses PV max, change de pattern d'attaque (nouvelles armes, nouvelle posture, nouveaux pouvoirs). |
 | **Réactions Multiples** | Peut réagir 1× par tour de PJ (pas 1× par round). Face à 4 PJ = 4 réactions potentielles. |
-| **Présence Oppressante** | Tous les PJ à 4 cases ont Désavantage aux jets de sang-froid (Shaken). |
+| **Présence Oppressante** | Tous les PJ à 4 cases ont Désavantage aux jets de sang-froid (Secoué). |
 | **Champ de Distorsion** | Tous les PJ qui l'attaquent ont Désavantage. Les attaques qui ratent de 1-2 sont renvoyées vers un allié aléatoire. |
 | **Adaptation** | Après avoir subi 2 attaques du même type, gagne Résistance à ce type de dégâts. Force les PJ à varier. |
 | **Inévitable** | Ne peut pas être ralenti, immobilisé, ou repoussé. Ignore le terrain difficile. Avance toujours. |
@@ -307,7 +307,7 @@ Pouvoir: Formation (+1 Armure par allié adjacent, max +3)
 ```
 Score Att: 8 | Dégâts: 1d4 (laser léger, range 10) | Armure: 1 (coque plastique)
 Saves: tous 8 | Speed: Vol 8
-Pouvoir: — | Immunité: Shaken, Stressé, Confus (machine)
+Pouvoir: — | Immunité: Secoué, Stressé, Confus (machine)
 Vulnérabilité: EMP (détruit automatiquement)
 ```
 
@@ -320,10 +320,10 @@ Vulnérabilité: EMP (détruit automatiquement)
 ```
 Score Att: 9 | Dégâts: 1d6 (fusil d'assaut, range 12, auto 1d8) | Armure: 4 (gilet tactique)
 Saves: tous 8 | Speed: 6
-Pouvoir: Pack Tactics (Avantage si allié adjacent à la cible)
+Pouvoir: Tactique de Meute (Avantage si allié adjacent à la cible)
 ```
 
-*Troupes entraînées d'une PMC ou d'un gouvernement. En escouade de 4 avec Pack Tactics, ils frappent avec Avantage — mortels pour un groupe de niv 3-5.*
+*Troupes entraînées d'une PMC ou d'un gouvernement. En escouade de 4 avec Tactique de Meute, ils frappent avec Avantage — mortels pour un groupe de niv 3-5.*
 
 ---
 
@@ -355,7 +355,7 @@ ATTAQUE:
   Couteau — Score 10 | 1d4+2 (reach 1)
 
 POUVOIRS:
-• Pack Tactics — Avantage si un allié est adjacent à la cible.
+• Tactique de Meute — Avantage si un allié est adjacent à la cible.
 • Retraite Tactique — Fuit sous couvert si PV < 10. Peut revenir avec 1d4 gardes Minions.
 ```
 
@@ -408,8 +408,8 @@ PV: 68 | Blessures: 14 | Speed: 6 | Armure: 8 (armure tactique corpo)
 Initiative: 1 carte | Saves: STR 10, DEX 10, WIT 9, EMP 9
 
 ATTAQUE:
-  Fusil à rail — Score 13 | 2d8+4 (range 15, Pierce 2)
-  Matraque électrique — Score 12 | 1d8+3 + Stun 1 (reach 1)
+  Fusil à rail — Score 13 | 2d8+4 (range 15, Perforant 2)
+  Matraque électrique — Score 12 | 1d8+3 + Étourdissement 1 (reach 1)
 
 POUVOIRS:
 • Tir Perforant — Les attaques à distance ignorent 2 points d'Armure.
@@ -456,7 +456,7 @@ POUVOIRS:
 • Charge — Si se déplace de 4+ cases en ligne droite avant d'attaquer : +1d6 dégâts.
 • Grappin — Sur une touche mêlée : la cible est Immobilisée (save STR, 1 action pour se libérer).
 • Frénésie — Quand PV < 30 : +2 dégâts sur toutes les attaques. Speed +2.
-Immunité: Shaken (pas de peur, pas de morale)
+Immunité: Secoué (pas de peur, pas de morale)
 ```
 
 *Rapide, brutale, et elle ne recule jamais. La Charge + Grappin + Morsure est un combo dévastateur : charge de loin, immobilise, et au prochain tour la morsure fait un crit automatique sur une cible immobilisée.*
@@ -475,7 +475,7 @@ Initiative: 2 cartes (agit 2×/round) | Saves: STR 11, DEX 9, WIT 10, EMP 12
 
 ATTAQUE:
   Pistolet lourd — Score 12 | 2d6+3 (range 10)
-  Matraque stun — Score 11 | 1d8+3 + Staggered 1 round (reach 1)
+  Matraque étourdissante — Score 11 | 1d8+3 + Chancelant 1 round (reach 1)
 
 POUVOIRS:
 • Commandement (1 action) — Tous les alliés à 6 cases gagnent Avantage pendant 1 round.
@@ -496,9 +496,9 @@ PV: 156 | Blessures: 21 | Speed: 8 | Armure: 11 (exo-armure cybernétique intég
 Initiative: 2 cartes | Saves: STR 14, DEX 10, WIT 8, EMP 7
 
 ATTAQUE:
-  Bras-canon — Score 14 | 2d10+5 (range 12, Pierce 2)
-  Poing cybernétique — Score 14 | 2d8+5 + Staggered (reach 1)
-  Salve de roquettes (1×/combat) — Blast 3, 3d8, save DEX pour demi
+  Bras-canon — Score 14 | 2d10+5 (range 12, Perforant 2)
+  Poing cybernétique — Score 14 | 2d8+5 + Chancelant (reach 1)
+  Salve de roquettes (1×/combat) — Zone 3, 3d8, save DEX pour demi
 
 POUVOIRS:
 • Inévitable — Ne peut pas être ralenti, immobilisé ou repoussé. Ignore le terrain difficile.
@@ -506,7 +506,7 @@ POUVOIRS:
 • Frénésie — Quand PV < 78 : +3 dégâts, Speed 10.
 • Régénération (8) — Récupère 8 PV au début de chaque tour. S'arrête si dégâts Fire ou EMP.
 • Réaction : Parade (mêlée) ou Esquive Réflexe (1×/round, annule 1 attaque à distance).
-Immunité: Shaken, Stressé, Confus (machine + chair = aucune empathie)
+Immunité: Secoué, Stressé, Confus (machine + chair = aucune empathie)
 ```
 
 *Le Terminator de votre campagne. Il avance, il encaisse, il régénère. Astuce : les dégâts Fire arrêtent la régénération. L'EMP peut désactiver temporairement le bras-canon (Hack Ennemi). Les PJ doivent collaborer — le Grounder ne peut pas tanker ça seul.*
@@ -533,7 +533,7 @@ POUVOIRS:
 • Phase 2 — Quand PV tombent à 0 : active le protocole d'auto-destruction.
   Les PJ ont 10 rounds pour s'échapper. Pendant ces 10 rounds, AEGIS continue de contrôler
   tourelles et drones avec Frénésie (+3 dégâts).
-Immunité: Toutes les conditions. Pas de corps = pas de mêlée, pas de Shaken, pas de Stressé.
+Immunité: Toutes les conditions. Pas de corps = pas de mêlée, pas de Secoué, pas de Stressé.
 Vulnérabilité: Le noyau physique est quelque part dans le complexe. Le trouver (Investigation/Hacking)
   et le détruire (Armure 15, PV 30) tue AEGIS instantanément.
 ```
@@ -574,7 +574,7 @@ Le système utilise un budget simple basé sur le **ratio ennemis/PJ**.
 |---|---|
 | 1 combat/Shift | Les PJ peuvent tout dépenser — pas de gestion de surges. OK pour boss fights. |
 | 2 combats/Shift | Les PJ doivent gérer un peu — les surges commencent à compter. Rythme standard. |
-| 3-4 combats/Shift | **Attrition.** Les surges deviennent précieuses. Le Medic est indispensable. Les conditions s'accumulent. Le 4e combat est un cauchemar même contre des Minions. C'est ici que le système brille. |
+| 3-4 combats/Shift | **Attrition.** Les surges deviennent précieux. Le Medic est indispensable. Les conditions s'accumulent. Le 4e combat est un cauchemar même contre des Minions. C'est ici que le système brille. |
 
 ### Composition d'une bonne rencontre
 
@@ -619,7 +619,7 @@ Tu as un monstre D&D 5e et tu veux l'utiliser ? Voici la conversion rapide.
 | Multiattack | → **Multiattaque** (pouvoir Boss) |
 | Legendary Actions | → **Cartes d'initiative multiples** (2-4 cartes) |
 | Legendary Resistance | → **Immunité (condition)** ou **Esquive Réflexe** |
-| Pack Tactics | → **Pack Tactics** (identique) |
+| Tactique de Meute | → **Tactique de Meute** (identique) |
 | Frightful Presence | → **Terreur** |
 | Regeneration | → **Régénération (X)** |
 | Spellcasting | → **1-2 effets pré-choisis** au lieu d'une liste complète de sorts |

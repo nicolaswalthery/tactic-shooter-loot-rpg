@@ -166,7 +166,7 @@ Avant toute action de hacking, le personnage doit avoir un **lien** vers le syst
 |---|---|
 | **Effacement** | Détruit des données (irréversible sans backup physique) |
 | **Virus** | Plante un logiciel malveillant — effet retardé au choix du hacker (bombe logique) |
-| **Surcharge** | Force un système à surcharger — dégâts physiques (1d6 Lightning par niv du système) dans un Blast 2 autour de l'appareil |
+| **Surcharge** | Force un système à surcharger — dégâts physiques (1d6 Lightning par niv du système) dans une Zone 2 autour de l'appareil |
 | **Briquage** | Rend un appareil inutilisable de façon permanente (drone, implant, terminal) |
 
 **Échec :** Le sabotage échoue et le hacker est automatiquement détecté.
@@ -324,7 +324,7 @@ Chaque programme a une **Force** (difficulté pour le désactiver) et un **effet
 
 ### Niveaux d'alerte
 
-Le système a un **niveau d'alerte** qui monte au fil des actions du hacker. C'est l'équivalent numérique du Shaken — une escalade progressive.
+Le système a un **niveau d'alerte** qui monte au fil des actions du hacker. C'est l'équivalent numérique du Secoué — une escalade progressive.
 
 | Niveau | Nom | Effet |
 |---|---|---|
@@ -353,7 +353,7 @@ Le système a un **niveau d'alerte** qui monte au fil des actions du hacker. C'e
 | Réussite critique (Nat 1) sur un jet de hacking | -1 |
 | Sabotage réussi sur le module d'alerte lui-même | Reset à 0 (mais nécessite de trouver le nœud d'alerte) |
 
-> **Design :** Le système d'alerte crée une **horloge narrative**. Le hacker sent la pression monter — est-ce qu'il pousse pour finir le job, ou est-ce qu'il se masque et prend son temps ? C'est exactement la même tension que le combat avec Shaken qui monte.
+> **Design :** Le système d'alerte crée une **horloge narrative**. Le hacker sent la pression monter — est-ce qu'il pousse pour finir le job, ou est-ce qu'il se masque et prend son temps ? C'est exactement la même tension que le combat avec Secoué qui monte.
 
 ---
 
@@ -472,7 +472,7 @@ Le hacker peut cibler les **équipements ennemis** en combat :
 ### Quand le Tech n'est pas un Hacker
 
 Le Tech sous-classe **Ingénieur** ne hack pas aussi bien, mais peut :
-- Utiliser Hack Rapide (feature de classe) pour des effets mineurs (1 action, diff +2).
+- Utiliser Hack Rapide (capacité de classe) pour des effets mineurs (1 action, diff +2).
 - Se concentrer sur ses drones et ses réparations.
 - Scanner les systèmes pour donner des infos à l'équipe.
 

@@ -28,7 +28,7 @@
 
 ## Ce que ce jeu est
 
-Un système tactique létal pour le modern/sci-fi, inspiré de Dragonbane (roll-under, Shaken, push), Ultramodern5 (classes, Tech Levels, nomenclature), ICRPG (loot comme progression), et Genesys (crafting, qualités d'équipement).
+Un système tactique létal pour le modern/sci-fi, inspiré de Dragonbane (roll-under, Secoué, push), Ultramodern5 (classes, Tech Levels, nomenclature), ICRPG (loot comme progression), et Genesys (crafting, qualités d'équipement).
 
 **Les 5 piliers :**
 
@@ -60,10 +60,10 @@ Un système tactique létal pour le modern/sci-fi, inspiré de Dragonbane (roll-
 | Niveaux | 15. Proficiency +1/+2/+3 (paliers 1-5, 6-10, 11-15). |
 | Stat increases | 3 au choix (niveaux 4, 8, 12). |
 | PV/Blessures | Pool unique. PV Dying + 1 Blessure. PV à 0 = Mourant. |
-| Shaken | Auto sur hit, save STR ou WIT début de tour, dure 1 round max. |
+| Secoué | Auto sur hit, save STR ou WIT début de tour, dure 1 round max. |
 | Critiques | Nat 1 = Réussite critique (dégâts sur Blessures + table). Nat 20 = Échec critique. |
 | Push | Relance après échec. Coût : condition OU dégradation d'équipement. |
-| Repos | Restrictif. Second Wind 1×/combat. Stretch = 1 surge. Max 2 Stretches/Shift. |
+| Repos | Restrictif. Second Souffle 1×/combat. Stretch = 1 surge. Max 2 Stretches/Shift. |
 
 ---
 ---
@@ -109,14 +109,14 @@ Le système est conçu autour d'une journée de 4 Shifts. Chaque Shift est un ac
 
 **Le cap de 2 Stretch Rests par Shift** est ce qui empêche les joueurs de se soigner indéfiniment. Sans ce cap, un groupe patient peut trivialiser toute rencontre. Avec le cap, les joueurs doivent choisir quand se reposer.
 
-## Shaken en pratique
+## Secoué en pratique
 
-Shaken est le mécanisme le plus fréquent du jeu. Quelques rappels pour le MJ :
+Secoué est le mécanisme le plus fréquent du jeu. Quelques rappels pour le MJ :
 
-- **Chaque hit = +1 Shaken.** Tu n'as pas besoin de le rappeler à chaque tir — une fois que les joueurs ont intégré, c'est automatique.
+- **Chaque hit = +1 Secoué.** Tu n'as pas besoin de le rappeler à chaque tir — une fois que les joueurs ont intégré, c'est automatique.
 - **Le save de sang-froid est le moment de tension.** Le joueur choisit STR ou WIT. Un Grounder STR 10 avec prof a 55% de s'en sortir. Un Tech WIT 10 avec prof a aussi 55%. C'est intentionnel — tout le monde a les mêmes chances.
-- **Shaken 3 = quasi-verrouillé.** Double Désavantage + perte d'action. Un joueur à Shaken 3 a besoin d'un allié (Snap Out Of It, Mots de Réconfort, Cri de Ralliement) ou d'une couverture totale.
-- **Le Shaken disparaît à la fin du tour.** Pas de tracking persistant. Le compteur repart à 0 chaque round.
+- **Secoué 3 = quasi-verrouillé.** Double Désavantage + perte d'action. Un joueur à Secoué 3 a besoin d'un allié (Snap Out Of It, Mots de Réconfort, Cri de Ralliement) ou d'une couverture totale.
+- **Le Secoué disparaît à la fin du tour.** Pas de tracking persistant. Le compteur repart à 0 chaque round.
 
 ## Loot en pratique
 
@@ -333,7 +333,7 @@ Un template est un profil-type prêt à l'emploi. Choisis un template, ajoute le
 - **Armure :** Gilet balistique (Armure = table)
 - **Armes :** Fusil d'assaut (dégâts table, range 12, auto dé+1) + couteau (1d4+STR, reach 1)
 - **Saves proficients :** STR
-- **Pouvoirs suggérés :** Pack Tactics, Couverture de Feu, Retraite Tactique
+- **Pouvoirs suggérés :** Tactique de Meute, Couverture de Feu, Retraite Tactique
 - **Comme Minion :** Score 8-10, dégâts 1d6, pas d'auto
 
 ### Template : Tireur d'élite
@@ -393,7 +393,7 @@ Un template est un profil-type prêt à l'emploi. Choisis un template, ajoute le
 - **Stats clés :** STR 10-13, DEX 8-10 (variable)
 - **Armure :** Naturelle (peau épaisse, carapace, blindage)
 - **Armes :** Griffes/Morsure/Tentacules (dégâts table, reach 1-2) + attaque spéciale
-- **Saves proficients :** STR (souvent immunisé à Shaken)
+- **Saves proficients :** STR (souvent immunisé à Secoué)
 - **Pouvoirs suggérés :** Frénésie, Charge, Terreur, Poison, Régénération
 
 ### Template : Véhicule / Tourelle
@@ -403,7 +403,7 @@ Un template est un profil-type prêt à l'emploi. Choisis un template, ajoute le
 - **Stats clés :** — (pas de stats classiques)
 - **Armure :** Blindage (Armure table +4)
 - **Armes :** Arme montée (dégâts table × 1.5, range 15+)
-- **Saves :** Immunisé aux conditions mentales (Shaken, Stressé, Confus). Vulnérable EMP.
+- **Saves :** Immunisé aux conditions mentales (Secoué, Stressé, Confus). Vulnérable EMP.
 - **Pouvoirs suggérés :** Blindage, Suppression, EMP Vulnérable, Tourelle Automatique
 
 ---
@@ -418,15 +418,15 @@ Les pouvoirs sont ce qui rend chaque ennemi unique. Sans pouvoirs, un Adversaire
 
 | Pouvoir | Effet | Catégorie |
 |---|---|---|
-| **Pack Tactics** | Avantage à l'attaque si un allié est adjacent à la cible. | Minion, Adversaire |
+| **Tactique de Meute** | Avantage à l'attaque si un allié est adjacent à la cible. | Minion, Adversaire |
 | **Charge** | Si se déplace de 4+ cases en ligne droite avant d'attaquer : +1d6 dégâts. | Adversaire, Boss |
 | **Frénésie** | Quand PV < 50% : +2 dégâts sur toutes les attaques. | Adversaire, Boss |
 | **Frappe Ciblée** | +1d6 dégâts quand attaque avec Avantage ou depuis couvert. | Adversaire |
 | **Première Balle** | Au premier round, si agit avant la cible : Avantage + dégâts doublés. | Adversaire |
 | **Tir Perforant** | Les attaques à distance ignorent 2 points d'Armure. | Adversaire, Boss |
 | **Multiattaque** | Peut faire 2 attaques différentes avec 2 actions (au lieu de la même). | Boss |
-| **Attaque de Zone** | L'attaque touche toutes les cibles dans un Blast 2 (save DEX pour demi-dégâts). | Boss |
-| **Exécution** | +2d6 dégâts contre les cibles Staggered ou à 0 PV. | Boss |
+| **Attaque de Zone** | L'attaque touche toutes les cibles dans un Zone 2 (save DEX pour demi-dégâts). | Boss |
+| **Exécution** | +2d6 dégâts contre les cibles Chancelant ou à 0 PV. | Boss |
 | **Déchiquetage** | Sur un Réussite critique (Nat 1) : dégâts normaux + 1 Blessure + entrée sur table de blessures critiques. | Boss |
 
 ### Pouvoirs défensifs
@@ -446,13 +446,13 @@ Les pouvoirs sont ce qui rend chaque ennemi unique. Sans pouvoirs, un Adversaire
 
 | Pouvoir | Effet | Catégorie |
 |---|---|---|
-| **Couverture de Feu** | 1 action : toutes les cibles dans un cône de 3 cases font un jet de Shaken (diff 3). Même sans toucher. | Adversaire, Boss |
+| **Couverture de Feu** | 1 action : toutes les cibles dans un cône de 3 cases font un jet de Secoué (diff 3). Même sans toucher. | Adversaire, Boss |
 | **Suppression** | Quand touche une cible : la cible a Désavantage à sa prochaine action. | Adversaire, Boss |
 | **Grappin / Immobilisation** | Sur une touche mêlée : la cible est Immobilisée (save STR pour se libérer, 1 action). | Adversaire, Boss |
 | **Terreur** | 1 action : toutes les cibles à 6 cases font un save EMP . Échec = Stressé. | Boss |
 | **Hack Ennemi** | 1 action : jet WIT vs Firewall d'un implant ou d'un équipement électronique d'un PJ. Succès = l'objet dysfonctionne 1 round. | Adversaire, Boss |
 | **Brouilleur** | Passif : pas de communication sans fil à 6 cases. Les drones dans la zone perdent le contact. | Adversaire |
-| **EMP Burst** | 1×/combat : désactive toute l'électronique dans un Blast 3 pendant 2 rounds. Save WIT pour les implants. | Boss |
+| **EMP Burst** | 1×/combat : désactive toute l'électronique dans un Zone 3 pendant 2 rounds. Save WIT pour les implants. | Boss |
 | **Cri de Guerre** | 1 action : tous les alliés à 6 cases gagnent Avantage pendant 1 round. | Adversaire (Leader), Boss |
 
 ### Pouvoirs tactiques
@@ -467,7 +467,7 @@ Les pouvoirs sont ce qui rend chaque ennemi unique. Sans pouvoirs, un Adversaire
 | **Galvanisation** | 1 action : un allié à 6 cases récupère 2d6 PV. | Adversaire (Leader), Boss |
 | **Soutien Drone** | Contrôle 1-3 drones Minions. Les drones agissent sur le tour du contrôleur. | Adversaire, Boss |
 | **Tireur Embusqué** | Ne peut pas être repéré tant qu'il ne tire pas. Après un tir : jet de Discrétion gratuit pour rester caché. | Adversaire |
-| **Bombardier Suicide** | Quand éliminé : explose. Blast 2, dégâts = dégâts d'attaque × 2. Save DEX. | Minion |
+| **Bombardier Suicide** | Quand éliminé : explose. Zone 2, dégâts = dégâts d'attaque × 2. Save DEX. | Minion |
 
 ### Pouvoirs de Boss exclusifs
 
@@ -475,7 +475,7 @@ Les pouvoirs sont ce qui rend chaque ennemi unique. Sans pouvoirs, un Adversaire
 |---|---|
 | **Phase 2** | Quand PV tombent à 0 la première fois : regagne 50% de ses PV max, change de pattern d'attaque (nouvelles armes, nouvelle posture, nouveaux pouvoirs). |
 | **Réactions Multiples** | Peut réagir 1× par tour de PJ (pas 1× par round). Face à 4 PJ = 4 réactions potentielles. |
-| **Présence Oppressante** | Tous les PJ à 4 cases ont Désavantage aux jets de sang-froid (Shaken). |
+| **Présence Oppressante** | Tous les PJ à 4 cases ont Désavantage aux jets de sang-froid (Secoué). |
 | **Champ de Distorsion** | Tous les PJ qui l'attaquent ont Désavantage. Les attaques qui ratent de 1-2 sont renvoyées vers un allié aléatoire. |
 | **Adaptation** | Après avoir subi 2 attaques du même type, gagne Résistance à ce type de dégâts. Force les PJ à varier. |
 | **Inévitable** | Ne peut pas être ralenti, immobilisé, ou repoussé. Ignore le terrain difficile. Avance toujours. |
@@ -506,7 +506,7 @@ Pouvoir: Formation (+1 Armure par allié adjacent, max +3)
 ```
 Score Att: 8 | Dégâts: 1d4 (laser léger, range 10) | Armure: 1 (coque plastique)
 Saves: tous 8 | Speed: Vol 8
-Pouvoir: — | Immunité: Shaken, Stressé, Confus (machine)
+Pouvoir: — | Immunité: Secoué, Stressé, Confus (machine)
 Vulnérabilité: EMP (détruit automatiquement)
 ```
 
@@ -519,10 +519,10 @@ Vulnérabilité: EMP (détruit automatiquement)
 ```
 Score Att: 9 | Dégâts: 1d6 (fusil d'assaut, range 12, auto 1d8) | Armure: 4 (gilet tactique)
 Saves: tous 8 | Speed: 6
-Pouvoir: Pack Tactics (Avantage si allié adjacent à la cible)
+Pouvoir: Tactique de Meute (Avantage si allié adjacent à la cible)
 ```
 
-*Troupes entraînées d'une PMC ou d'un gouvernement. En escouade de 4 avec Pack Tactics, ils frappent avec Avantage — mortels pour un groupe de niv 3-5.*
+*Troupes entraînées d'une PMC ou d'un gouvernement. En escouade de 4 avec Tactique de Meute, ils frappent avec Avantage — mortels pour un groupe de niv 3-5.*
 
 ---
 
@@ -554,7 +554,7 @@ ATTAQUE:
   Couteau — Score 10 | 1d4+2 (reach 1)
 
 POUVOIRS:
-• Pack Tactics — Avantage si un allié est adjacent à la cible.
+• Tactique de Meute — Avantage si un allié est adjacent à la cible.
 • Retraite Tactique — Fuit sous couvert si PV < 10. Peut revenir avec 1d4 gardes Minions.
 ```
 
@@ -607,8 +607,8 @@ PV: 68 | Blessures: 14 | Speed: 6 | Armure: 8 (armure tactique corpo)
 Initiative: 1 carte | Saves: STR 10, DEX 10, WIT 9, EMP 9
 
 ATTAQUE:
-  Fusil à rail — Score 13 | 2d8+4 (range 15, Pierce 2)
-  Matraque électrique — Score 12 | 1d8+3 + Stun 1 (reach 1)
+  Fusil à rail — Score 13 | 2d8+4 (range 15, Perforant 2)
+  Matraque électrique — Score 12 | 1d8+3 + Étourdissement 1 (reach 1)
 
 POUVOIRS:
 • Tir Perforant — Les attaques à distance ignorent 2 points d'Armure.
@@ -655,7 +655,7 @@ POUVOIRS:
 • Charge — Si se déplace de 4+ cases en ligne droite avant d'attaquer : +1d6 dégâts.
 • Grappin — Sur une touche mêlée : la cible est Immobilisée (save STR, 1 action pour se libérer).
 • Frénésie — Quand PV < 30 : +2 dégâts sur toutes les attaques. Speed +2.
-Immunité: Shaken (pas de peur, pas de morale)
+Immunité: Secoué (pas de peur, pas de morale)
 ```
 
 *Rapide, brutale, et elle ne recule jamais. La Charge + Grappin + Morsure est un combo dévastateur : charge de loin, immobilise, et au prochain tour la morsure fait un crit automatique sur une cible immobilisée.*
@@ -674,7 +674,7 @@ Initiative: 2 cartes (agit 2×/round) | Saves: STR 11, DEX 9, WIT 10, EMP 12
 
 ATTAQUE:
   Pistolet lourd — Score 12 | 2d6+3 (range 10)
-  Matraque stun — Score 11 | 1d8+3 + Staggered 1 round (reach 1)
+  Matraque stun — Score 11 | 1d8+3 + Chancelant 1 round (reach 1)
 
 POUVOIRS:
 • Commandement (1 action) — Tous les alliés à 6 cases gagnent Avantage pendant 1 round.
@@ -695,9 +695,9 @@ PV: 156 | Blessures: 21 | Speed: 8 | Armure: 11 (exo-armure cybernétique intég
 Initiative: 2 cartes | Saves: STR 14, DEX 10, WIT 8, EMP 7
 
 ATTAQUE:
-  Bras-canon — Score 14 | 2d10+5 (range 12, Pierce 2)
-  Poing cybernétique — Score 14 | 2d8+5 + Staggered (reach 1)
-  Salve de roquettes (1×/combat) — Blast 3, 3d8, save DEX pour demi
+  Bras-canon — Score 14 | 2d10+5 (range 12, Perforant 2)
+  Poing cybernétique — Score 14 | 2d8+5 + Chancelant (reach 1)
+  Salve de roquettes (1×/combat) — Zone 3, 3d8, save DEX pour demi
 
 POUVOIRS:
 • Inévitable — Ne peut pas être ralenti, immobilisé ou repoussé. Ignore le terrain difficile.
@@ -705,7 +705,7 @@ POUVOIRS:
 • Frénésie — Quand PV < 78 : +3 dégâts, Speed 10.
 • Régénération (8) — Récupère 8 PV au début de chaque tour. S'arrête si dégâts Fire ou EMP.
 • Réaction : Parade (mêlée) ou Esquive Réflexe (1×/round, annule 1 attaque à distance).
-Immunité: Shaken, Stressé, Confus (machine + chair = aucune empathie)
+Immunité: Secoué, Stressé, Confus (machine + chair = aucune empathie)
 ```
 
 *Le Terminator de votre campagne. Il avance, il encaisse, il régénère. Astuce : les dégâts Fire arrêtent la régénération. L'EMP peut désactiver temporairement le bras-canon (Hack Ennemi). Les PJ doivent collaborer — le Grounder ne peut pas tanker ça seul.*
@@ -732,7 +732,7 @@ POUVOIRS:
 • Phase 2 — Quand PV tombent à 0 : active le protocole d'auto-destruction.
   Les PJ ont 10 rounds pour s'échapper. Pendant ces 10 rounds, AEGIS continue de contrôler
   tourelles et drones avec Frénésie (+3 dégâts).
-Immunité: Toutes les conditions. Pas de corps = pas de mêlée, pas de Shaken, pas de Stressé.
+Immunité: Toutes les conditions. Pas de corps = pas de mêlée, pas de Secoué, pas de Stressé.
 Vulnérabilité: Le noyau physique est quelque part dans le complexe. Le trouver (Investigation/Hacking)
   et le détruire (Armure 15, PV 30) tue AEGIS instantanément.
 ```
@@ -818,7 +818,7 @@ Tu as un monstre D&D 5e et tu veux l'utiliser ? Voici la conversion rapide.
 | Multiattack | → **Multiattaque** (pouvoir Boss) |
 | Legendary Actions | → **Cartes d'initiative multiples** (2-4 cartes) |
 | Legendary Resistance | → **Immunité (condition)** ou **Esquive Réflexe** |
-| Pack Tactics | → **Pack Tactics** (identique) |
+| Tactique de Meute | → **Tactique de Meute** (identique) |
 | Frightful Presence | → **Terreur** |
 | Regeneration | → **Régénération (X)** |
 | Spellcasting | → **1-2 effets pré-choisis** au lieu d'une liste complète de sorts |
@@ -949,7 +949,7 @@ Le bonus s'ajoute **selon le type d'objet** :
 |---|---|---|
 | **Arme** | Score d'attaque (tir ou mêlée) | Fusil +2 → Score de Tir + 2 |
 | **Armure** | Valeur d'Armure | Gilet +1 → Armure de base +1 |
-| **Viseur / Lunette** | Score d'attaque de l'arme associée | Lunette +1 → Score de Tir +1 (attachment) |
+| **Viseur / Lunette** | Score d'attaque de l'arme associée | Lunette +1 → Score de Tir +1 (accessoire) |
 | **Implant (stat)** | Valeur de la stat indiquée | Implant +1 DEX → DEX +1 (affecte Score, saves, etc.) |
 | **Implant (skill)** | Score d'une compétence spécifique | Implant +1 Hacking → Score Informatique +1 |
 | **Outil (skill)** | Score d'une compétence spécifique | Kit médical +1 → Score Médecine +1 |
@@ -1000,22 +1000,22 @@ Chaque objet durable (pas les consommables) a un état inscrit sur la fiche :
 | 1 | **Chargeurs en vrac.** Munitions standard empilées dans une caisse. | Consommable | ◻ | — | Réapprovisionne les munitions du groupe pour 1 Shift. | 1 |
 | 2 | **Gilet tactique usagé.** Armure balistique de surplus. Fonctionnel mais fatigué. | Armure (M) | ◻ | +0 | Armure 5. | 1 |
 | 3 | **Fusil d'assaut standard.** L'arme de base de l'infanterie. Fiable, sans surprise. | Arme | ◻ | +0 | 1d8 / Auto 1d10. Portée 30. | 1 |
-| 4 | **Kit de premiers soins militaire.** Bandages, morphine auto, garrots. | Outil | ◻ | +0 | Déclenche 1 Healing Surge (allié adjacent). Usage unique par Stretch. | 1 |
-| 5 | **Grenades frag (×3).** Lot de trois grenades standard. | Consommable | ◻ | — | 2d6, Blast 2, Knockdown. Save DEX. | 1 |
+| 4 | **Kit de premiers soins militaire.** Bandages, morphine auto, garrots. | Outil | ◻ | +0 | Déclenche 1 Surge (allié adjacent). Usage unique par Stretch. | 1 |
+| 5 | **Grenades frag (×3).** Lot de trois grenades standard. | Consommable | ◻ | — | 2d6, Zone 2, Renversement. Save DEX. | 1 |
 | 6 | **Casque balistique.** Protège la tête. Réduit les crits. | Armure (L) | ◻ | +0 | +1 Armure (tête). -10 au jet de Blessures Critiques. | 1 |
 | 7 | **Radio militaire cryptée.** Communication sécurisée, portée 50 km. | Gadget | ◻ | +0 | Communication cryptée. Impossible à intercepter sans Informatique diff 4. | 2 |
 | 8 | **Couteau de combat.** Lame utilitaire à double usage. | Arme | ◻ | +0 | 1d4, Reach 1. Peut être lancé (portée 4). | 0 |
-| 9 | **Fumigènes (×4).** Lot de quatre fumigènes screening. | Consommable | ◻ | — | Zone opaque Blast 3, 1d4 rounds. Bloque la ligne de vue. | 0 |
+| 9 | **Fumigènes (×4).** Lot de quatre fumigènes screening. | Consommable | ◻ | — | Zone opaque Zone 3, 1d4 rounds. Bloque la ligne de vue. | 0 |
 | 10 | **Armure de combat modulaire.** Plaques interchangeables, bien entretenue. | Armure (M) | ◻ | +0 | Armure 7. Modulaire (+1 HP). | 2 |
 | 11 | **Fusil de combat avancé "Wraith".** Caseless, silencieux d'origine, précis. | Arme | 🔷 | **+1** | 1d10 / Auto 1d12. Portée 30. Silencieux (inclus). | 2 |
 | 12 | **Gilet lourd "Iron Wall".** Plaques céramique de qualité supérieure. | Armure (H) | 🔷 | **+1** | Armure 8. Résistance (balistique). | 2 |
-| 13 | **Lunette ACOG améliorée.** Optique de précision, reticule holographique. | Attachment | 🔷 | **+1** | S'installe sur un fusil (1 HP). Le bonus s'ajoute au Score de Tir de l'arme. | 2 |
-| 14 | **Grenade EMP.** Prototype confisqué au labo d'ingénierie. | Consommable | 🔷 | — | Désactive électronique Blast 3, 1d4 rounds. Drones détruits. Cybernétiques off. | 3 |
-| 15 | **Stimulant de combat "Surge-9".** Injection d'adrénaline militaire. | Consommable | 🔷 | — | Déclenche 1 Healing Surge (1 action). Avantage sur STR/DEX pendant 3 rounds. Puis Épuisé. | 2 |
-| 16 | **Fusil magnétique léger "Tempest".** Accélération électromagnétique, fiable. | Arme | 🔷 | **+1** | 2d6 / Auto 2d8. Portée 30. Magnétique, Pierce 1. | 3 |
-| 17 | **Exo-bras droit "Goliath Grip".** Servomoteur militaire, monté sur l'épaule. | Implant | 🔷 | **+2 STR** | Mêlée uniquement : +2 dégâts mêlée. Réduit Cumbersome armes de 1. 1 slot. | 3 |
-| 18 | **Armure composite "Sentinel".** Nanoplaques auto-ajustantes, couverture intégrale. | Armure (H) | 🔷 | **+2** | Armure 10. Scellée (partiel). Stabilisée (Avantage au sang-froid Shaken). | 3 |
-| 19 | **Sniper railgun "Judgment".** Canon magnétique longue portée, dévastateur. | Arme | 🔶 | **+2** | 2d10. Portée 80. Magnétique, Precise 2, Pierce 3. Cumbersome 2. | 4 |
+| 13 | **Lunette ACOG améliorée.** Optique de précision, reticule holographique. | Accessoire | 🔷 | **+1** | S'installe sur un fusil (1 HP). Le bonus s'ajoute au Score de Tir de l'arme. | 2 |
+| 14 | **Grenade EMP.** Prototype confisqué au labo d'ingénierie. | Consommable | 🔷 | — | Désactive électronique Zone 3, 1d4 rounds. Drones détruits. Cybernétiques off. | 3 |
+| 15 | **Stimulant de combat "Surge-9".** Injection d'adrénaline militaire. | Consommable | 🔷 | — | Déclenche 1 Surge (1 action). Avantage sur STR/DEX pendant 3 rounds. Puis Épuisé. | 2 |
+| 16 | **Fusil magnétique léger "Tempest".** Accélération électromagnétique, fiable. | Arme | 🔷 | **+1** | 2d6 / Auto 2d8. Portée 30. Magnétique, Perforant 1. | 3 |
+| 17 | **Exo-bras droit "Goliath Grip".** Servomoteur militaire, monté sur l'épaule. | Implant | 🔷 | **+2 STR** | Mêlée uniquement : +2 dégâts mêlée. Réduit Encombrant armes de 1. 1 slot. | 3 |
+| 18 | **Armure composite "Sentinel".** Nanoplaques auto-ajustantes, couverture intégrale. | Armure (H) | 🔷 | **+2** | Armure 10. Scellée (partiel). Stabilisée (Avantage au sang-froid Secoué). | 3 |
+| 19 | **Sniper railgun "Judgment".** Canon magnétique longue portée, dévastateur. | Arme | 🔶 | **+2** | 2d10. Portée 80. Magnétique, Précis 2, Perforant 3. Encombrant 2. | 4 |
 | 20 | **Exo-armure d'infanterie "Titan Mk.II".** Armure assistée complète, trouvée dans un coffre de commandement. | Armure (E) | 🔶 | **+3** | Armure 12. Servos. Scellée. STR augmentée (+2). Avantage sang-froid. | 3 |
 
 ---
@@ -1030,7 +1030,7 @@ Chaque objet durable (pas les consommables) a un état inscrit sur la fiche :
 | 2 | **Veste en cuir renforcée.** Blindage artisanal dans la doublure. | Armure (L) | ◻ | +0 | Armure 2. Discret. | 0 |
 | 3 | **Pistolet semi-auto.** Arme de poing commune, fiable. | Arme | ◻ | +0 | 1d6. Portée 10. | 1 |
 | 4 | **Kit de crochetage.** Rossignols et tenseurs dans un étui. | Outil | ◻ | +0 | Nécessaire pour Escamotage (serrures mécaniques). | 0 |
-| 5 | **Batte de baseball cloutée.** Arme de mêlée improvisée mais efficace. | Arme | ◻ | +0 | 1d6, Reach 1. Knockdown. | 0 |
+| 5 | **Batte de baseball cloutée.** Arme de mêlée improvisée mais efficace. | Arme | ◻ | +0 | 1d6, Reach 1. Renversement. | 0 |
 | 6 | **Sac de survie urbaine.** Lampe, rations, gourde, carte, couverture. | Gadget | ◻ | — | Kit aventurier. Survie en milieu urbain pour 3 jours. | 0 |
 | 7 | **Faux papiers.** Identité forgée, qualité moyenne. | Gadget | ◻ | +0 | Avantage sur Tromperie pour se faire passer pour quelqu'un d'autre. Perception diff 2 pour détecter. | 1 |
 | 8 | **Gilet pare-balles souple.** Porté sous une chemise, invisible. | Armure (L) | ◻ | +0 | Armure 3. Discret. | 1 |
@@ -1040,12 +1040,12 @@ Chaque objet durable (pas les consommables) a un état inscrit sur la fiche :
 | 12 | **Faux papiers premium.** Identité complète — biométrie, historique de crédit, casier vierge. | Gadget | 🔷 | **+1** | +1 à Tromperie pour identité. Perception diff 4 pour détecter. Résiste aux scans TL2. | 2 |
 | 13 | **Contact au marché noir.** Pas un objet — un accès. Le vendeur offre un choix. | Spécial | 🔷 | — | Le joueur peut **acheter** 1 objet 🔷 de n'importe quelle table, au double du prix. | — |
 | 14 | **Veste balistique "Shadow Line".** Coupe civile, protection militaire. | Armure (L) | 🔷 | **+1** | Armure 4. Discret. Pas de pénalité de Discrétion. | 2 |
-| 15 | **Couteau monofilament.** Lame à fil unique, coupe tout. | Arme | 🔷 | **+1** | 1d6, Reach 1. Pierce 3. Vicious 1. | 3 |
+| 15 | **Couteau monofilament.** Lame à fil unique, coupe tout. | Arme | 🔷 | **+1** | 1d6, Reach 1. Perforant 3. Vicieux 1. | 3 |
 | 16 | **Lunettes infrarouges "Nightcrawler".** Vision nocturne 30 cases, look civil. | Gadget | 🔷 | +0 | Vision nocturne 30 cases (dim → bright, dark → dim). Discret (ressemble à des lunettes normales). | 3 |
 | 17 | **Implant communicateur sous-cutané.** Radio dans la mâchoire, activation par pression. | Implant | 🔷 | **+1** | +1 aux jets de Persuasion et Tromperie (micro-feedback vocal). Comm cryptée 20 km. 1 slot. | 3 |
 | 18 | **SMG caseless "Viper".** Dissimulable dans un sac, rafale dévastatrice. | Arme | 🔷 | **+2** | 1d8 / Auto 1d10. Portée 12. Compact (dissimulable). | 2 |
 | 19 | **Armure sous-cutanée nanofibre.** Implantée chirurgicalement, invisible de l'extérieur. | Implant | 🔶 | **+2** | +2 Armure permanent. Invisible (pas détectable visuellement). Ne cumule pas avec armure > 5. 1 slot. | 3 |
-| 20 | **Pistolet plasma "Sunburn".** Arme de collection d'un crime lord. Gravée, unique. | Arme | 🔶 | **+3** | 2d6. Portée 8. Burn 2. Vicious 1. Le posséder attire l'attention (le crime lord le veut). | 4 |
+| 20 | **Pistolet plasma "Sunburn".** Arme de collection d'un crime lord. Gravée, unique. | Arme | 🔶 | **+3** | 2d6. Portée 8. Brûlure 2. Vicieux 1. Le posséder attire l'attention (le crime lord le veut). | 4 |
 
 ---
 
@@ -1057,9 +1057,9 @@ Chaque objet durable (pas les consommables) a un état inscrit sur la fiche :
 |---|---|---|---|---|---|---|
 | 1 | **Badge d'accès niveau 1.** Ouvre les portes publiques du complexe. | Gadget | ◻ | — | Accès aux zones niveau 1 (couloirs, cafétéria, sanitaires). | 2 |
 | 2 | **Tablette de données.** Terminal d'entreprise verrouillé. Informatique diff 2 pour déchiffrer. | Gadget | ◻ | +0 | Contient des données internes (MJ détermine le contenu). | 2 |
-| 3 | **Pistolet taser.** Arme non-létale, standard sécurité corpo. | Arme | ◻ | +0 | 1d4 Lightning. Stun 2 (Staggered 2 rounds si touché). Portée 4. | 2 |
+| 3 | **Pistolet taser.** Arme non-létale, standard sécurité corpo. | Arme | ◻ | +0 | 1d4 Lightning. Étourdissement 2 (Chancelant 2 rounds si touché). Portée 4. | 2 |
 | 4 | **Tenue de sécurité corpo.** Uniforme avec gilet léger intégré. | Armure (L) | ◻ | +0 | Armure 3. Passe pour un agent de sécurité (Avantage Tromperie dans le complexe). | 1 |
-| 5 | **Stimpack corporatif (×2).** Injecteurs d'urgence de qualité pharmaceutique. | Consommable | ◻ | — | Déclenche 1 Healing Surge (1 action) par stim. | 2 |
+| 5 | **Stimpack corporatif (×2).** Injecteurs d'urgence de qualité pharmaceutique. | Consommable | ◻ | — | Déclenche 1 Surge (1 action) par stim. | 2 |
 | 6 | **Détecteur de mensonges portable.** Micro-capteurs biométriques dans une montre. | Outil | ◻ | +0 | Avantage aux jets d'Intuition (1 cible à la fois). La cible ne sait pas. | 3 |
 | 7 | **Brouilleur de fréquences portable.** Coupe les communications sans fil dans 20 cases. | Gadget | ◻ | — | Bloque radio/wifi/cellulaire pendant 20 minutes. 1 charge par Shift. | 2 |
 | 8 | **Mallette blindée.** Conteneur de transport sécurisé, Armure 8 sur le contenu. | Gadget | ◻ | — | Protège 1 objet à l'intérieur (Armure 8). Résiste à la plupart des scanners TL2. | 2 |
@@ -1067,12 +1067,12 @@ Chaque objet durable (pas les consommables) a un état inscrit sur la fiche :
 | 10 | **Gilet de protection exécutive.** Kevlar haut de gamme, coupe sur mesure. | Armure (M) | ◻ | +0 | Armure 6. Discret (sous un costume). | 2 |
 | 11 | **Badge d'accès niveau 3.** Ouvre les zones sensibles — labos, serveurs, direction. | Gadget | 🔷 | — | Accès aux zones niveau 3. Désactive certaines alarmes. Chronométré (8h). | 2 |
 | 12 | **Deck de hacking "Razor".** Terminal offensif, interface neurale optionnelle. | Outil | 🔷 | **+1** | +1 au Score d'Informatique (hacking). Réduit Firewall de 1 sur la première intrusion. | 3 |
-| 13 | **Prototype de recherche (arme).** Fusil laser compact en phase de test. | Arme | 🔷 | **+1** | 2d6 Force. Portée 30. Burn 1, Precise 1. Marqué "PROTOTYPE" — traçable. | 3 |
+| 13 | **Prototype de recherche (arme).** Fusil laser compact en phase de test. | Arme | 🔷 | **+1** | 2d6 Force. Portée 30. Brûlure 1, Précis 1. Marqué "PROTOTYPE" — traçable. | 3 |
 | 14 | **Données compromettantes.** Fichiers décryptés — corruption, comptes offshore, black ops. | Gadget | 🔷 | — | Levier narratif. Peut être monnayé, échangé, ou utilisé comme chantage. Valeur = scénario. | — |
 | 15 | **Implant oculaire "Eagle Eye".** Augmentation rétinienne corpo, vision augmentée. | Implant | 🔷 | **+1** | +1 WIT (affecte Perception, Investigation, etc.). Vision nocturne 20 cases. 1 slot. | 3 |
 | 16 | **Drone tactique corpo "Sentinel".** Petit drone de surveillance avec marquage de cibles. | Gadget | 🔷 | +0 | Vol 6 cases. Caméra 360° + IR. Marque 1 cible : alliés ont Avantage vs cible marquée (1 round). PV 5, Armure 1. | 3 |
 | 17 | **Armure nanoplaque "Executive Shield".** Protection invisible, auto-réparation. | Armure (M) | 🔷 | **+2** | Armure 7. Discret. Auto-réparation (récupère 1 Armure perdue par Stretch). | 4 |
-| 18 | **Pistolet rail "Apex".** Arme de poing magnétique, bijou de technologie. | Arme | 🔷 | **+2** | 2d6. Portée 15. Magnétique, Pierce 2. | 4 |
+| 18 | **Pistolet rail "Apex".** Arme de poing magnétique, bijou de technologie. | Arme | 🔷 | **+2** | 2d6. Portée 15. Magnétique, Perforant 2. | 4 |
 | 19 | **Cadre neural amélioré "Cortex".** Implant cérébral de cadre supérieur, boost cognitif. | Implant | 🔶 | **+2** | +2 WIT. Avantage aux jets d'Investigation et d'Informatique. 2 slots. Risque de cyberpsychose. | 4 |
 | 20 | **Exo-armure furtive "Phantom".** Prototype d'infiltration corpo, camouflage actif. | Armure (E) | 🔶 | **+3** | Armure 11. Servos. Scellée. Camouflage optique (Avantage Discrétion, invisible si immobile). Pas de Désav. Discrétion. | 4 |
 
@@ -1091,8 +1091,8 @@ Chaque objet durable (pas les consommables) a un état inscrit sur la fiche :
 | 5 | **Détecteur de métaux portable.** Détecte mines, armes cachées, objets métalliques. | Gadget | ◻ | +0 | Détecte métal à 6 cases. Avantage aux jets de Perception pour trouver des objets cachés. | 3 |
 | 6 | **Communicateur chiffré de poche.** Radio indétectable, réseau mesh. | Gadget | ◻ | +0 | Communication cryptée 50 km. Impossible à intercepter TL2, Informatique diff 4 au TL3. | 3 |
 | 7 | **Filament caméra.** Fil-caméra de 10 cases, passe sous les portes. | Gadget | ◻ | +0 | Espionnage. Perception diff 4 pour repérer. | 2 |
-| 8 | **Grenade EMP artisanale.** Fabrication maison, instable mais fonctionnelle. | Consommable | ◻ | — | Blast 2 (réduit). Désactive électronique 1d4 rounds. 20% de chance de dysfonction (ne détone pas). | 2 |
-| 9 | **Machine pistol modifié.** Arme de poing avec auto-fire bricolé. | Arme | ◻ | +0 | 1d4 / Auto 1d6. Portée 6. Auto-fire. Risque de jam sur Échec critique (arme Endommagée). | 1 |
+| 8 | **Grenade EMP artisanale.** Fabrication maison, instable mais fonctionnelle. | Consommable | ◻ | — | Zone 2 (réduit). Désactive électronique 1d4 rounds. 20% de chance de dysfonction (ne détone pas). | 2 |
+| 9 | **Machine pistol modifié.** Arme de poing avec tir auto bricolé. | Arme | ◻ | +0 | 1d4 / Auto 1d6. Portée 6. Tir Auto. Risque de jam sur Échec critique (arme Endommagée). | 1 |
 | 10 | **Pièces de drone (×3).** Moteurs, hélices, capteurs — récupérables. | Consommable | ◻ | — | Matériaux pour réparer OU reconstruire 1 drone Détruit → Endommagé (Ingénierie diff 4). | 3 |
 | 11 | **Kit d'ingénierie avancé "Forge".** Outils de précision, diagnostic automatique. | Outil | 🔷 | **+1** | +1 aux jets d'Ingénierie. Réduit la difficulté de réparation de 1. | 3 |
 | 12 | **Deck de hacking "Specter".** Terminal haute performance, interface haptique. | Outil | 🔷 | **+1** | +1 au Score d'Informatique. Première intrusion par Shift : réduit Firewall de 1. | 3 |
@@ -1101,7 +1101,7 @@ Chaque objet durable (pas les consommables) a un état inscrit sur la fiche :
 | 15 | **Virus "Blackout".** Programme offensif prêt à l'emploi, stocké sur puce. | Consommable | 🔷 | — | Si injecté dans un système (hacking réussi) : désactive le système pendant 1 Stretch. Antivirus diff 5. | 3 |
 | 16 | **Caméra-bille volante "Pixie".** Micro-drone d'espionnage, quasi-indétectable. | Gadget | 🔷 | +0 | Vol 4 cases. Discrétion diff 4 pour repérer. Vidéo/audio 360°. 500 cases de portée. PV 1. | 4 |
 | 17 | **Bras cybernétique "Artisan".** Prothèse de précision, servomoteurs de chirurgien. | Implant | 🔷 | **+2** | +2 DEX (mains uniquement : Escamotage, Ingénierie, tir de précision). 1 slot. | 3 |
-| 18 | **Fusil gauss portable "Decimator".** Arme magnétique lourde, trouvée dans un atelier de contrebande. | Arme | 🔷 | **+2** | 2d8 / Auto 2d10. Portée 35. Magnétique, Pierce 2. Cumbersome 1. | 4 |
+| 18 | **Fusil gauss portable "Decimator".** Arme magnétique lourde, trouvée dans un atelier de contrebande. | Arme | 🔷 | **+2** | 2d8 / Auto 2d10. Portée 35. Magnétique, Perforant 2. Encombrant 1. | 4 |
 | 19 | **Drone lourd "War Wasp".** Drone de combat avancé, SMG intégré, résistant aux EMP. | Gadget | 🔶 | **+2** | Vol 4 cases. SMG intégré (1d8, auto 1d10, portée 12). DEX drone = 12. PV 15, Armure 3. Résiste EMP (save). | 4 |
 | 20 | **Deck de hacking légendaire "Pandora".** Chef-d'œuvre d'un hacker mythique. Circuiterie quantique. | Outil | 🔶 | **+3** | +3 au Score d'Informatique. Réduit Firewall de 2 sur toute intrusion. Première intrusion par Shift : Avantage automatique. Recherché par 3 corps et 2 gouvernements. | 5 |
 
@@ -1354,7 +1354,7 @@ Avant toute action de hacking, le personnage doit avoir un **lien** vers le syst
 |---|---|
 | **Effacement** | Détruit des données (irréversible sans backup physique) |
 | **Virus** | Plante un logiciel malveillant — effet retardé au choix du hacker (bombe logique) |
-| **Surcharge** | Force un système à surcharger — dégâts physiques (1d6 Lightning par niv du système) dans un Blast 2 autour de l'appareil |
+| **Surcharge** | Force un système à surcharger — dégâts physiques (1d6 Lightning par niv du système) dans un Zone 2 autour de l'appareil |
 | **Briquage** | Rend un appareil inutilisable de façon permanente (drone, implant, terminal) |
 
 **Échec :** Le sabotage échoue et le hacker est automatiquement détecté.
@@ -1512,7 +1512,7 @@ Chaque programme a une **Force** (difficulté pour le désactiver) et un **effet
 
 ### Niveaux d'alerte
 
-Le système a un **niveau d'alerte** qui monte au fil des actions du hacker. C'est l'équivalent numérique du Shaken — une escalade progressive.
+Le système a un **niveau d'alerte** qui monte au fil des actions du hacker. C'est l'équivalent numérique du Secoué — une escalade progressive.
 
 | Niveau | Nom | Effet |
 |---|---|---|
@@ -1541,7 +1541,7 @@ Le système a un **niveau d'alerte** qui monte au fil des actions du hacker. C'e
 | Réussite critique (Nat 1) sur un jet de hacking | -1 |
 | Sabotage réussi sur le module d'alerte lui-même | Reset à 0 (mais nécessite de trouver le nœud d'alerte) |
 
-> **Design :** Le système d'alerte crée une **horloge narrative**. Le hacker sent la pression monter — est-ce qu'il pousse pour finir le job, ou est-ce qu'il se masque et prend son temps ? C'est exactement la même tension que le combat avec Shaken qui monte.
+> **Design :** Le système d'alerte crée une **horloge narrative**. Le hacker sent la pression monter — est-ce qu'il pousse pour finir le job, ou est-ce qu'il se masque et prend son temps ? C'est exactement la même tension que le combat avec Secoué qui monte.
 
 ---
 
@@ -1660,7 +1660,7 @@ Le hacker peut cibler les **équipements ennemis** en combat :
 ### Quand le Tech n'est pas un Hacker
 
 Le Tech sous-classe **Ingénieur** ne hack pas aussi bien, mais peut :
-- Utiliser Hack Rapide (feature de classe) pour des effets mineurs (1 action, diff +2).
+- Utiliser Hack Rapide (capacité de classe) pour des effets mineurs (1 action, diff +2).
 - Se concentrer sur ses drones et ses réparations.
 - Scanner les systèmes pour donner des infos à l'équipe.
 
@@ -1829,7 +1829,7 @@ ZONE HAUTE SÉCURITÉ (derrière Black ICE + Porte):
 
 **Lancer une grenade :** 1 action. Portée de lancer = **6 cases** (STR 9+) ou **4 cases** (STR 7-8). Cible une *case*, pas une créature.
 
-**Zone d'effet :** La grenade a une propriété **Blast X** — toutes les créatures dans un rayon de X cases du point d'impact sont affectées.
+**Zone d'effet :** La grenade a une propriété **Zone X** — toutes les créatures dans un rayon de X cases du point d'impact sont affectées.
 
 **Save :** Les cibles font un **save DEX** (roll-under, pas de difficulté). Succès = dégâts ÷ 2, pas d'effet secondaire. Échec = dégâts pleins + effet.
 
@@ -1843,25 +1843,25 @@ ZONE HAUTE SÉCURITÉ (derrière Black ICE + Porte):
 
 ### Table des grenades
 
-| Nom | TL | Dégâts | Blast | Save | Effet | Prix |
+| Nom | TL | Dégâts | Zone | Save | Effet | Prix |
 |---|---|---|---|---|---|---|
-| **Grenade frag** | 1 | 2d6 | 2 | DEX | Knockdown (Prone si échec) | 25 |
-| **Grenade frag avancée** | 2 | 2d8 | 2 | DEX | Knockdown | 60 |
-| **Grenade à concussion** | 1 | 1d8 | 2 | DEX | Knockdown. Créatures ≤10 PV restants : éliminées sur échec. | 15 |
+| **Grenade frag** | 1 | 2d6 | 2 | DEX | Renversement (Prone si échec) | 25 |
+| **Grenade frag avancée** | 2 | 2d8 | 2 | DEX | Renversement | 60 |
+| **Grenade à concussion** | 1 | 1d8 | 2 | DEX | Renversement. Créatures ≤10 PV restants : éliminées sur échec. | 15 |
 | **Flashbang** | 1 | — | 2 | DEX | Aveuglé + Étourdi (1 round) | 25 |
-| **Grenade incendiaire** | 1 | 1d6 | 2 | DEX | Burn 2 (En feu, 1d6/tour pendant 2 tours) | 30 |
-| **Fumigène (screening)** | 0 | — | 3 | — | Crée une zone opaque (Blast 3). Dure 1d4 rounds. Bloque toute ligne de vue. | 10 |
+| **Grenade incendiaire** | 1 | 1d6 | 2 | DEX | Brûlure 2 (En feu, 1d6/tour pendant 2 tours) | 30 |
+| **Fumigène (screening)** | 0 | — | 3 | — | Crée une zone opaque (Zone 3). Dure 1d4 rounds. Bloque toute ligne de vue. | 10 |
 | **Fumigène signal** | 0 | — | 1 | — | Signal coloré visible à longue distance. Aucun effet tactique. | 5 |
 | **Gaz lacrymogène** | 1 | — | 2→3→4 | STR | Zone s'étend chaque round. Créatures dans la zone : Empoisonné (Désavantage STR/DEX, 1d4 dégâts/tour). Save STR début de tour. 2 saves consécutifs pour guérir. | 50 |
 | **Grenade EMP** | 3 | — | 3 | DEX | Désactive toute électronique dans la zone pendant 1d4 rounds. Drones détruits. Véhicules Étourdi 1 round. Cybernétiques désactivées. | 100 |
-| **Grenade HEAT** | 2 | 3d6 | 1 | DEX | Breach 2. Anti-véhicule. Type Fire. | 45 |
-| **Grenade plasma** | 4 | 2d10 | 2 | DEX | Burn 1, Pierce 2. Type Fire. | 400 |
+| **Grenade HEAT** | 2 | 3d6 | 1 | DEX | Brèche 2. Anti-véhicule. Type Fire. | 45 |
+| **Grenade plasma** | 4 | 2d10 | 2 | DEX | Brûlure 1, Perforant 2. Type Fire. | 400 |
 | **Mine magnétique** | 3 | 2d8 | 1 | DEX | S'attache à tout objet métallique à ≤6 cases. Peut être posée ou lancée. Détonation par télécommande. | 250 |
 | **Grenade seeker** | 3 | 2d6 | 2 | DEX | Drone miniature (vol 6 cases). Contrôlée à distance pendant 1 minute. Détone sur commande. AC 18, 1 PV. | 250 |
 | **Grenade à onde de choc** | 3 | 1d6 | 3 | STR | Créatures Medium ou moins : repoussées au bord de la zone + Prone. Type Sonic. | 100 |
 | **Grenade à singularité** | 5 | 2d8 | 2 | STR | Crée un puits de gravité. Échec = attirées au centre + Immobilisé (1 round). Type Force. | 450 |
 | **Grenade neurotoxine** | 4 | 2d6 poison/tour | 2→3→4 | STR | Zone s'étend chaque round. Gas (affecte vivants seulement). Empoisonné + 2d6 poison/tour. 2 saves STR consécutifs pour guérir. **Illégale dans la plupart des juridictions.** | 250 |
-| **Phosphore blanc** | 1 | 2d6 | 2→3→4 | DEX | Crée fumée opaque (comme fumigène) + dégâts Fire aux créatures dans la zone. Les cibles qui entrent = dégâts automatiques, pas de save. Burn 2. | 150 |
+| **Phosphore blanc** | 1 | 2d6 | 2→3→4 | DEX | Crée fumée opaque (comme fumigène) + dégâts Fire aux créatures dans la zone. Les cibles qui entrent = dégâts automatiques, pas de save. Brûlure 2. | 150 |
 
 ---
 
@@ -1869,12 +1869,12 @@ ZONE HAUTE SÉCURITÉ (derrière Black ICE + Porte):
 
 Les explosifs nécessitent un **détonateur** et un jet d'**Ingénierie (Démolitions)** pour être posés correctement. Difficulté 1 pour une pose simple, difficulté 2 pour une charge dirigée.
 
-| Nom | TL | Dégâts | Blast | Notes | Prix |
+| Nom | TL | Dégâts | Zone | Notes | Prix |
 |---|---|---|---|---|---|
 | **TNT** | 0 | 2d8 | 2 | Détonateur nécessaire. Détone par sympathie (50%) si dans une explosion. | 20 |
 | **Explosif plastique (C4)** | 2 | 2d10 | 2 | Moldable. Avec Ingénierie diff. 2 : changeable en cône 4 cases. Très stable. | 50 |
-| **Charge dirigée** | 2 | 3d8 | Cône 3 | Breach 3. Spécialisé anti-structure/porte. Ingénierie diff. 2 pour poser. | 100 |
-| **Nano-charge** | 4 | 3d10 | 2 | Programmable : timer, déclencheur mouvement, ou radio. Pierce 2. | 500 |
+| **Charge dirigée** | 2 | 3d8 | Cône 3 | Brèche 3. Spécialisé anti-structure/porte. Ingénierie diff. 2 pour poser. | 100 |
+| **Nano-charge** | 4 | 3d10 | 2 | Programmable : timer, déclencheur mouvement, ou radio. Perforant 2. | 500 |
 | **Mine antipersonnel** | 1 | 2d6 | 2 | Se déclenche au passage (pression). Perception diff. 3 pour repérer. | 30 |
 | **Mine Claymore** | 1 | 2d8 | Cône 4 | Télécommandée ou trip-wire. Cône directionnel. | 50 |
 
@@ -1964,10 +1964,10 @@ Les prix suivent la même logique TL que les armes.
 
 | Nom | TL | Effet | Prix |
 |---|---|---|---|
-| **Bouclier balistique** | 1 | 1 main. +2 Armure contre attaques frontales. Lourd (Cumbersome 2). | 500 |
+| **Bouclier balistique** | 1 | 1 main. +2 Armure contre attaques frontales. Lourd (Encombrant 2). | 500 |
 | **Bouclier de force** | 5 | 1 main. +3 Armure contre toutes les attaques. Activé/désactivé en action gratuite. Énergie : 10 rounds par Stretch. | 7 000 |
 | **Masque à gaz** | 0 | Immunité aux grenades de gaz (lacrymogène, neurotoxine). | 500 |
-| **Combinaison NBC** | 2 | Immunité gaz + Résistance Poison + Résistance Radiant. Cumbersome 1. | 2 000 |
+| **Combinaison NBC** | 2 | Immunité gaz + Résistance Poison + Résistance Radiant. Encombrant 1. | 2 000 |
 
 ---
 
@@ -2019,7 +2019,7 @@ Les cybernétiques sont des augmentations corporelles permanentes : prothèses, 
 |---|---|---|---|---|
 | **Bras cybernétique** | 2 | Remplace un bras perdu. +1 STR ou +1 DEX (choix à l'installation). | 1 | 2 000 |
 | **Jambe cybernétique** | 2 | Remplace une jambe perdue. +1 Vitesse (en cases). | 1 | 2 000 |
-| **Griffes rétractables** | 3 | Arme de mêlée intégrée (1d6, Pierce 1). Toujours disponible, indétectable au repos. | 1 | 2 500 |
+| **Griffes rétractables** | 3 | Arme de mêlée intégrée (1d6, Perforant 1). Toujours disponible, indétectable au repos. | 1 | 2 500 |
 | **Poings renforcés** | 3 | Dégâts mêlée à mains nues passent à 1d8. Peut infliger type Lightning. | 1 | 1 000 |
 | **Bras puissants** | 4 | Remplace les 2 bras. Dégâts mêlée à mains nues = 1d10. Avantage Agrippé (pour agripper). | 2 | 5 000 |
 | **Jambes digitigrades** | 4 | Remplace les 2 jambes. +2 Vitesse. Double la distance de saut. Réduit chutes de 10 cases. Avantage Discrétion (mouvement silencieux). | 2 | 5 000 |
@@ -2098,7 +2098,7 @@ Les drones sont des machines télécommandées. Le contrôleur utilise **1 actio
 | **Drone lourd** | 4 | Vol 4 cases | 15 | 3 | Armé d'un SMG intégré (1d8, auto 1d10, portée 12). DEX drone = 10 (+2). Résiste aux EMP (save diff. 2). | 10 000 |
 | **Rover terrestre** | 3 | Sol 6 cases | 8 | 2 | Chenilles. Caméra + bras manipulateur (peut ouvrir portes, désarmer mines avec Ingénierie du contrôleur). | 1 000 |
 | **Drone furtif** | 4 | Vol 6 cases | 3 | 0 | Caméra. Quasi-invisible (Discrétion diff. 4 pour repérer). Transmission 500 cases. Peut poser micro-espion. | 8 000 |
-| **Essaim de micro-drones** | 5 | Vol 4 cases | 1 (×20) | 0 | Nuage de 20 micro-drones. Zone Blast 3. Créatures dans la zone : Désavantage Perception (visuel). Peut infliger 1d4 dégâts/tour (nuée coupante). Détruire = attaque de zone. | 15 000 |
+| **Essaim de micro-drones** | 5 | Vol 4 cases | 1 (×20) | 0 | Nuage de 20 micro-drones. Zone Zone 3. Créatures dans la zone : Désavantage Perception (visuel). Peut infliger 1d4 dégâts/tour (nuée coupante). Détruire = attaque de zone. | 15 000 |
 
 ---
 
@@ -2112,7 +2112,7 @@ Les drones sont des machines télécommandées. Le contrôleur utilise **1 actio
 
 **PV véhicule :** Les véhicules ont des PV séparés du pilote. Quand PV = 0, le véhicule est détruit/immobilisé.
 
-**Armure véhicule :** Fonctionne comme l'Armure personnelle mais les valeurs sont plus élevées. **Breach X** réduit l'Armure véhicule.
+**Armure véhicule :** Fonctionne comme l'Armure personnelle mais les valeurs sont plus élevées. **Brèche X** réduit l'Armure véhicule.
 
 **Passagers :** Protégés par l'Armure du véhicule. Si le véhicule est détruit, chaque passager subit 2d6 dégâts (save DEX diff. 2 pour ÷ 2).
 
@@ -2166,38 +2166,38 @@ Les drones sont des machines télécommandées. Le contrôleur utilise **1 actio
 ---
 
 
-> **Design :** Système de Healing Surges (D&D 4e) intégré à nos unités de temps Round/Stretch/Shift. Les PV se récupèrent **uniquement** via les Surges (ressource finie par jour) ou les soins médicaux. Les Surges ne se régénèrent que sur un Shift Rest. C'est cette déplétion progressive qui crée la tension — le 4e combat de la journée est plus dangereux que le 1er.
+> **Design :** Système de Surges (D&D 4e) intégré à nos unités de temps Round/Stretch/Shift. Les PV se récupèrent **uniquement** via les Surges (ressource finie par jour) ou les soins médicaux. Les Surges ne se régénèrent que sur un Shift Rest. C'est cette déplétion progressive qui crée la tension — le 4e combat de la journée est plus dangereux que le 1er.
 
 ---
 
 ## Principes fondamentaux
 
-1. **Les PV ne se régénèrent pas naturellement.** Pas de "repos = full HP". Les PV reviennent **uniquement** via les Healing Surges ou les soins actifs (Médecine, stimulants).
-2. **Les Healing Surges sont une ressource finie par jour.** Chaque classe en a un nombre fixe. On les dépense pour récupérer. Elles ne reviennent que sur un Shift Rest.
+1. **Les PV ne se régénèrent pas naturellement.** Pas de "repos = full HP". Les PV reviennent **uniquement** via les Surges ou les soins actifs (Médecine, stimulants).
+2. **Les Surges sont une ressource finie par jour.** Chaque classe en a un nombre fixe. On les dépense pour récupérer. Elles ne reviennent que sur un Shift Rest.
 3. **Les Surges ne se régénèrent PAS sur un Stretch.** On les *dépense* pendant un Stretch, mais on ne les récupère pas. C'est la tension centrale du système.
 4. **Les Blessures récupèrent lentement.** 1 Blessures par jour de repos. Les Blessures représentent la vraie santé — les dégâts qui persistent.
 5. **Le matériel médical compte.** Kit de premiers soins, stimulants, kit chirurgical — la différence entre la vie et la mort.
 
 ---
 
-## Healing Surges
+## Surges
 
 ### Qu'est-ce qu'une Surge ?
 
-Une Healing Surge représente la capacité du personnage à se remettre d'aplomb — adrénaline, volonté, entraînement physique. Chaque Surge consommée restaure un montant fixe de PV appelé la **Surge Value**.
+Une Surge représente la capacité du personnage à se remettre d'aplomb — adrénaline, volonté, entraînement physique. Chaque Surge consommée restaure un montant fixe de PV appelé la **Valeur de Surge**.
 
 ### Formules
 
 | Donnée | Formule |
 |---|---|
 | **Nombre de Surges/jour** | Déterminé par la classe + bonus STR |
-| **Surge Value** | Vigueur de la classe + bonus STR |
+| **Valeur de Surge** | Vigueur de la classe + bonus STR |
 
-> **Exemple (Grounder) :** Vigueur 10, STR 10 (bonus +2). Surges/jour = 7 + 2 = **9 surges**. Surge Value = 10 + 2 = **12 PV** par surge. Total récupérable sur une journée = 9 × 12 = **108 PV de soins**. C'est généreux — mais réparti sur potentiellement 3-4 combats, ça va vite.
+> **Exemple (Grounder) :** Vigueur 10, STR 10 (bonus +2). Surges/jour = 7 + 2 = **9 surges**. Valeur de Surge = 10 + 2 = **12 PV** par surge. Total récupérable sur une journée = 9 × 12 = **108 PV de soins**. C'est généreux — mais réparti sur potentiellement 3-4 combats, ça va vite.
 
 ### Surges par classe (provisoire — à confirmer avec les classes)
 
-| Classe | Vigueur | Surges/jour | Surge Value | Profil |
+| Classe | Vigueur | Surges/jour | Valeur de Surge | Profil |
 |---|---|---|---|---|
 | **Heavy** | 12 | 8 + bonus STR | 12 + bonus STR | Tank. Beaucoup de PV, récupère gros. |
 | **Grounder** | 10 | 7 + bonus STR | 10 + bonus STR | Soldat polyvalent. Solide. |
@@ -2219,11 +2219,11 @@ Une Healing Surge représente la capacité du personnage à se remettre d'aplomb
 
 **Coût :** 1 action.
 
-**Effet :** Dépense **1 Healing Surge**, récupère la **Surge Value** en PV.
+**Effet :** Dépense **1 Surge**, récupère la **Valeur de Surge** en PV.
 
-**Limite :** **1×/combat.** Tu ne peux utiliser Second Wind qu'une seule fois par rencontre. C'est le "je serre les dents et je continue".
+**Limite :** **1×/combat.** Tu ne peux utiliser Second Souffle qu'une seule fois par rencontre. C'est le "je serre les dents et je continue".
 
-> **Exemple :** Marcos (Grounder, Surge Value 12) a pris 15 dégâts. Il utilise 1 action pour Second Wind → récupère 12 PV. Il lui reste 8 surges pour la journée.
+> **Exemple :** Marcos (Grounder, Valeur de Surge 12) a pris 15 dégâts. Il utilise 1 action pour Second Souffle → récupère 12 PV. Il lui reste 8 surges pour la journée.
 
 ---
 
@@ -2237,8 +2237,8 @@ Le repos court. Le groupe s'arrête, reprend son souffle, panse ses plaies.
 
 | Effet | Détail |
 |---|---|
-| **Dépenser 1 Surge** | Le personnage dépense **1 Healing Surge** (pas plus). Il récupère sa Surge Value en PV. |
-| **Shaken** | Effacé complètement. |
+| **Dépenser 1 Surge** | Le personnage dépense **1 Surge** (pas plus). Il récupère sa Valeur de Surge en PV. |
+| **Secoué** | Effacé complètement. |
 | **Conditions temporaires** | Toutes les conditions de combat expirent (Étourdi, Aveuglé temporaire, Supprimé, etc.) |
 | **Soigne 1 condition** | Une condition persistante au choix est retirée (inspiration DB). |
 | **Premiers soins** | Un personnage avec Médecine peut tenter de soigner **1 critique par allié** (voir Soins médicaux). |
@@ -2267,7 +2267,7 @@ Le repos long. Une vraie nuit de sommeil ou une longue période dans un lieu sû
 |---|---|
 | **PV au maximum** | Les PV reviennent à 100%. |
 | **Toutes les Surges reviennent** | Le pool de Surges est complètement restauré. |
-| **Shaken** | Effacé. |
+| **Secoué** | Effacé. |
 | **Toutes les conditions** | Effacées, sauf celles liées à un critique non soigné. |
 | **Blessures** | Récupère **1 Blessures** naturellement. 2 Blessures si repos complet + soins médicaux (jet de Médecine diff. 2 par un soignant). |
 | **Critiques Mineurs (1-5)** | Guérissent automatiquement. |
@@ -2282,14 +2282,14 @@ En dehors du 1 Surge gratuit par Stretch, les Surges ne se dépensent que via de
 
 | Déclencheur | Quand | Coût | Effet |
 |---|---|---|---|
-| **Stretch Rest** | Hors combat (15 min) | 1 Surge du patient | Récupère Surge Value en PV. 1 seule fois. |
-| **Second Wind** | En combat (1 action) | 1 Surge du personnage | Récupère Surge Value en PV. 1×/combat. |
-| **Stim Pack** | En combat ou hors combat (1 action) | 1 Surge du patient + le stim pack est consommé | Récupère Surge Value en PV. Le stim débloque la dépense, pas le contraire. |
+| **Stretch Rest** | Hors combat (15 min) | 1 Surge du patient | Récupère Valeur de Surge en PV. 1 seule fois. |
+| **Second Souffle** | En combat (1 action) | 1 Surge du personnage | Récupère Valeur de Surge en PV. 1×/combat. |
+| **Stim Pack** | En combat ou hors combat (1 action) | 1 Surge du patient + le stim pack est consommé | Récupère Valeur de Surge en PV. Le stim débloque la dépense, pas le contraire. |
 | **Pouvoir Medic** | En combat ou Stretch (1 action du Medic) | 1 Surge du patient | Le Medic active la Surge d'un allié adjacent. Certains pouvoirs avancés ajoutent des PV bonus. |
 | **Pouvoir Marshal** | En combat (capacité de classe) | 1 Surge de l'allié ciblé | Le Marshal galvanise un allié — "Debout soldat !" — qui dépense une Surge. |
 | **Objet spécial (TL élevé)** | Variable | 1 Surge + l'objet | Nano-injecteur, auto-chirurgien, etc. Chaque objet précise son effet. |
 
-> **Principe clé :** Le stim pack, le Medic, le Marshal — ce sont des **clés** qui ouvrent le coffre des Surges. Sans eux, tu es limité à 1 Surge/Stretch + 1 Second Wind/combat. Avec eux, tu peux dépenser plus de Surges plus vite. Mais le pool reste fini — personne ne crée de Surges supplémentaires (sauf capacités très rares de haut niveau).
+> **Principe clé :** Le stim pack, le Medic, le Marshal — ce sont des **clés** qui ouvrent le coffre des Surges. Sans eux, tu es limité à 1 Surge/Stretch + 1 Second Souffle/combat. Avec eux, tu peux dépenser plus de Surges plus vite. Mais le pool reste fini — personne ne crée de Surges supplémentaires (sauf capacités très rares de haut niveau).
 
 ---
 
@@ -2300,13 +2300,13 @@ C'est le cœur du design. Voici comment une journée type se déroule :
 | Moment | Surges restantes (Grounder, 9 max) | PV | Tension |
 |---|---|---|---|
 | **Début de journée** (après Shift) | 9/9 | 33/33 | Basse — pleine forme |
-| **Combat 1** (Second Wind utilisé) | 8/9 | ~25/33 | Basse — 1 surge dépensée en combat |
+| **Combat 1** (Second Souffle utilisé) | 8/9 | ~25/33 | Basse — 1 surge dépensée en combat |
 | **Stretch 1** (1 surge) | 7/9 | 33/33 | Basse — remonté au max |
-| **Combat 2** (Second Wind + Medic active 1 surge) | 5/9 | ~20/33 | Moyenne — les surges fondent |
+| **Combat 2** (Second Souffle + Medic active 1 surge) | 5/9 | ~20/33 | Moyenne — les surges fondent |
 | **Stretch 2** (1 surge) | 4/9 | 32/33 | Moyenne-haute — dernière Stretch, PV presque max |
-| **Combat 3** (Second Wind, pas de Medic dispo) | 3/9 | ~18/33 | Haute — PV pas au max, peu de surges |
+| **Combat 3** (Second Souffle, pas de Medic dispo) | 3/9 | ~18/33 | Haute — PV pas au max, peu de surges |
 | **Pas de Stretch possible** (max 2 atteint) | 3/9 | ~18/33 | Très haute — aucune récup possible |
-| **Combat 4** (si ça arrive) | 2/9 après Second Wind | ~12/33 | Critique — chaque hit peut faire basculer |
+| **Combat 4** (si ça arrive) | 2/9 après Second Souffle | ~12/33 | Critique — chaque hit peut faire basculer |
 
 > **Le 4e combat de la journée est plus dangereux que le 1er**, même si chaque combat individuel est identique. C'est les Surges qui créent cette montée en tension, pas les PV eux-mêmes.
 
@@ -2316,7 +2316,7 @@ C'est le cœur du design. Voici comment une journée type se déroule :
 
 | Pool | Représente | Récupération | Rythme |
 |---|---|---|---|
-| **PV** | Chance, esquive, endurance, fatigue. Pas des blessures physiques. | **Healing Surges** (pool fini/jour) + Stimulants + Médecine | Entre les combats (Stretch) |
+| **PV** | Chance, esquive, endurance, fatigue. Pas des blessures physiques. | **Surges** (pool fini/jour) + Stimulants + Médecine | Entre les combats (Stretch) |
 | **Blessures** | Vraie santé physique. Blessures réelles. | **1/jour naturel**, 2/jour avec soins, 1d4 avec Médecine terrain | Sur plusieurs jours |
 
 **PV à 0 → Mourant.** Les dégâts excédentaires ne "débordent" pas sur les Blessures dans le système simplifié. À 0 PV, on passe Mourant (Blessures).
@@ -2345,7 +2345,7 @@ C'est le cœur du design. Voici comment une journée type se déroule :
 | Soigner critique Mineur (1-5) | 1 | Critique retiré | 1 critique/cible/Stretch |
 | Soigner critique Modéré (6-10) | 2 | Critique retiré | 1 critique/cible/Stretch |
 | Soigner critique Grave (11-15) | 3 | Critique retiré (kit chirurgical requis) | 1 critique/cible/Stretch |
-| Permettre à un allié de dépenser 1 Surge | 2 | Le Medic active la dépense d'1 Surge chez un allié adjacent (l'allié récupère sa Surge Value). Certains pouvoirs Medic avancés ajoutent des PV bonus. | 1×/cible/Stretch, Medic uniquement |
+| Permettre à un allié de dépenser 1 Surge | 2 | Le Medic active la dépense d'1 Surge chez un allié adjacent (l'allié récupère sa Valeur de Surge). Certains pouvoirs Medic avancés ajoutent des PV bonus. | 1×/cible/Stretch, Medic uniquement |
 
 > **Note :** La dernière ligne donne au Medic son identité — il "génère" de la guérison supplémentaire sans puiser dans les Surges limitées du patient. C'est ce qui rend le Medic indispensable.
 
@@ -2366,8 +2366,8 @@ C'est le cœur du design. Voici comment une journée type se déroule :
 
 | Objet | TL | Prix | Effet | Limite |
 |---|---|---|---|---|
-| **Stim Pack** | 1 | 50 | 1 action. Permet de dépenser **1 Healing Surge** (récupère Surge Value en PV). Utilisable en combat ou hors combat — c'est le déclencheur qui ouvre la Surge. | 3/Shift |
-| **Stim Pack avancé** | 3 | 500 | 1 action. Permet de dépenser 1 Surge + ajoute **+1d6 PV** bonus en plus de la Surge Value. | Compte dans la limite de 3/Shift |
+| **Stim Pack** | 1 | 50 | 1 action. Permet de dépenser **1 Surge** (récupère Valeur de Surge en PV). Utilisable en combat ou hors combat — c'est le déclencheur qui ouvre la Surge. | 3/Shift |
+| **Stim Pack avancé** | 3 | 500 | 1 action. Permet de dépenser 1 Surge + ajoute **+1d6 PV** bonus en plus de la Valeur de Surge. | Compte dans la limite de 3/Shift |
 | **Nano-injecteur** | 4 | 2 000 | 1 action. Permet de dépenser 1 Surge + fin Hémorragie et Empoisonné + **+2d6 PV** bonus. | 1/Shift |
 | **Antidote** | 1 | 100 | 1 action. Fin de la condition Empoisonné. Ne dépense pas de Surge. | 1 utilisation |
 | **Anti-brûlure** | 2 | 75 | 1 action. Fin de En feu + soigne 1d6 PV. Ne dépense pas de Surge. | 1 utilisation |
@@ -2390,7 +2390,7 @@ C'est le cœur du design. Voici comment une journée type se déroule :
 
 | Condition | Round | Stretch | Shift |
 |---|---|---|---|
-| **Shaken** | -1 niveau/début de tour | Effacé | Effacé |
+| **Secoué** | -1 niveau/début de tour | Effacé | Effacé |
 | **Prone** | Se relever (1 action) | Debout | Debout |
 | **Étourdi** | Fin prochain tour | Effacé | Effacé |
 | **Aveuglé** | Selon source | Effacé (sauf critique) | Effacé (sauf critique) |
@@ -2420,7 +2420,7 @@ C'est le cœur du design. Voici comment une journée type se déroule :
 
 | Phase | PV | Surges | Conditions | Critiques | Blessures |
 |---|---|---|---|---|---|
-| **Round** | Second Wind (1 Surge, 1×/combat) | -1 par Second Wind | Shaken -1/tour | Non | Non |
+| **Round** | Second Souffle (1 Surge, 1×/combat) | -1 par Second Souffle | Secoué -1/tour | Non | Non |
 | **Stretch** | 1 Surge + Médecine | -1 (dépensée, pas régénérée). Supplémentaires via Medic/stim pack seulement. | Temporaires effacées + 1 persistante | Mineurs/Modérés soignables | Non |
 | **Shift** | PV au max | Toutes reviennent | Toutes effacées | Mineurs auto, Modérés/Graves soignables | +1 naturel, +1 avec soins |
 
@@ -2435,11 +2435,11 @@ C'est le cœur du design. Voici comment une journée type se déroule :
 
 ### Le système en résumé
 
-Chaque objet a des **Hard Points** (slots de modification). On peut y installer des **Attachments** (modifications) qui ajoutent des **Qualités** (propriétés spéciales).
+Chaque objet a des **Points de Modification** (slots de modification). On peut y installer des **Accessoires** (modifications) qui ajoutent des **Qualités** (propriétés spéciales).
 
-### Hard Points par objet
+### Points de Modification par objet
 
-| Type d'objet | Hard Points |
+| Type d'objet | Points de Modification |
 |--------------|------------|
 | Arme légère (pistolet) | 1-2 |
 | Arme moyenne (fusil) | 2-3 |
@@ -2462,44 +2462,44 @@ Les qualités sont soit **Passives** (toujours actives) soit **Actives** (à dé
 | Qualité | Type | Rating | Effet (adapté d20) |
 |---------|------|--------|--------------------|
 | **Accurate** | Passive | 1-2 | +1 au Score d'attaque par rang. Arme précise par design ou technologie. |
-| **Auto-fire** | Active | — | Tir en rafale. L'attaquant subit désavantage au jet. Sur touché, peut dépenser un résultat de 1-2 pour infliger un touché additionnel (même cible ou cible adjacente). Chaque touché inflige les dégâts de base. |
-| **Blast** | Active | X | Explosion / dispersion. Sur touché, chaque personnage engagé avec (adjacent à) la cible subit X dégâts. Sur miss, peut se déclencher sur résultat 1-2 : la cible ET les adjacents subissent X dégâts. |
-| **Breach** | Passive | X | Perce les blindages lourds. Ignore X × 10 points d'Armure (principalement véhicules/exo-armure). Chaque rang de Breach = ignorer 1 point d'armure véhicule ou 10 Armure personnel. |
-| **Burn** | Active | X | Dégâts persistants (feu, acide, plasma). Sur déclenchement, la cible subit les dégâts de base de l'arme au début de chacun de ses tours pendant X rounds. La victime peut utiliser 1 action pour un save DEX afin d'éteindre les flammes. |
-| **Concussive** | Active | X | Choc violent. Sur déclenchement, la cible est **Staggered** (ne peut effectuer d'actions, seulement se déplacer) pendant X rounds. Extrêmement puissant — Rating max recommandé : 1-2. |
-| **Cumbersome** | Passive | X | Arme lourde/encombrante. Nécessite STR ≥ X pour être maniée correctement. Pour chaque point de STR manquant, désavantage aux jets d'attaque. |
+| **Tir Auto** | Active | — | Tir en rafale. L'attaquant subit désavantage au jet. Sur touché, peut dépenser un résultat de 1-2 pour infliger un touché additionnel (même cible ou cible adjacente). Chaque touché inflige les dégâts de base. |
+| **Zone** | Active | X | Explosion / dispersion. Sur touché, chaque personnage engagé avec (adjacent à) la cible subit X dégâts. Sur miss, peut se déclencher sur résultat 1-2 : la cible ET les adjacents subissent X dégâts. |
+| **Brèche** | Passive | X | Perce les blindages lourds. Ignore X × 10 points d'Armure (principalement véhicules/exo-armure). Chaque rang de Brèche = ignorer 1 point d'armure véhicule ou 10 Armure personnel. |
+| **Brûlure** | Active | X | Dégâts persistants (feu, acide, plasma). Sur déclenchement, la cible subit les dégâts de base de l'arme au début de chacun de ses tours pendant X rounds. La victime peut utiliser 1 action pour un save DEX afin d'éteindre les flammes. |
+| **Concussive** | Active | X | Choc violent. Sur déclenchement, la cible est **Chancelant** (ne peut effectuer d'actions, seulement se déplacer) pendant X rounds. Extrêmement puissant — Rating max recommandé : 1-2. |
+| **Encombrant** | Passive | X | Arme lourde/encombrante. Nécessite STR ≥ X pour être maniée correctement. Pour chaque point de STR manquant, désavantage aux jets d'attaque. |
 | **Defensive** | Passive | X | L'objet augmente la défense au corps à corps. +X à l'Armure contre les attaques de mêlée uniquement. |
 | **Deflection** | Passive | X | L'objet augmente la défense à distance. +X à l'Armure contre les attaques à distance uniquement. |
 | **Disorient** | Active | X | Désoriente la cible. Sur déclenchement, la cible subit désavantage à tous ses jets de compétence pendant X rounds. |
 | **Ensnare** | Active | X | Immobilise la cible (filet, mousse, grappin). Sur déclenchement, la cible ne peut plus se déplacer pendant X rounds. La cible peut utiliser 1 action pour un save STR afin de se libérer. |
-| **Guided** | Active | X | Projectile auto-guidé. Si l'attaque rate, le tireur peut retenter un jet d'attaque à la fin du round (diff X). Peut se déclencher à chaque round suivant tant que le projectile est en vol. |
+| **Guidé** | Active | X | Projectile auto-guidé. Si l'attaque rate, le tireur peut retenter un jet d'attaque à la fin du round (diff X). Peut se déclencher à chaque round suivant tant que le projectile est en vol. |
 | **Inaccurate** | Passive | X | Arme imprécise. Désavantage aux jets d'attaque (ou -X au jet si Rating > 1). Utilisé pour équilibrer des armes puissantes. |
 | **Inferior** | Passive | — | Fabrication médiocre. L'arme génère automatiquement un effet négatif mineur (au choix du MJ) à chaque utilisation. |
-| **Knockdown** | Active | — | Renverse la cible. Sur déclenchement, une cible touchée est mise **à terre** (prone). |
-| **Limited Ammo** | Passive | X | Munitions limitées. L'arme peut tirer X fois avant de devoir être rechargée (1 action). Pour les grenades : Limited Ammo 1 = usage unique. |
+| **Renversement** | Active | — | Renverse la cible. Sur déclenchement, une cible touchée est mise **à terre** (prone). |
+| **Munitions Limitées** | Passive | X | Munitions limitées. L'arme peut tirer X fois avant de devoir être rechargée (1 action). Pour les grenades : Munitions Limitées 1 = usage unique. |
 | **Linked** | Active | X | Armes couplées (tourelles, doubles canons). Sur touché, peut infliger jusqu'à X touchés additionnels sur la même cible (chaque touché = dégâts de base). |
-| **Pierce** | Passive | X | Pénétration. Les touchés de cette arme ignorent X points d'Armure. Si Pierce > Armure de la cible, le surplus n'a pas d'effet additionnel. |
+| **Perforant** | Passive | X | Pénétration. Les touchés de cette arme ignorent X points d'Armure. Si Perforant > Armure de la cible, le surplus n'a pas d'effet additionnel. |
 | **Prepare** | Passive | X | Préparation requise. L'utilisateur doit dépenser X actions de préparation avant de pouvoir utiliser l'arme (déployer trépied, verrouiller cible, etc.). |
-| **Reinforced** | Passive | — | Indestructible. L'arme est immunisée à l'effet Sunder. Sur une armure : le porteur est immunisé aux effets Pierce et Breach. |
+| **Renforcé** | Passive | — | Indestructible. L'arme est immunisée à l'effet Sunder. Sur une armure : le porteur est immunisé aux effets Perforant et Brèche. |
 | **Slow-Firing** | Passive | X | Rechargement lent. Après avoir tiré, l'arme ne peut pas être utilisée pendant X rounds (refroidissement, recharge capaciteurs). |
-| **Stun** | Active | X | Choc neuronal. Sur déclenchement, inflige X points de Strain (stress/fatigue) en plus des dégâts normaux. Le Strain n'est pas réduit par l'Armure. |
-| **Stun Damage** | Passive | — | Dégâts non-létaux. Tous les dégâts de cette arme sont convertis en Strain au lieu de blessures. La cible tombe inconsciente si son Strain dépasse son seuil, mais ne meurt pas. |
+| **Étourdissement** | Active | X | Choc neuronal. Sur déclenchement, inflige X points de Strain (stress/fatigue) en plus des dégâts normaux. Le Strain n'est pas réduit par l'Armure. |
+| **Dégâts d'Étourdissement** | Passive | — | Dégâts non-létaux. Tous les dégâts de cette arme sont convertis en Strain au lieu de blessures. La cible tombe inconsciente si son Strain dépasse son seuil, mais ne meurt pas. |
 | **Sunder** | Active | — | Destruction d'équipement. Sur déclenchement, le tireur peut choisir de détruire/endommager une pièce d'équipement de la cible au lieu d'infliger des dégâts normaux. |
 | **Unwieldy** | Passive | X | Difficile à manier. Nécessite DEX ≥ X pour être utilisée correctement. Pour chaque point de DEX manquant, désavantage aux jets d'attaque. |
-| **Vicious** | Passive | X | Blessures aggravées. Ajoute +X×10 au jet sur la table des Blessures Critiques quand un crit est infligé. Rend les crits plus dévastateurs. |
+| **Vicieux** | Passive | X | Blessures aggravées. Ajoute +X×10 au jet sur la table des Blessures Critiques quand un crit est infligé. Rend les crits plus dévastateurs. |
 
 #### Qualités d'armure (Genesys + ajouts SF)
 
 | Qualité | Type | Effet |
 |---------|------|-------|
-| **Reinforced** | Passive | Immunise l'Armure du porteur aux effets Pierce et Breach. Armure "impénétrable". |
+| **Renforcé** | Passive | Immunise l'Armure du porteur aux effets Perforant et Brèche. Armure "impénétrable". |
 | **Deflective Plating** | Passive | +X Armure contre les attaques à distance uniquement. |
 | **Defensive** | Passive | +X Armure contre les attaques de mêlée uniquement. |
 | **Sealed** | Passive | Protection environnementale : vide spatial, gaz toxiques, radiations, pression. |
-| **Enhanced Lifting Servos** | Passive | Augmente la capacité de port de charges. Réduit la qualité Cumbersome des armes portées de 2. |
+| **Servos de Levage Améliorés** | Passive | Augmente la capacité de port de charges. Réduit la qualité Encombrant des armes portées de 2. |
 | **Intimidating Visage** | Passive | Avantage aux jets d'intimidation quand l'armure est portée. |
 | **EMP Shielding** | Passive | Immunise l'armure et les systèmes intégrés aux effets EMP/Pincher. |
-| **Stabilized** | Passive | Avantage aux jets de sang-froid (Shaken). L'armure absorbe les chocs et stabilise le porteur. |
+| **Stabilized** | Passive | Avantage aux jets de sang-froid (Secoué). L'armure absorbe les chocs et stabilise le porteur. |
 | **Stealth Coating** | Passive | Avantage aux jets de discrétion. Revêtement anti-détection. |
 | **Vacuum Sealed** | Passive | Permet de survivre dans le vide spatial. Inclut réserve d'oxygène. |
 
@@ -2530,7 +2530,7 @@ Dans un système Armure (réduction d'armure), la **distribution** des dégâts 
 
 **La technologie ne donne pas juste "plus de dégâts" — elle donne de la fiabilité.**
 
-**Application au crafting et au loot :** Un Attachment ou une qualité d'arme peut transformer le profil de dés d'une arme sans changer sa moyenne. Par exemple, un "Barrel Stabilizer" transforme 1d12 → 2d6 (même moyenne 7, mais pénétration d'armure radicalement meilleure). C'est un upgrade extrêmement précieux qui n'apparaît pas dans les chiffres bruts — il faut le comprendre pour l'apprécier. Ce type de modification est un marqueur de maîtrise du système pour les joueurs expérimentés.
+**Application au crafting et au loot :** Un Accessoire ou une qualité d'arme peut transformer le profil de dés d'une arme sans changer sa moyenne. Par exemple, un "Barrel Stabilizer" transforme 1d12 → 2d6 (même moyenne 7, mais pénétration d'armure radicalement meilleure). C'est un upgrade extrêmement précieux qui n'apparaît pas dans les chiffres bruts — il faut le comprendre pour l'apprécier. Ce type de modification est un marqueur de maîtrise du système pour les joueurs expérimentés.
 
 **Corrélation TL ↔ Profil de dés (guide pour le MJ) :**
 
@@ -2545,19 +2545,19 @@ Dans un système Armure (réduction d'armure), la **distribution** des dégâts 
 #### Notes de design (issues de Genesys)
 
 - **Nombre de qualités par arme :** Maximum 3-4 qualités par arme. N'hésite pas à n'en mettre qu'une seule, voire aucune.
-- **Pierce vs Breach :** Ne jamais mettre les deux sur la même arme. Pierce = anti-personnel, Breach = anti-véhicule/exo.
-- **Cumbersome + Unwieldy :** Jamais de Rating 1 (tous les personnages ont minimum 1 en STR/DEX, donc ça ne fait rien).
-- **Vicious :** Puissant. Ne pas mettre de Rating supérieur à 5. Au-delà, un crit peut tuer instantanément un personnage en pleine santé.
-- **Burn et Ensnare :** Rating 1-3 recommandé, 4 max très rare.
+- **Perforant vs Brèche :** Ne jamais mettre les deux sur la même arme. Perforant = anti-personnel, Brèche = anti-véhicule/exo.
+- **Encombrant + Unwieldy :** Jamais de Rating 1 (tous les personnages ont minimum 1 en STR/DEX, donc ça ne fait rien).
+- **Vicieux :** Puissant. Ne pas mettre de Rating supérieur à 5. Au-delà, un crit peut tuer instantanément un personnage en pleine santé.
+- **Brûlure et Ensnare :** Rating 1-3 recommandé, 4 max très rare.
 - **Concussive :** Rating 1 seulement dans 99% des cas. Extrêmement punitif.
-- **Limited Ammo :** En combat, les rencontres durent 4-5 rounds. Un Rating supérieur à 5 signifie que le rechargement n'entrera jamais en jeu.
-- **Guided :** Rating 2-4 recommandé. Rating 1 = le projectile ne touche quasi jamais en second tir. Rating 5 = meilleur que le tir initial.
+- **Munitions Limitées :** En combat, les rencontres durent 4-5 rounds. Un Rating supérieur à 5 signifie que le rechargement n'entrera jamais en jeu.
+- **Guidé :** Rating 2-4 recommandé. Rating 1 = le projectile ne touche quasi jamais en second tir. Rating 5 = meilleur que le tir initial.
 
 ### Processus de Crafting
 
 1. **Prérequis :** Proficiency en Engineering/Mechanics + Kit d'ingénierie du bon TL
 2. **Choix de la base :** Type d'objet + stats par défaut
-3. **Ajout d'Attachments :** Chaque attachment coûte des Hard Points + matériaux + temps
+3. **Ajout d'Accessoires :** Chaque accessoire coûte des Points de Modification + matériaux + temps
 4. **Jet de Crafting :** WIT + Engineering vs. difficulté (basée sur rareté/TL de l'objet) — roll-under
    - Succès → objet créé
    - Échec → matériaux consommés, résultat partiel
@@ -2690,7 +2690,7 @@ Les joueurs choisissent comment entrer :
 ### Phase 3 — Premier étage (combat principal)
 
 **Le couloir du 1er étage :**
-- 3 soldats PMC (Minions vétérans). Pack Tactics = dangereux si les PJ arrivent un par un.
+- 3 soldats PMC (Minions vétérans). Tactique de Meute = dangereux si les PJ arrivent un par un.
 - Le Marshal peut Embuscade Planifiée (Avantage au premier tour pour tous).
 
 **Le laboratoire — Combat du Boss :**
@@ -2780,7 +2780,7 @@ Pouvoir: Formation (+1 Armure par allié adjacent, max +3)
 ```
 Score Att: 9 | Dégâts: 1d6 (fusil d'assaut, range 12, auto 1d8) | Armure: 4 (gilet tactique)
 Saves: tous 8 | Speed: 6
-Pouvoir: Pack Tactics (Avantage si allié adjacent à la cible)
+Pouvoir: Tactique de Meute (Avantage si allié adjacent à la cible)
 ```
 
 ---
@@ -2798,7 +2798,7 @@ ATTAQUE:
   Couteau — Score 10 | 1d4+2 (reach 1)
 
 POUVOIRS:
-• Pack Tactics — Avantage si un allié est adjacent à la cible.
+• Tactique de Meute — Avantage si un allié est adjacent à la cible.
 • Retraite Tactique — Fuit sous couvert si PV < 10.
 ```
 
@@ -2813,7 +2813,7 @@ PV: 30 | Blessures: 8 | Speed: 6 | Armure: 3 (veste tactique)
 Initiative: 1 carte | Saves: STR 8, DEX 11, WIT 9, EMP 8
 
 ATTAQUE:
-  Fusil de précision — Score 11 | 1d10+2 (range 20, Precise 1, Pierce 1)
+  Fusil de précision — Score 11 | 1d10+2 (range 20, Précis 1, Perforant 1)
 
 POUVOIRS:
 • Tireur Embusqué — Invisible tant qu'il n'a pas tiré. Jet de Discrétion gratuit après chaque tir.
@@ -2872,12 +2872,12 @@ Initiative: 2 cartes (agit 2×/round) | Saves: STR 10, DEX 9, WIT 9, EMP 12
 
 ATTAQUE:
   Pistolet lourd — Score 11 | 1d8+3 (range 8)
-  Matraque électrique — Score 10 | 1d6+3 + Stun 1 (reach 1, Lightning)
+  Matraque électrique — Score 10 | 1d6+3 + Étourdissement 1 (reach 1, Lightning)
 
 POUVOIRS:
 • Commandement (1 action) — Tous les alliés à 6 cases gagnent Avantage pendant 1 round.
 • Appel de renforts (2 actions, 1×/combat) — 1d4 soldats PMC arrivent en 2 rounds.
-• Nerfs d'acier — Avantage aux jets de Shaken.
+• Nerfs d'acier — Avantage aux jets de Secoué.
 • Réaction : Riposte — Quand un PJ le rate en mêlée, contre-attaque gratuite.
 
 PHASE 2 (quand PV = 0):
@@ -2912,7 +2912,7 @@ IMPLANT NEURAL: Firewall 5. Si le Tech le hack, l'implant peut être désactivé
 | Bonus loot | **+0 à +3** sur armes, viseurs, implants, etc. | Pas formalisé |
 | Ennemis difficiles | **Uniquement via Désavantage** (pouvoirs de monstre, conditions) | Difficulté variable envisagée puis rejetée |
 | Stat increases | **3 augmentations** : niv 4, 8, 12 (stat au choix) | 4 principales + 4 secondaires (v1) |
-| Surge Value | **Fixe** (Vigueur + bonus STR). Pas de dé. | Grounder v1 "1d10 + bonus STR" |
+| Valeur de Surge | **Fixe** (Vigueur + bonus STR). Pas de dé. | Grounder v1 "1d10 + bonus STR" |
 | Surges/jour | **Base classe + bonus STR** | Grounder v1 "3 + bonus STR" |
 | Blessures | **Vigueur + bonus STR** | Grounder v1 "STR score complet" |
 | Marshal Vigueur | **8** (leader cerveau, pas tank) | Design doc v3 (Vig 10) |
@@ -2938,7 +2938,7 @@ IMPLANT NEURAL: Firewall 5. Si le Tech le hack, l'implant peut être désactivé
 
 | Stat | Bonus | Rôle dans les formules |
 |---|---|---|
-| **STR** | valeur − 8 | PV, Blessures, Surges/jour, Surge Value, save corporel, mêlée |
+| **STR** | valeur − 8 | PV, Blessures, Surges/jour, Valeur de Surge, save corporel, mêlée |
 | **DEX** | valeur − 8 | Tir, réflexes, esquive, initiative bonus |
 | **WIT** | valeur − 8 | Hacking, médecine, sciences, perception environnement |
 | **EMP** | valeur − 8 | Social, leadership, perception des gens |
@@ -3011,7 +3011,7 @@ Les Blessures ne changent que si STR change (augmentation de stat, cybernétique
 
 ---
 
-## 5. HEALING SURGES
+## 5. SURGES
 
 ### Surges par jour
 
@@ -3025,11 +3025,11 @@ Les Blessures ne changent que si STR change (augmentation de stat, cybernétique
 | **Infiltrator** | 5 | 7 | 5 |
 | **Tech** | 4 | 6 | 4 |
 
-### Surge Value
+### Valeur de Surge
 
 **Formule : Vigueur + bonus STR** (fixe, pas de dé)
 
-| Classe | Surge Value (STR 10, +2) | Surge Value (STR 8, 0) |
+| Classe | Valeur de Surge (STR 10, +2) | Valeur de Surge (STR 8, 0) |
 |---|---|---|
 | **Grounder** | 12 | 10 |
 | **Marshal/Medic** | 10 | 8 |
@@ -3044,15 +3044,15 @@ Les Blessures ne changent que si STR change (augmentation de stat, cybernétique
 
 | Déclencheur | Quand | Coût | Effet |
 |---|---|---|---|
-| **Second Wind** | Combat (1 action) | 1 Surge perso | Récupère Surge Value en PV. **1×/combat.** |
-| **Stretch Rest** | Hors combat (~15 min) | 1 Surge | Récupère Surge Value en PV. **1×/Stretch.** |
-| **Stim Pack** | Combat ou hors combat | 1 Surge + consomme le stim | Récupère Surge Value en PV. |
+| **Second Souffle** | Combat (1 action) | 1 Surge perso | Récupère Valeur de Surge en PV. **1×/combat.** |
+| **Stretch Rest** | Hors combat (~15 min) | 1 Surge | Récupère Valeur de Surge en PV. **1×/Stretch.** |
+| **Stim Pack** | Combat ou hors combat | 1 Surge + consomme le stim | Récupère Valeur de Surge en PV. |
 | **Pouvoir Medic** | Combat ou Stretch | 1 Surge du patient | Le Medic active la surge d'un allié. Bonus possibles. |
 | **Pouvoir Marshal** | Combat | 1 Surge de l'allié ciblé | Galvanise un allié. |
 
 **Contraintes :** Max 2 Stretch Rests entre chaque Shift. Surges ne se régénèrent que sur Shift Rest (6-8h). Les surges ne soignent PAS les PV.
 
-**Shift Rest (6-8h) :** PV au max. Toutes surges reviennent. Shaken/conditions effacés. **1 Blessure guérie** (+1 avec Medic). Critiques mineurs guérissent. Équipement Endommagé peut être réparé (voir section 10).
+**Shift Rest (6-8h) :** PV au max. Toutes surges reviennent. Secoué/conditions effacés. **1 Blessure guérie** (+1 avec Medic). Critiques mineurs guérissent. Équipement Endommagé peut être réparé (voir section 10).
 
 ---
 
@@ -3122,20 +3122,20 @@ La progression du personnage repose sur deux sources parallèles :
 
 | Niveau | Contenu type |
 |---|---|
-| **1** | Features de base + mécanique signature |
-| **2** | Feature secondaire ou mécanique de ressource |
-| **3** | **Sous-classe** (choix entre 2–3 options) + feature de sous-classe |
+| **1** | Capacités de base + mécanique signature |
+| **2** | Capacité secondaire ou mécanique de ressource |
+| **3** | **Sous-classe** (choix entre 2–3 options) + capacité de sous-classe |
 | **4** | **Stat +1** (au choix) |
-| **5** | Feature majeure de classe |
-| **6** | Feature de classe ou pick-list |
-| **7** | **Sous-classe feature** |
+| **5** | Capacité majeure de classe |
+| **6** | Capacité de classe ou pick-list |
+| **7** | **Capacité de sous-classe** |
 | **8** | **Stat +1** (au choix) |
-| **9** | Feature majeure de classe |
-| **10** | Feature de classe ou pick-list |
-| **11** | **Sous-classe feature** |
+| **9** | Capacité majeure de classe |
+| **10** | Capacité de classe ou pick-list |
+| **11** | **Capacité de sous-classe** |
 | **12** | **Stat +1** (au choix) |
-| **13** | Feature majeure de classe |
-| **14** | Feature de classe ou pick-list |
+| **13** | Capacité majeure de classe |
+| **14** | Capacité de classe ou pick-list |
 | **15** | **Capstone** de classe + sous-classe capstone |
 
 ### Trois arcs narratifs
@@ -3212,7 +3212,7 @@ Chaque pièce d'équipement notable (armes, armures, implants, gadgets — pas l
 
 | Objet | Neuf | Endommagé | Détruit |
 |---|---|---|---|
-| Fusil d'assaut +2, Pierce 1 | +2 au Score, Pierce 1 | +1 au Score, Pierce 1 | Inutilisable |
+| Fusil d'assaut +2, Perforant 1 | +2 au Score, Perforant 1 | +1 au Score, Perforant 1 | Inutilisable |
 | Viseur holographique +1 | +1 au Score | +0 au Score (pas de bonus, mais encore attaché) | Grillé, à remplacer |
 | Implant cybernétique +3 STR | +3 STR | +1 STR | Dysfonctionnel, risque de rejet |
 | Armure tactique (Armure 5) | Armure 5 | Armure 2 | Ne protège plus |
@@ -3295,12 +3295,12 @@ Skill check   = stat + proficiency (si formé) + bonus loot (si applicable)
 | # | Sujet | Ancienne valeur | **Résolution canonique** | Date |
 |---|---|---|---|---|
 | 1 | Surges/jour Grounder | 3 + STR (v1) | **7 + STR** | 27/02 |
-| 2 | Surge Value | 1d10 + STR (v1) | **Fixe : Vig + STR** | 27/02 |
+| 2 | Valeur de Surge | 1d10 + STR (v1) | **Fixe : Vig + STR** | 27/02 |
 | 3 | Blessures Grounder | STR score (v1) | **Vig + bonus STR** | 27/02 |
 | 4 | Marshal Vigueur | 10 (design doc) | **8** | 27/02 |
 | 5 | Repos / Surges | D&D 5e style (playtest kit) | **Restrictif (guérison v2)** | 27/02 |
 | 6 | Niveaux max | 20 (design doc, v1) | **15** | 27/02 |
-| 7 | Shaken | Vague (v1) | **Niveaux 1/2/3** (conditions v1) | 27/02 |
+| 7 | Secoué | Vague (v1) | **Niveaux 1/2/3** (conditions v1) | 27/02 |
 | 8 | Proficiency | +2 à +6 (design doc) | **+1 / +2 / +3** | 27/02 |
 | 9 | Loot dans progression | Pas formalisé | **+0 à +3, deuxième jambe** | 27/02 |
 | 10 | Push de jet | Pas de push | **Dragonbane-style, condition OU dégradation loot** | 27/02 |

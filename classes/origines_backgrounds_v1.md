@@ -1,4 +1,4 @@
-# ORIGINES — Backgrounds de personnage
+# ORIGINES — Historiques de personnage
 
 > **L'Origine est choisie à la création, avant la classe.** Elle représente d'où tu viens — ton passé avant de devenir un opérateur. Chaque Origine donne 2 compétences formées + 1 trait + de l'équipement narratif. Les compétences d'Origine se cumulent avec celles de la classe (si doublon, tu peux choisir une autre compétence de la liste de classe en remplacement).
 
@@ -23,7 +23,7 @@
 *Tu as servi. Milice coloniale, armée régulière, garde planétaire — peu importe le drapeau. Tu as fait ton temps, tu as vu des choses, et tu es sorti de l'autre côté. Le reste, c'est classifié.*
 
 **Compétences :** Athlétisme, Intimidation
-**Trait — Discipline :** Avantage sur le premier save de sang-froid (Shaken) de chaque combat. L'entraînement reprend le dessus.
+**Trait — Discipline :** Avantage sur le premier save de sang-froid (Secoué) de chaque combat. L'entraînement reprend le dessus.
 **Équipement narratif :** Plaque d'identité militaire, cicatrice visible, carnet de service (peut ouvrir des portes dans certains cercles).
 
 ---
@@ -102,7 +102,7 @@
 
 | Origine | Compétences | Trait | Feeling |
 |---|---|---|---|
-| **Militaire** | Athlétisme, Intimidation | Avantage 1er save Shaken/combat | Soldat, vétéran |
+| **Militaire** | Athlétisme, Intimidation | Avantage 1er save Secoué/combat | Soldat, vétéran |
 | **Corporatif** | Persuasion, Investigation | Contact corpo 1×/Shift | Col blanc, initié |
 | **Frontalier** | Survie, Ingénierie★ | Répare sans kit (Désavantage) | Débrouillard, isolé |
 | **Criminel** | Discrétion, Tromperie | Marché noir accessible | Hors-la-loi, connecté |
